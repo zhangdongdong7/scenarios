@@ -1,0 +1,41 @@
+{
+  "type": "challenge",
+  "title": "Number of seconds",
+  "description": "Let's do some practice with Python!",
+  "difficulty": "Beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md",
+        "verify": "verify1.sh",
+        "skills": [
+          "python/InputandOutputSkill",
+          "python/VariablesSkill",
+          "python/MathOperatorsSkill"
+        ]
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "*",
+          "target": "~/"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "python"
+  }
+}
