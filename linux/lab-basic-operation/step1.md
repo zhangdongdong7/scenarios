@@ -1,4 +1,4 @@
-# List files and directories
+# List Files and Directories
 
 The `ls` command lists files and directories in the current directory. The following example shows how to list files and directories in the current directory.
 
@@ -8,7 +8,7 @@ ls
 
 ![lab-basic-operation-1-1](assets/lab-basic-operation-1-1.png)
 
-## List files and directories in a specific directory
+## List Files and Directories in a Specific Directory
 
 The following example shows how to list files and directories in the `~/Desktop` directory.
 
@@ -20,7 +20,7 @@ ls ~/Desktop
 
 ![lab-basic-operation-1-2](assets/lab-basic-operation-1-2.png)
 
-## List files and directories in a specific directory with details
+## List Files and Directories in a Specific Directory With Details
 
 The following example shows how to list files and directories in the `~/Desktop` directory with details.
 
@@ -30,7 +30,7 @@ ls -l ~/Desktop
 
 ![lab-basic-operation-1-3](assets/lab-basic-operation-1-3.png)
 
-## List files and directories in a specific directory with details and hidden files
+## List Files and Directories in a Specific Directory With Details and Hidden Files
 
 The following example shows how to list files and directories in the `~` directory with details and hidden files.
 
@@ -42,7 +42,7 @@ ls -la ~
 
 ![lab-basic-operation-1-4](assets/lab-basic-operation-1-4.png)
 
-## List files and directories in a specific directory with details and hidden files and sort by size
+## List Files and Directories in a Specific Directory With Details and Hidden Files and Sort by Size
 
 The following example shows how to list files and directories in the `~` directory with details and hidden files and sort by size.
 
@@ -52,7 +52,7 @@ ls -laS ~
 
 ![lab-basic-operation-1-5](assets/lab-basic-operation-1-5.png)
 
-## List files and directories in a specific directory with details and hidden files and sort by size and human-readable
+## List Files and Directories in a Specific Directory With Details and Hidden Files and Sort by Size and Human-Readable
 
 The following example shows how to list files and directories in the `~` directory with details and hidden files in reverse order and sort by size and human-readable.
 
