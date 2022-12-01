@@ -1,5 +1,5 @@
 {
-  "type": "lab",
+  "type": "challenge",
   "title": "Basic Operation",
   "description": "Linux basic operation command lab",
   "difficulty": "Beginner",
@@ -7,42 +7,20 @@
   "details": {
     "steps": [
       {
-        "title": "list files and directories",
-        "text": "step1.md",
-        "skills": ["linux/ls"]
-      },
-      {
-        "title": "Clear the screen",
-        "text": "step2.md",
-        "skills": ["linux/clear"]
-      },
-      {
-        "title": "Change working directory",
-        "text": "step3.md",
-        "skills": ["linux/ls", "linux/cd"]
-      },
-      {
         "title": "Copy files and directories",
-        "text": "step4.md",
+        "text": "step1.md",
         "verify": [
           {
             "name": "Check if zshrc-copy exists",
-            "file": "verify4-1.sh",
+            "file": "verify1-1.sh",
             "hint": "Please copy file ~/.zshrc to ~/Desktop/zshrc-copy",
             "timeout": 5,
             "showstderr": false
           },
           {
             "name": "Check if Code exists",
-            "file": "verify4-2.sh",
+            "file": "verify1-2.sh",
             "hint": "Please copy directory ~/Code to ~/Desktop/Code",
-            "timeout": 5,
-            "showstderr": false
-          },
-          {
-            "name": "Check if zsh-copy-new exists",
-            "file": "verify4-3.sh",
-            "hint": "Please copy file ~/.zshrc to ~/Desktop/zshrc-copy-new",
             "timeout": 5,
             "showstderr": false
           }
@@ -51,26 +29,19 @@
       },
       {
         "title": "Move files and directories",
-        "text": "step5.md",
+        "text": "step2.md",
         "verify": [
           {
             "name": "Check if zshrc-move exists",
-            "file": "verify5-1.sh",
+            "file": "verify2-1.sh",
             "hint": "Please move file ~/Desktop/zshrc-copy to ~/Desktop/zshrc-move",
             "timeout": 5,
             "showstderr": false
           },
           {
             "name": "Check if Code-move exists",
-            "file": "verify5-2.sh",
+            "file": "verify2-2.sh",
             "hint": "Please copy directory ~/Desktop/Code to ~/Desktop/Code-move",
-            "timeout": 5,
-            "showstderr": false
-          },
-          {
-            "name": "Check if zsh-copy-new exists",
-            "file": "verify5-3.sh",
-            "hint": "Please copy file ~/Desktop/zshrc-copy-new to ~/Desktop/zshrc-move-new",
             "timeout": 5,
             "showstderr": false
           }
@@ -79,26 +50,19 @@
       },
       {
         "title": "Remove files and directories",
-        "text": "step6.md",
+        "text": "step3.md",
         "verify": [
           {
             "name": "Check if zshrc-move removed",
-            "file": "verify6-1.sh",
+            "file": "verify3-1.sh",
             "hint": "Please remove file ~/Desktop/zshrc-move",
             "timeout": 5,
             "showstderr": false
           },
           {
             "name": "Check if Code-move removed",
-            "file": "verify6-2.sh",
+            "file": "verify3-2.sh",
             "hint": "Please remove directory ~/Desktop/Code-move",
-            "timeout": 5,
-            "showstderr": false
-          },
-          {
-            "name": "Check if zsh-copy-new removed",
-            "file": "verify6-3.sh",
-            "hint": "Please remove file ~/Desktop/zshrc-move-new",
             "timeout": 5,
             "showstderr": false
           }
@@ -114,8 +78,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
-    "hideHiddenFiles": true
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "ubuntu:2004"
