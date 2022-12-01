@@ -8,7 +8,15 @@
       {
         "title": "Step 1",
         "text": "step1.md",
-        "verify": "verify1.sh",
+        "verify": [
+          {
+            "name": "Check if hello.py contains the correct strings",
+            "file": "verify6.sh",
+            "hint": "Please print Hello, Python!",
+            "timeout": 5,
+            "showstderr": false
+          }
+        ],
         "skills": ["python/printSkill"]
       }
     ],
