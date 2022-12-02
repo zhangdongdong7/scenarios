@@ -30,7 +30,7 @@ However, you will encounter problems when you create a new user with a custom ho
 
 Now, let's create a new user called `joker2` with a custom home directory `/home/shiyanlou`.
 
-![challenge-account-management-1-1](assets/challenge-account-management-1-4.png)
+![challenge-account-management-1-4](assets/challenge-account-management-1-4.png)
 
 ## Create A User Without A Home Directory
 
@@ -44,7 +44,7 @@ Therefore, it is a common requirement to create an account that does not allow l
 
 Now, let's create a new user called `joker4` without login.
 
-![challenge-account-management-1-4](assets/challenge-account-management-1-6.png)
+![challenge-account-management-1-6](assets/challenge-account-management-1-6.png)
 
 ## Create A User With A Home Directory
 
@@ -54,7 +54,7 @@ How do you achieve it?
 
 Now, you can try creating a new user called `joker5` with home directory `/home/joker5`.
 
-![challenge-account-management-1-6](assets/challenge-account-management-1-7.png)
+![challenge-account-management-1-7](assets/challenge-account-management-1-7.png)
 
 ## Requirements
 
