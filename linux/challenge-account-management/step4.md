@@ -1,22 +1,28 @@
-# Delete user account
+# Delete User Account
 
-The `userdel` command can delete a user account from the system. for example:
+If a user is no longer needed, we need to clean it up, and it is a good habit to keep user data clean.
+
+In Linux, it is common to use the `userdel` command to clean up user data. For example:
 
 ```bash
 userdel username
 ```
 
-## Delete user without home direcory
+## Delete User Without Home Directory
 
-Delete `joker` user without home direcory.
+When deleting a user, it is often necessary to retain the user data to avoid losing the needed data.
 
-![challenge-account-management-4-1](./assets/challenge-account-management-4-1.png)
+Now, we need to delete the `joker` user but keep its home directory.
 
-## Delete user and home direcory
+![challenge-account-management-4-1](assets/challenge-account-management-4-1.png)
 
-Delete `joker5` user and home direcory.
+## Delete User And Home Directory
 
-![challenge-account-management-4-2](./assets/challenge-account-management-4-2.png)
+If we determine that a user and his data are no longer needed, we can delete them.
+
+For example, we have determined that `joker5` users and data are no longer needed, and now we want to delete them.
+
+![challenge-account-management-4-2](assets/challenge-account-management-4-2.png)
 
 ## Requirements
 

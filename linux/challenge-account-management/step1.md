@@ -1,46 +1,66 @@
-# Create user account
+# Create User Account
 
-The `useradd` command create user account in Linux platform, for example:
+The `useradd` command creates a user account in the Linux platform, for example:
 
 ```bash
 sudo useradd username
 ```
 
-## Create a normal user
+## Create A Normal User
 
-Let's create a new user called `joker`.
+Now, let's create a new user called `joker`.
 
-![challenge-account-management-1-1](./assets/challenge-account-management-1-1.png)
+![challenge-account-management-1-1](assets/challenge-account-management-1-1.png)
 
-## Create a user with group
+## Create A User With Group
 
-Let's create a new user called `joker1` with group `public`.
+When using the `sudo useradd joker` command, create a new user account with the same `joker` group. However, sometimes we want to create a new user account with a different group.
 
-![challenge-account-management-1-2](./assets/challenge-account-management-1-2.png)
+Now, we will create a new user called `joker1` with a group named `public`.
 
-## Create a user with custom home directory
+![challenge-account-management-1-2](assets/challenge-account-management-1-2.png)
 
-Let's create a new user called `joker2` with custom home directory `/home/shiyanlou`.
+## Create A User With Custom Home Directory
 
-![challenge-account-management-1-3](./assets/challenge-account-management-1-3.png)
+Normarlly, create a new user will associated with a home directory. For example, if you create a new user called `joker`, it will associated with a directory called `/home/joker`.
 
-## Create a user without home directory
+![challenge-account-management-1-3](assets/challenge-account-management-1-3.png)
 
-Let's create a new user called `joker3` without home directory.
+However, you will encounter problems when you create a new user with a custom home directory. Fortunately, the `useradd` command has the ability to do this.
 
-![challenge-account-management-1-4](./assets/challenge-account-management-1-4.png)
+Now, let's create a new user called `joker2` with a custom home directory `/home/shiyanlou`.
 
-## Create a user without nologin
+![challenge-account-management-1-4](assets/challenge-account-management-1-4.png)
 
-Let's create a new user called `joker4` without nologin.
+## Create A User Without A Home Directory
 
-![challenge-account-management-1-5](./assets/challenge-account-management-1-5.png)
+In addition to the home directory, sometimes we want create a new user account without a home directory. For example `ngnx` user, it's only used to manage processes.
 
-## Create a user with home directory
+Now, let's create a similar user named `joker3`, which doesn't need a home directory.
 
-Let's create a new user called `joker5` with home directory `/home/joker5`.
+![challenge-account-management-1-5](assets/challenge-account-management-1-5.png)
 
-![challenge-account-management-1-6](./assets/challenge-account-management-1-6.png)
+## Create A User Without login
+
+Among the default users of Linux, there are many users with the nologin attribute, and users with this type of attribute are not allowed to login to the operating system, such as the `sshd` user, which is also used mainly to manage processes.
+
+Therefore, it is a common requirement to create an account that does not allow logins.
+
+Now, let's create a new user called `joker4` without login.
+
+![challenge-account-management-1-6](assets/challenge-account-management-1-6.png)
+
+## Create A User With A Home Directory
+
+Congratulations, you have successfully completed all the tasks above.
+
+However, I don't know if you have noticed that many times we create a user and just associate the user home directory, but the operating system doesn't really create the home directory.
+
+How do you achieve it?
+
+Now, you can try creating a new user called `joker5` with home directory `/home/joker5`.
+
+![challenge-account-management-1-7](assets/challenge-account-management-1-7.png)
 
 ## Requirements
 
