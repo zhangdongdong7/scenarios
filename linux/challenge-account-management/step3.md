@@ -4,7 +4,7 @@ User properties do not remain unchanged after they are created, and sometimes th
 
 The `usermod` command can help us modify user attributes.
 
-Several operations are described below, and more can be found in the help file with the usermode -h command.
+Several operations are described below, and more can be found in the help file with the `usermode -h` command.
 
 ## Modify User Home Directory
 

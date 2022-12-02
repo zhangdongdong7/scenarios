@@ -22,7 +22,7 @@ If we determine that a user and his data are no longer needed, we can delete the
 
 For example, we have determined that `joker5` users and data are no longer needed, and now we want to delete them.
 
-![challenge-account-management-4-2](assets/challenge-account-management-4-2.png)
+![challenge-account-management-4-2](./assets/challenge-account-management-4-2.png)
 
 ## Requirements
 

@@ -30,37 +30,31 @@ However, you will encounter problems when you create a new user with a custom ho
 
 Now, let's create a new user called `joker2` with a custom home directory `/home/shiyanlou`.
 
-![challenge-account-management-1-4](assets/challenge-account-management-1-4.png)
+![challenge-account-management-1-1](assets/challenge-account-management-1-4.png)
 
 ## Create A User Without A Home Directory
 
 In addition to the home directory, sometimes we want create a new user account without a home directory. For example `ngnx` user, it's only used to manage processes.
 
-Now, let's create a similar user named `joker3`, which doesn't need a home directory.
-
 ![challenge-account-management-1-5](assets/challenge-account-management-1-5.png)
 
 ## Create A User Without login
-
-Among the default users of Linux, there are many users with the nologin attribute, and users with this type of attribute are not allowed to login to the operating system, such as the `sshd` user, which is also used mainly to manage processes.
 
 Therefore, it is a common requirement to create an account that does not allow logins.
 
 Now, let's create a new user called `joker4` without login.
 
-![challenge-account-management-1-6](assets/challenge-account-management-1-6.png)
+![challenge-account-management-1-4](assets/challenge-account-management-1-6.png)
 
 ## Create A User With A Home Directory
 
 Congratulations, you have successfully completed all the tasks above.
 
-However, I don't know if you have noticed that many times we create a user and just associate the user home directory, but the operating system doesn't really create the home directory.
-
 How do you achieve it?
 
 Now, you can try creating a new user called `joker5` with home directory `/home/joker5`.
 
-![challenge-account-management-1-7](assets/challenge-account-management-1-7.png)
+![challenge-account-management-1-6](assets/challenge-account-management-1-7.png)
 
 ## Requirements
 

@@ -16,8 +16,6 @@ Now, let's set a password for the `joker` user.
 
 ![challenge-account-management-2-1](assets/challenge-account-management-2-1.png)
 
-## Change Own Password
-
 Every once in a while, we need to update our passwords to secure our accounts effectively.
 
 Now, you can try to change your password with the `joker` user.
