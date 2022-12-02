@@ -10,13 +10,13 @@ passwd username
 
 Set password for `joker` user with superuser.
 
-![challenge-account-management-2-1](./assets/challenge-account-management-2-1.png)
+![challenge-account-management-2-1](assets/challenge-account-management-2-1.png)
 
 ## Change own password
 
 Change own password by `joker` user.
 
-![challenge-account-management-2-2](./assets/challenge-account-management-2-2.png)
+![challenge-account-management-2-2](assets/challenge-account-management-2-2.png)
 
 ## Requirements
 
