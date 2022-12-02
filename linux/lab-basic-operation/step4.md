@@ -1,8 +1,8 @@
-# Copy files and directories
+# Copy Files and Directories
 
 `cp` is a command that allows you to copy files and directories.
 
-## Copy files
+## Copy Files
 
 The following example shows how to copy the `~/.zshrc` file to the `~/Desktop/zshrc-copy`.
 
@@ -13,7 +13,7 @@ ls -l ~/Desktop
 
 ![lab-basic-operation-4-1](assets/lab-basic-operation-4-1.png)
 
-## Copy directories
+## Copy Directories
 
 The following example shows how to copy the `~/Code` directory to the `~/Desktop`.
 
@@ -24,7 +24,7 @@ ls -l ~/Desktop
 
 ![lab-basic-operation-4-2](assets/lab-basic-operation-4-2.png)
 
-## Copy files and directories with details
+## Copy Files and Directories With Details
 
 The following example shows how to copy the `~/.zshrc` file to the `~/Desktop` directory with details.
 
