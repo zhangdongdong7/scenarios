@@ -26,7 +26,7 @@ Normally, creating a new user will be associated with a home directory. For exam
 
 ![challenge-account-management-1-3](assets/challenge-account-management-1-3.png)
 
-However, you will encounter problems when you create a new user with a custom home directory. Fortunately, the `useradd` command has the ability to do this.
+However, you will encounter problems when you create a new user with a custom home directory. Fortunately, the `useradd` command can do this.
 
 Now, let's create a new user called `joker2` with a custom home directory `/home/shiyanlou`.
 
