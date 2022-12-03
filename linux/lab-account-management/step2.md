@@ -53,4 +53,3 @@ passwd
 ## Requirements
 
 - must use the `passwd` command.
-- must be the `joker` user.

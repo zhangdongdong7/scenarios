@@ -60,4 +60,3 @@ sudo ls -ld /home/bob
 ## Requirements
 
 - must use the `userdel` command.
-- must be the `joker` and `joker5` user.

@@ -63,4 +63,3 @@ Next, we check that the joker user's shell is set up correctly.
 ## Requirements
 
 - must use the `usermod` command.
-- must be the `joker` user.
