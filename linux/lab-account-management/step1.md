@@ -10,7 +10,7 @@ sudo useradd username
 
 Now, let's create a new user called `joker`.
 
-This image has a `useradd` command that creates a user account in the Linux platform, for example:
+The following example shows how to use the `useradd` command to create a normal user account for the Linux platform. For example:
 
 ```bash
 sudo useradd joker
@@ -18,7 +18,7 @@ sudo useradd joker
 
 ![lab-account-management-1-1](assets/lab-account-management-1-1.png)
 
-After the user is created, the account will be saved in the `/etc/passwd` file, and you can use the `grep` command to see if the user exists.
+After the user is created, the account will be saved in the `/etc/passwd` file, and we can use the `grep` command to see if the user exists.
 
 ```bash
 sudo grep -w 'joker' /etc/passwd
@@ -68,11 +68,11 @@ Usually, creating a new user will be associated with a home directory. For examp
 
 ![lab-account-management-1-6](assets/lab-account-management-1-6.png)
 
-However, you will encounter problems when you create a new user with a custom home directory. Fortunately, the `useradd` command can do this.
+However, we will encounter problems when we create a new user with a custom home directory. Fortunately, the `useradd` command can do this.
 
 The following example shows how to create a new user called `bob` with a custom home directory `/home/shiyanlou`.
 
-First, you can use the `ls` command to check if the home directory exists.
+First, we can use the `ls` command to check if the home directory exists.
 
 ```bash
 sudo ls /home/shiyanlou -ld
@@ -80,7 +80,7 @@ sudo ls /home/shiyanlou -ld
 
 ![lab-account-management-1-7](assets/lab-account-management-1-7.png)
 
-If the home directory does not exist, you can create it.
+If the home directory does not exist, we can create it.
 
 Next, we can create `bob` users with a home directory.
 
@@ -90,7 +90,7 @@ sudo useradd bob -d /home/shiyanlou
 
 ![lab-account-management-1-8](assets/lab-account-management-1-8.png)
 
-Now you can check if `bob` user exists, and his home directory is `/home/shiyanlou`.
+Now we can check if `bob` user exists, and his home directory is `/home/shiyanlou`.
 
 ```bash
 sudo grep -w 'bob' /etc/passwd | grep -w '/home/shiyanlou'
@@ -110,7 +110,7 @@ sudo useradd -M cary
 
 ![lab-account-management-1-10](assets/lab-account-management-1-10.png)
 
-Now you can check if `cary` user exists and if the home directory does not exist.
+Now we can check if `cary` user exists and if the home directory does not exist.
 
 ```bash
 sudo grep -w 'cary' /etc/passwd
@@ -131,7 +131,7 @@ sudo useradd -s /user/bin/nologin glen
 
 ![lab-account-management-1-12](assets/lab-account-management-1-12.png)
 
-Now you can check if the `glen` user exists and if the home directory does not exist.
+Now we can check if the `glen` user exists and if the home directory does not exist.
 
 ```bash
 sudo grep -w 'glen' /etc/passwd | grep -w 'nologin'
@@ -141,7 +141,7 @@ sudo grep -w 'glen' /etc/passwd | grep -w 'nologin'
 
 ## Create A User With A Home Directory
 
-Congratulations, you have completed all the tasks above.
+Congratulations, we have completed all the tasks above.
 
 The following example shows how to create a new user called `gordon` with the home directory `/home/gordon`.
 
@@ -151,7 +151,7 @@ sudo useradd -m gordon
 
 ![lab-account-management-1-14](assets/lab-account-management-1-14.png)
 
-Now you can check if the `gordon` user exists and if the home directory `/home/gordon` exists.
+Now we can check if the `gordon` user exists and if the home directory `/home/gordon` exists.
 
 ```bash
 sudo grep -w 'gordon' /etc/passwd

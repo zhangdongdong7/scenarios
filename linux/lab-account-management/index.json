@@ -9,7 +9,7 @@
       {
         "title": "Create user account",
         "text": "step1.md",
-        "skills": ["linux/useradd","linux/grep"]
+        "skills": ["linux/useradd","linux/grep","linux/ls"]
       },
       {
         "title": "Manege user password",

@@ -38,7 +38,7 @@ sudo grep -w 'bob' /etc/passwd
 
 ![lab-account-management-4-3](assets/lab-account-management-4-3.png)
 
-> Tips: If you don't have the jack user, create it using `sudo useradd -m jack` command.
+> Tips: If we don't have the jack user, create it using `sudo useradd -m jack` command.
 
 Next, we delete the `jack` user as well as the home directory.
 

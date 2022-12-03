@@ -8,7 +8,7 @@ Several operations are described below, and more can be found in the help file w
 
 ## Modify User Home Directory
 
-A user created will have an associated home directory, but what should you do if you want to change that user's home directory?
+A user created will have an associated home directory, but what should we do to change that user's home directory?
 
 The following example shows how to modify the `joker` user's home directory to `/home/shiyanlou`.
 
@@ -18,7 +18,7 @@ sudo usermod -d /home/shiyanlou joker
 
 ![lab-account-management-3-1](assets/lab-account-management-3-1.png)
 
-Then you can use the `grep` command check it.
+Then we can use the `grep` command to check it.
 
 ```bash
 sudo grep -w 'joker' /etc/passwd | grep -w '/home/shiyanlou'
@@ -28,7 +28,7 @@ sudo grep -w 'joker' /etc/passwd | grep -w '/home/shiyanlou'
 
 ## Modify User Uid
 
-As mentioned above, in this section, you will change users' uid.
+As mentioned above, in this section, we will change users' uid.
 
 The following example shows how to change the uid of the `joker` user to `8888`.
 
@@ -38,7 +38,7 @@ sudo usermod -u 8888 joker
 
 ![lab-account-management-3-3](assets/lab-account-management-3-3.png)
 
-Next, you need to check if the settings are correct.
+Next, we need to check if the settings are correct.
 
 ```bash
 sudo grep -w 'joker' /etc/passwd | grep -w '8888'
