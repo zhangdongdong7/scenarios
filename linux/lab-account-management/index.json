@@ -1,0 +1,51 @@
+{
+  "type": "challenge",
+  "title": "User account management",
+  "description": "Introduce how to manage the user account in the Linux platform",
+  "difficulty": "Beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Create user account",
+        "text": "step1.md",
+        "skills": ["linux/useradd","linux/grep"]
+      },
+      {
+        "title": "Manege user password",
+        "text": "step2.md",
+        "skills": ["linux/passwd","linux/grep","linux/su"]
+      },
+      {
+        "title": "Modify user account",
+        "text": "step3.md",
+        "skills": ["linux/usermod","linux/grep"]
+      },
+      {
+        "title": "Delete user account",
+        "text": "step4.md",
+        "skills": ["linux/userdel","linux/grep"]
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "*",
+          "target": "~/"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
