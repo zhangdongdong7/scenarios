@@ -151,7 +151,7 @@ sudo useradd -m gordon
 
 ![lab-account-management-1-14](assets/lab-account-management-1-14.png)
 
-Now we can check if the `gordon` user exists and if the home directory `/home/gordon` exists.
+Now we can check if the `gordon` user and the home directory `/home/gordon` exist.
 
 ```bash
 sudo grep -w 'gordon' /etc/passwd
