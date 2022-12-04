@@ -5,3 +5,4 @@ if [[ -d /home/bob ]]; then
     sudo grep -w 'bob' /etc/passwd 
 fi
     
+    
