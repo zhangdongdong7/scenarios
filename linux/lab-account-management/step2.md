@@ -1,55 +1,55 @@
-# Manege User Password
+# Manage User And Group
 
-The `passwd` command change password for a user account. A regular user may only change the password for their account, while the superuser may change the password for any account. For example:
+## Create User And Group
 
-```bash
-passwd username
-```
-
-## Set User Password
-
-In the first step, we only created the user and did not set a password for the user. Next, we set the password for the user. The administrator should set the appropriate password if a user needs to log in to the operating system.
-
-Now, let's set a password for the `joker` user.
-
-> Tip: We need to use an administrator account or use an account with sudo privileges
+When using the `sudo useradd fly` command, create a new user account with the same `fly` group. For example:
 
 ```bash
-sudo passwd joker
+sudo useradd fly
 ```
 
 ![lab-account-management-2-1](assets/lab-account-management-2-1.png)
 
-If we can see the command output, we have successfully changed the password of the `joker`. The password will be saved in the `/etc/shadow` file, and we can check it by the `grep` command.
+Then check the user group.
 
 ```bash
-sudo grep -w 'joker' /etc/shadow
+sudo grep -w 'fly' /etc/group
 ```
 
-![lavel-account-management-2-2](assets/lab-account-management-2-2.png)
+![lab-account-management-2-2](assets/lab-account-management-2-2.png)
 
-## Change Own Password
+## Custom User Group
 
-If we want to change a user's password, we need to set the correct password. The password should be the one originally used to log in to the operating system.
+However, sometimes we want to create a new user account with a different group.
 
-The following example shows how to change the password with the `joker` user.
+The following example shows how to create a new user called `bill` with a `public` group.
 
-First, we need to switch to the `joker` user.
+First, we need to check if the `public` group user exists.
 
 ```bash
-su - joker
+sudo grep -w 'public' /etc/group
 ```
 
 ![lab-account-management-2-3](assets/lab-account-management-2-3.png)
 
-Next, we can change the password for the `joker` user.
+If the `public` group user does not exist, then we can create the `public` group user.
 
 ```bash
-passwd
+sudo groupadd public
+```
+
+Next, we can create `bill` users with the `public` group.
+
+```bash
+sudo useradd bill -g public
 ```
 
 ![lab-account-management-2-4](assets/lab-account-management-2-4.png)
 
-## Requirements
+Now that we have created the `bill` account, we can use the `grep` command to check if the user exists.
 
-- must use the `passwd` command.
+```bash
+sudo grep -w 'bill' /etc/passwd
+```
+
+![lab-account-management-2-5](assets/lab-account-management-2-5.png)

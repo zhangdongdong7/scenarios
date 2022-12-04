@@ -1,62 +1,51 @@
-# Delete User Account
+# Manage User Password
 
-If a user is no longer needed, we need to clean it up, and it is a good habit to keep user data clean.
-
-In Linux, it is common to use the `userdel` command to clean up user data. For example:
+The `passwd` command change password for a user account. A regular user may only change the password for their account, while the superuser may change the password for any account. For example:
 
 ```bash
-userdel username
+passwd username
 ```
 
-## Delete User Without Home Directory
+## Set User Password
 
-When deleting a user, it is often necessary to retain the user data to avoid losing the needed data.
+In the first step, we only created the user and did not set a password for the user. Next, we set the password for the user. The administrator should set the appropriate password if a user needs to log in to the operating system.
 
-Now, we need to delete the `gordon` user but keep its home directory.
+Now, let's set a password for the `joker` user.
+
+> Tip: We need to use an administrator account or use an account with sudo privileges
 
 ```bash
-sudo userdel gordon
+sudo passwd joker
 ```
 
-![lab-account-management-4-1](assets/lab-account-management-4-1.png)
+![lab-account-management-2-1](assets/lab-account-management-2-1.png)
 
-Next, we check if the user is deleted and the home directory is retained.
-
-![lab-account-management-4-2](assets/lab-account-management-4-2.png)
-
-## Delete User And Home Directory
-
-If we determine that a user and his data are no longer needed, we can delete them.
-
-For example, we have determined that `jack` users and data are no longer needed, and now we want to delete them.
-
-First, we check the `jack` user information.
+If we can see the command output, we have successfully changed the password of the `joker`. The password will be saved in the `/etc/shadow` file, and we can check it by the `grep` command.
 
 ```bash
-sudo grep -w 'bob' /etc/passwd
+sudo grep -w 'joker' /etc/shadow
 ```
 
-![lab-account-management-4-3](assets/lab-account-management-4-3.png)
+![lavel-account-management-2-2](assets/lab-account-management-2-2.png)
 
-> Tips: If we don't have the jack user, create it using `sudo useradd -m jack` command.
+## Change Own Password
 
-Next, we delete the `jack` user as well as the home directory.
+If we want to change a user's password, we need to set the correct password. The password should be the one originally used to log in to the operating system.
+
+The following example shows how to change the password with the `joker` user.
+
+First, we need to switch to the `joker` user.
 
 ```bash
-sudo userdel -r jack
+su - joker
 ```
 
-![lab-account-management-4-4](assets/lab-account-management-4-4.png)
+![lab-account-management-2-3](assets/lab-account-management-2-3.png)
 
-Finally, we checked if the deletion was successful.
+Next, we can change the password for the `joker` user.
 
 ```bash
-sudo grep -w 'bob' /etc/passwd
-sudo ls -ld /home/bob
+passwd
 ```
 
-![lab-account-management-4-5](assets/lab-account-management-4-5.png)
-
-## Requirements
-
-- must use the `userdel` command.
+![lab-account-management-2-4](assets/lab-account-management-2-4.png)

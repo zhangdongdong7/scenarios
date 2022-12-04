@@ -1,65 +1,46 @@
-# Modify User Account
+# Manage System User Account
 
-User properties do not remain unchanged after they are created, and sometimes they are modified depending on the situation.
+In Linux, there is no real technical difference between a system and a regular user. Typically, a system user is a user that is created when you install the operating system. Sometimes, you may need to create users to run specified applications.
 
-The `usermod` command can help us modify user attributes.
-
-Several operations are described below, and more can be found in the help file with the `usermode -h` command.
-
-## Modify User Home Directory
-
-A user created will have an associated home directory, but what should we do to change that user's home directory?
-
-The following example shows how to modify the `joker` user's home directory to `/home/shiyanlou`.
-
-```bash
-sudo usermod -d /home/shiyanlou joker
-```
+For example, the `ngnix` user it's only used to manage processes.
 
 ![lab-account-management-3-1](assets/lab-account-management-3-1.png)
 
-Then we can use the `grep` command to check it.
+## Create System User Account
+
+The following example shows how to create a system user called `cary`.
 
 ```bash
-sudo grep -w 'joker' /etc/passwd | grep -w '/home/shiyanlou'
+sudo useradd -r cary
 ```
 
 ![lab-account-management-3-2](assets/lab-account-management-3-2.png)
 
-## Modify User Uid
-
-As mentioned above, in this section, we will change users' uid.
-
-The following example shows how to change the uid of the `joker` user to `8888`.
+Then check the `cary` user information.
 
 ```bash
-sudo usermod -u 8888 joker
+sudo grep -w 'cary' /etc/passwd
 ```
 
 ![lab-account-management-3-3](assets/lab-account-management-3-3.png)
 
-Next, we need to check if the settings are correct.
+## Create System User Without Login And Home Directory
+
+Usually, the system user running the application is not required to login. You don't even need a home directory.
+
+The following example shows how to create a new user called `glen` without login and home directory.
 
 ```bash
-sudo grep -w 'joker' /etc/passwd | grep -w '8888'
+sudo useradd -r -s /user/bin/nologin -M glen
 ```
 
 ![lab-account-management-3-4](assets/lab-account-management-3-4.png)
 
-## Modify User Shell
-
-For the last one, we change the shell mode of the `joker` user to `/bin/bash`.
+Now we can check if the `glen` user exists and if the home directory does not exist.
 
 ```bash
-sudo usermod -s /bin/bash joker
+sudo grep -w 'glen' /etc/passwd | grep -w 'nologin'
+sudo ls -ld /home/glen
 ```
 
 ![lab-account-management-3-5](assets/lab-account-management-3-5.png)
-
-Next, we check that the joker user's shell is set up correctly.
-
-![lab-account-management-3-6](assets/lab-account-management-3-6.png)
-
-## Requirements
-
-- must use the `usermod` command.
