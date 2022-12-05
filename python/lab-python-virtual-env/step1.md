@@ -1,6 +1,6 @@
 # Create Virtual Environment
 
-First, let us to create a Python virtual environment.
+First, let us create a Python virtual environment.
 
 ```bash
 virtualenv venv
