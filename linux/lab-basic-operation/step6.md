@@ -1,8 +1,8 @@
-# Remove files and directories
+# Remove Files and Directories
 
 `rm` is a command that allows you to remove(delete) files and directories.
 
-## Remove files
+## Remove Files
 
 The following example shows how to remove the `~/Desktop/zshrc-move` file.
 
@@ -13,7 +13,7 @@ ls -l ~/Desktop
 
 ![lab-basic-operation-6-1](assets/lab-basic-operation-6-1.png)
 
-## Remove directories
+## Remove Directories
 
 The following example shows how to remove the `~/Desktop/Code-move` directory.
 
@@ -24,7 +24,7 @@ ls -l ~/Desktop
 
 ![lab-basic-operation-6-2](assets/lab-basic-operation-6-2.png)
 
-## Remove files and directories with details
+## Remove Files and Directories With Details
 
 The following example shows how to remove the `~/Desktop/zshrc-move-new` file with details.
 
@@ -35,7 +35,7 @@ ls -l ~/Desktop
 
 ![lab-basic-operation-6-3](assets/lab-basic-operation-6-3.png)
 
-## Remove files and directories without confirmation
+## Remove Files and Directories Without Confirmation
 
 Sometimes you will be asked for confirmation when removing files or directories. The following example shows how to remove files and directories without confirmation.
 
