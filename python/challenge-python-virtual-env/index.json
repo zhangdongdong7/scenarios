@@ -1,0 +1,41 @@
+{
+    "type": "challenge",
+    "title": "Python Virtual Environment",
+    "description": "Test how you know the python virtual environment.",
+    "difficulty": "Beginner",
+    "time": "5 minutes",
+    "details": {
+      "steps": [
+        {
+          "title": "Create",
+          "text": "step1.md",
+          "verify": "verify1.sh",
+          "skills": [
+            "python/VirtualEnvironmentsSkill"
+          ]
+        }
+      ],
+      "intro": {
+        "text": "intro.md"
+      },
+      "finish": {
+        "text": "finish.md"
+      },
+      "assets": {
+        "client": [
+          {
+            "file": "*",
+            "target": "~/"
+          }
+        ]
+      }
+    },
+    "environment": {
+      "uilayout": "editor-terminal",
+      "hideHiddenFiles": true
+    },
+    "backend": {
+      "imageid": "ubuntu:2004"
+    }
+  }
+  
