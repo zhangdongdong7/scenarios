@@ -1,6 +1,6 @@
 # Python Virtual Environment
 
-The virtual environment is an important concept for python.
+The virtual environment is an important concept for Python.
 Because third-path packages may conflict in one python environment without using virtual environments.
 
 ## Skills

@@ -1,6 +1,6 @@
 # Challenge
 
-Create a python virtual environment.
+Create a Python virtual environment.
 
 ## Requirements
 
