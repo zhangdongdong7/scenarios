@@ -1,6 +1,6 @@
 # Different Python Version
 
-We can also create a virtual environment using the python version we want.
+We can also create a virtual environment using the Python version we want.
 
 e.g. create a Python3 virtual environment, first, we must know where the Python3 is:
 
