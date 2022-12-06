@@ -1,0 +1,51 @@
+{
+  "type": "lab",
+  "title": "Python3 basic variable types",
+  "description": "Some basic variables types in python3",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Python Datatype - Number and String",
+        "text": "step1.md",
+        "skills": ["python/data_types", "python/variables"]
+      },
+      {
+        "title": "Python Datatype - List",
+        "text": "step2.md",
+        "skills": ["python/data_types", "python/variables"]
+      },
+      {
+        "title": "Python Datatype - Tuple",
+        "text": "step3.md",
+        "skills": ["python/data_types", "python/variables"]
+      },
+      {
+        "title": "Python Datatype - Set and Dict",
+        "text": "step4.md",
+        "skills": ["python/data_types", "python/variables"]
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "*",
+          "target": "~/"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
