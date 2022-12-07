@@ -1,1 +1,0 @@
-history | grep -E 'cat\s+\-n\s+~/temp/test$|cat\s+\-n\s+test$'

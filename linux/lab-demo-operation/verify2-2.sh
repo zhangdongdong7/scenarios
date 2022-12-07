@@ -1,1 +1,0 @@
-history | grep -E 'head\s+\-c\s*1\s+test'

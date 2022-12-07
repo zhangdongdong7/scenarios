@@ -1,11 +1,11 @@
 # Print Contents Of File
 
-`cat` is a command that get the file contents. It is useful when you want to preview the file contents .
+`cat` is a command that gets the file contents. It is useful when you want to preview the file contents.
 
 Just run the following command:
 
 ```bash
-cat ~/temp/test
+cat ~/temp/hello
 ```
 
 Now you can see the contents of the test file.
@@ -20,7 +20,7 @@ Number the number of rows for all outputs, starting with 1
 Just run the following command:
 
 ```bash
-cat -n ~/temp/test
+cat -n ~/temp/hello
 ```
 
-![lab-basic-operation-2-2](assets/lab-demo-operation-2-2.png)
+![lab-basic-operation-1-2](assets/lab-demo-operation-1-2.png)
