@@ -1,7 +1,7 @@
 {
-  "type": "lab",
+  "type": "challenge",
   "title": "File Operation",
-  "description": "Linux file operation command lab",
+  "description": "Linux file view operation command challenge",
   "difficulty": "Beginner",
   "time": "4 minutes",
   "details": {

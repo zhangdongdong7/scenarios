@@ -1,7 +1,7 @@
 {
   "type": "lab",
-  "title": "Basic Operation",
-  "description": "Linux basic operation command lab",
+  "title": "File Location",
+  "description": "Find files with Linux command",
   "difficulty": "Beginner",
   "time": "10 minutes",
   "details": {
@@ -72,7 +72,7 @@
       {
         "title": "locate file",
         "text": "step2.md",
-        "skills": ["linux/locate", "linux/updatedb"]
+        "skills": ["linux/locate"]
       },
       {
         "title": "using which command to search for file",
