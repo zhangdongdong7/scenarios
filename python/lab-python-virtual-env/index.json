@@ -1,0 +1,52 @@
+{
+    "title": "Python Virtual Environment",
+    "description": "It's time to create a python virtual environment!",
+    "difficulty": "Beginner",
+    "time": "5 minutes",
+    "details": {
+      "steps": [
+        {
+          "title": "Step 1",
+          "text": "step1.md",
+          "skills": [
+            "python/VirtualEnvironmentsSkill"
+          ]
+        },
+        {
+          "title": "Step 2",
+          "text": "step2.md",
+          "skills": [
+            "python/VirtualEnvironmentsSkill"
+          ]
+        },
+        {
+          "title": "Step 3",
+          "text": "step3.md",
+          "skills": [
+            "python/VirtualEnvironmentsSkill"
+          ],
+          "verify": [
+            {
+              "name": "Check if venv3 is created",
+              "file": "verify3.sh",
+              "hint": "Please Create venv3!",
+              "timeout": 5,
+              "showstderr": false
+            }
+          ]
+        }
+      ],
+      "intro": {
+        "text": "intro.md"
+      },
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "environment": {
+      "uilayout": "terminal"
+    },
+    "backend": {
+      "imageid": "python:3.8"
+    }
+  }
