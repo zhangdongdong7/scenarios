@@ -26,7 +26,7 @@ print(set2)  # Output: {'apple', 'orange', 'banana', 'pear'}
 ```
 ## Remove elements
 Function `discard()` or `remove()` can be used to remove elements from a set.
-The difference between this two functions is that `discard()` will not return an error if the element not in sets.
+The difference between these two functions is that `discard()` will not return an error if the element is not in sets.
 ```python
 set1.remove('apple')
 print(set1)  # Output: set()

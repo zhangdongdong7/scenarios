@@ -1,7 +1,7 @@
 # Lists
 
-In Python, `lists` are containers that can hold any type of object. Operations that can be performed on lists include indexing, adding, multiplying, and checking membership.
-We'll show baisically how to use lists in the following code.
+In Python, lists are containers that can hold any type of object. Operations that can be performed on lists include indexing, adding, multiplying, and checking membership.
+We'll show basically how to use lists in the following code.
 
 ## Create
 
