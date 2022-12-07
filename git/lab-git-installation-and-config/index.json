@@ -14,12 +14,12 @@
       {
         "title": "Git installation",
         "text": "step2.md",
-        "skills": "git/git"
+        "skills": ["git/git"]
       },
       {
         "title": "Git configuration",
         "text": "step3.md",
-        "skills": "git/config"
+        "skills": ["git/config"]
       }
     ],
     "intro": {
