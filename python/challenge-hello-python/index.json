@@ -11,13 +11,13 @@
         "verify": [
           {
             "name": "Check if hello.py contains the correct strings",
-            "file": "verify6.sh",
+            "file": "verify1.sh",
             "hint": "Please print Hello, Python!",
             "timeout": 5,
             "showstderr": false
           }
         ],
-        "skills": ["python/printSkill"]
+        "skills": ["python/print"]
       }
     ],
     "intro": {

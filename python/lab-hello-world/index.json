@@ -8,37 +8,27 @@
       {
         "title": "Step 1",
         "text": "step1.md",
-        "skills": [
-          "python/PythonInterpreterSkill"
-        ]
+        "skills": ["python/python_interpreter"]
       },
       {
         "title": "Step 2",
         "text": "step2.md",
-        "skills": [
-          "python/printSkill"
-        ]
+        "skills": ["python/print"]
       },
       {
         "title": "Step 3",
         "text": "step3.md",
-        "skills": [
-          "python/DataTypesSkill"
-        ]
+        "skills": ["python/data_types"]
       },
       {
         "title": "Step 4",
         "text": "step4.md",
-        "skills": [
-          "python/VariablesSkill"
-        ]
+        "skills": ["python/variables"]
       },
       {
         "title": "Step 5",
         "text": "step5.md",
-        "skills": [
-          "python/PythonInterpreterSkill"
-        ]
+        "skills": ["python/python_interpreter"]
       },
       {
         "title": "Step 6",
@@ -52,9 +42,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "python/PythonScriptSkill"
-        ]
+        "skills": ["python/python_scripts"]
       }
     ],
     "intro": {
