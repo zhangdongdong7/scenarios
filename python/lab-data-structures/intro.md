@@ -1,12 +1,11 @@
 # Data Structures
 
-In this lab, we'll learn data structures in python, main contents 
-of the datastructures we'll be working with: lists, tuples, dicts, sets.
+In this lab, we'll learn data structures in python, the main contents of the data structures we'll be working with are: lists, tuples, dictionaries and sets.
 
 ## Skills
 
-- List  
+- Lists
 - List Comprehensions
 - Tuples
-- Dictonaries
+- Dictionaries
 - Sets
