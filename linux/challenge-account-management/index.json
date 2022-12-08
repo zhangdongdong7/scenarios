@@ -131,18 +131,7 @@
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "client": [
-        {
-          "file": "*",
-          "target": "~/"
-        }
-      ]
     }
-  },
-  "environment": {
-    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "ubuntu:2004"
