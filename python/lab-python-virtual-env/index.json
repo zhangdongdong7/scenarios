@@ -9,27 +9,27 @@
           "title": "Step 1",
           "text": "step1.md",
           "skills": [
-            "python/VirtualEnvironmentsSkill"
+            "python/virtual_environments"
           ]
         },
         {
           "title": "Step 2",
           "text": "step2.md",
           "skills": [
-            "python/VirtualEnvironmentsSkill"
+            "python/virtual_environments"
           ]
         },
         {
           "title": "Step 3",
           "text": "step3.md",
           "skills": [
-            "python/VirtualEnvironmentsSkill"
+            "python/virtual_environments"
           ],
           "verify": [
             {
               "name": "Check if venv3 is created",
               "file": "verify3.sh",
-              "hint": "Please Create venv3!",
+              "hint": "Please Create venv3.",
               "timeout": 5,
               "showstderr": false
             }
@@ -44,6 +44,6 @@
       }
     },
     "backend": {
-      "imageid": "python:3.8"
+      "imageid": "vnc-ubuntu:2004"
     }
 }
