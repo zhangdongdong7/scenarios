@@ -27,9 +27,6 @@
       "text": "finish.md"
     }
   },
-  "environment": {
-    "uilayout": "terminal"
-  },
   "backend": {
     "imageid": "python"
   }
