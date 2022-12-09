@@ -1,36 +1,28 @@
 {
-    "type": "challenge",
-    "title": "Python Virtual Environment",
-    "description": "Test how you know the python virtual environment.",
-    "difficulty": "Beginner",
-    "time": "5 minutes",
-    "details": {
-      "steps": [
-        {
-          "title": "Create",
-          "text": "step1.md",
-          "verify": "verify1.sh",
-          "skills": [
-            "python/virtual_environments"
-          ]
-        }
-      ],
-      "intro": {
-        "text": "intro.md"
-      },
-      "finish": {
-        "text": "finish.md"
-      },
-      "assets": {
-        "client": [
-          {
-            "file": "*",
-            "target": "~/"
-          }
+  "type": "challenge",
+  "title": "Python Virtual Environment",
+  "description": "Test how you know the python virtual environment.",
+  "difficulty": "Beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Create",
+        "text": "step1.md",
+        "verify": "verify1.sh",
+        "skills": [
+          "python/virtual_environments"
         ]
       }
+    ],
+    "intro": {
+      "text": "intro.md"
     },
-    "backend": {
-      "imageid": "vnc-ubuntu:2004"
+    "finish": {
+      "text": "finish.md"
     }
+  },
+  "backend": {
+    "imageid": "vnc-ubuntu:2004"
+  }
 }
