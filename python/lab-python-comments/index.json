@@ -1,0 +1,53 @@
+{
+  "title": "Python Comments",
+  "description": "Adding comments to Python.",
+  "difficulty": "Beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md",
+        "skills": ["python/comments", "python/python_scripts"]
+      },
+      {
+        "title": "Step 2",
+        "text": "step2.md",
+        "skills": ["python/comments", "python/python_scripts"]
+      },
+      {
+        "title": "Step 3",
+        "text": "step3.md",
+        "verify": [
+          {
+            "name": "Test if single.py includes single line comments.",
+            "file": "verify3-1.sh",
+            "hint": "Please add single-line comments.",
+            "timeout": 5,
+            "showstderr": false
+          },
+          {
+            "name": "Test if multi.py includes multi-line comments.",
+            "file": "verify3-2.sh",
+            "hint": "Please add multi-line comments.",
+            "timeout": 5,
+            "showstderr": false
+          }
+        ],
+        "skills": ["python/comments", "python/python_scripts"]
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "python"
+  }
+}

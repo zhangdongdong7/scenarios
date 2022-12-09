@@ -1,0 +1,50 @@
+{
+  "title": "List Operations",
+  "description": "Implementing various operations on lists.",
+  "difficulty": "Beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md",
+        "verify": [
+          {
+            "name": "Verify that the program output is correct for the given input.",
+            "file": "verify1.sh",
+            "hint": "Please check the code!",
+            "timeout": 5,
+            "showstderr": false
+          }
+        ],
+        "skills": ["python/data_types", "python/list", "python/input"]
+      },
+      {
+        "title": "Step 2",
+        "text": "step2.md",
+        "verify": [
+          {
+            "name": "Verify that the program output is correct for the given input.",
+            "file": "verify2.sh",
+            "hint": "Please check the code!",
+            "timeout": 5,
+            "showstderr": false
+          }
+        ],
+        "skills": ["python/data_types", "python/list", "python/input"]
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "python"
+  }
+}
