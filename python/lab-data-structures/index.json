@@ -1,6 +1,6 @@
 {
   "title": "Data Structures",
-  "description": "The basis data structures in python",
+  "description": "The basis data structures in Python",
   "difficulty": "Beginner",
   "time": "25 minutes",
   "details": {
@@ -10,6 +10,22 @@
         "text": "step1.md",
         "skills": [
           "python/list"
+        ],
+        "verify": [
+          {
+            "name": "Check if open the Python shell",
+            "file": "verify1-1.sh",
+            "hint": "You need to open the Python shell to continue.",
+            "timeout": 5,
+            "showstderr": false
+          },
+          {
+            "name": "Check if create a list",
+            "file": "verify1-2.sh",
+            "hint": "You need to create a list to continue.",
+            "timeout": 5,
+            "showstderr": false
+          }
         ]
       },
       {
@@ -48,10 +64,7 @@
       "text": "finish.md"
     }
   },
-  "environment": {
-    "uilayout": "terminal"
-  },
   "backend": {
-    "imageid": "python:3.8"
+    "imageid": "vnc-ubuntu:2004"
   }
 }
