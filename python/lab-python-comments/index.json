@@ -6,14 +6,20 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Single Line Comments",
         "text": "step1.md",
-        "skills": ["python/comments", "python/python_scripts"]
+        "skills": [
+          "python/comments",
+          "python/python_scripts"
+        ]
       },
       {
-        "title": "Step 2",
+        "title": "Multi Line Comments",
         "text": "step2.md",
-        "skills": ["python/comments", "python/python_scripts"]
+        "skills": [
+          "python/comments",
+          "python/python_scripts"
+        ]
       },
       {
         "title": "Step 3",
@@ -34,20 +40,21 @@
             "showstderr": false
           }
         ],
-        "skills": ["python/comments", "python/python_scripts"]
+        "skills": [
+          "python/comments",
+          "python/python_scripts"
+        ]
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "background": "setup.sh"
     },
     "finish": {
       "text": "finish.md"
     }
   },
-  "environment": {
-    "uilayout": "terminal"
-  },
   "backend": {
-    "imageid": "python"
+    "imageid": "vnc-ubuntu:2004"
   }
 }

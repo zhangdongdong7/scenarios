@@ -10,7 +10,7 @@ _list = [1, 3, 'Aaron', "Google", 2.33]
 
 ## Example
 
-![](./assets/challenge-list-operations-1-1.png)
+![](assets/challenge-list-operations-1-1.png)
 
 ## Requirements
 

@@ -17,7 +17,11 @@
             "showstderr": false
           }
         ],
-        "skills": ["python/data_types", "python/list", "python/input"]
+        "skills": [
+          "python/data_types",
+          "python/list",
+          "python/input"
+        ]
       },
       {
         "title": "Step 2",
@@ -31,7 +35,11 @@
             "showstderr": false
           }
         ],
-        "skills": ["python/data_types", "python/list", "python/input"]
+        "skills": [
+          "python/data_types",
+          "python/list",
+          "python/input"
+        ]
       }
     ],
     "intro": {
@@ -39,12 +47,17 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "*.py",
+          "target": "~/"
+        }
+      ]
     }
   },
-  "environment": {
-    "uilayout": "terminal"
-  },
   "backend": {
-    "imageid": "python"
+    "imageid": "vnc-ubuntu:2004"
   }
 }

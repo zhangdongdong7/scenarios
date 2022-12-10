@@ -10,7 +10,7 @@ _list = ["g", "r", "o", "u", "n", "d"]
 
 ## Example
 
-![](./assets/challenge-list-operations-2-1.png)
+![](assets/challenge-list-operations-2-1.png)
 
 ## Requirements
 
