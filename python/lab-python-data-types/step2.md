@@ -2,7 +2,7 @@
 
 In addition to the mentioned basic data types, Python also has a number of compound data types, such as **lists, tuples, set and dictionaries**. These data types allow you to store and manipulate more complex data structures in your programs.
 
-Overall, Python's built-in data types provide a rich set of tools for working with data in your programs. Understanding these data types and how to use them effectively is an important part of becoming a proficient Python programmer. Let's start from list. 
+Overall, Python's built-in data types provide a rich set of tools for working with data in your programs. Understanding these data types and how to use them effectively is an important part of becoming a proficient Python programmer. Let's start from list.
 
 ## List
 
@@ -21,6 +21,3 @@ print(my_list[2]) # prints 3
 ```
 
 Lists in Python are dynamic and can be modified after they are created. Elements can be added, removed, or changed, and the length of the list can be changed. This makes them a powerful tool for working with data in Python.
-
-
-

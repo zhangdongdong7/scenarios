@@ -3,7 +3,7 @@
   "title": "Python3 basic variable types",
   "description": "Some basic variables types in python3",
   "difficulty": "Beginner",
-  "time": "10 minutes",
+  "time": "25 minutes",
   "details": {
     "steps": [
       {
@@ -25,6 +25,11 @@
         "title": "Python Datatype - Set and Dict",
         "text": "step4.md",
         "skills": ["python/data_types", "python/variables"]
+      },
+      {
+        "title": "Python Datatype - Boolean",
+        "text": "step5.md",
+        "skills": ["python/python/if_statements"]
       }
     ],
     "intro": {
@@ -42,10 +47,7 @@
       ]
     }
   },
-  "environment": {
-    "uilayout": "terminal"
-  },
   "backend": {
-    "imageid": "ubuntu:2004"
+    "imageid": "webide-ubuntu:2004"
   }
 }

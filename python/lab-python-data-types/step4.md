@@ -21,7 +21,6 @@ print(4 in my_set) # prints False
 
 Sets in Python are useful for storing unique values and for performing mathematical operations, such as union, intersection, and difference. They are also efficient for checking if a value is in the set, as this operation has constant time complexity.
 
-
 ## Dict
 
 Dictionary is also created using curly braces, with each key-value pair separated by a comma. The keys and values are separated by a colon. For example:
@@ -43,4 +42,3 @@ print(my_dict["key1"]) # prints "value1"
 print(my_dict["key2"]) # prints "value2"
 print
 ```
-

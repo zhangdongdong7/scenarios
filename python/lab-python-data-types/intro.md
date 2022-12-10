@@ -1,4 +1,4 @@
-# Git Installation and Configuration
+# Python Datatypes and Variables
 
 Python is a popular, high-level programming language known for its simplicity and ease of use. It was created by Guido van Rossum in the early 1990s and is named after the British comedy group Monty Python.
 
