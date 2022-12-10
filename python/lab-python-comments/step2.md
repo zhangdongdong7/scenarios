@@ -2,7 +2,11 @@
 
 We usually use multi-line comments when there are more comments. Python uses three single quotes or three double quotes for multi-line comments.
 
-## Example
+## Method 1
+
+Now you can open `multi1.py` in your text editor and add a multi-line comment using single quotes.
+
+#### Example
 
 ```python
 '''
@@ -16,6 +20,12 @@ if age < 18:
 else:
     print("Tom is an adult.")
 ```
+
+## Method 2
+
+You can also open `multi2.py` in a text editor and add a multi-line comment in double-quotes.
+
+#### Example
 
 ```python
 """

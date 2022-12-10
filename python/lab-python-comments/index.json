@@ -11,6 +11,15 @@
         "skills": [
           "python/comments",
           "python/python_scripts"
+        ],
+        "verify": [
+          {
+            "name": "Test if single.py includes single line comments.",
+            "file": "verify1-1.sh",
+            "hint": "Please add single-line comments.",
+            "timeout": 5,
+            "showstderr": false
+          }
         ]
       },
       {
@@ -19,39 +28,38 @@
         "skills": [
           "python/comments",
           "python/python_scripts"
-        ]
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md",
+        ],
         "verify": [
           {
-            "name": "Test if single.py includes single line comments.",
-            "file": "verify3-1.sh",
-            "hint": "Please add single-line comments.",
+            "name": "Test if multi1.py includes single-quoted multi-line comments.",
+            "file": "verify2-1.sh",
+            "hint": "Please add multi-line comments in single quotes.",
             "timeout": 5,
             "showstderr": false
           },
           {
-            "name": "Test if multi.py includes multi-line comments.",
-            "file": "verify3-2.sh",
-            "hint": "Please add multi-line comments.",
+            "name": "Test if multi2.py includes double-quoted multi-line comments.",
+            "file": "verify2-2.sh",
+            "hint": "Please add multi-line comments in double-quotes.",
             "timeout": 5,
             "showstderr": false
           }
-        ],
-        "skills": [
-          "python/comments",
-          "python/python_scripts"
         ]
       }
     ],
     "intro": {
-      "text": "intro.md",
-      "background": "setup.sh"
+      "text": "intro.md"
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "*.py",
+          "target": "~/"
+        }
+      ]
     }
   },
   "backend": {
