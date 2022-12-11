@@ -1,6 +1,6 @@
 {
   "title": "Data Structures",
-  "description": "The basis data structures in python",
+  "description": "The basis data structures in Python",
   "difficulty": "Beginner",
   "time": "25 minutes",
   "details": {
@@ -10,6 +10,43 @@
         "text": "step1.md",
         "skills": [
           "python/list"
+        ],
+        "verify": [
+          {
+            "name": "Check if open the Python shell",
+            "file": "verify_python_shell.sh",
+            "hint": "You need to open the Python shell to continue.",
+            "timeout": 5,
+            "showstderr": false
+          },
+          {
+            "name": "Check if create a list",
+            "file": "verify1-1.sh",
+            "hint": "You need to create a list to continue.",
+            "timeout": 5,
+            "showstderr": false
+          },
+          {
+            "name": "Check if index a list",
+            "file": "verify1-2.sh",
+            "hint": "You need to index a list to continue.",
+            "timeout": 5,
+            "showstderr": false
+          },
+          {
+            "name": "Check if append a list",
+            "file": "verify1-3.sh",
+            "hint": "You need to append a list to continue.",
+            "timeout": 5,
+            "showstderr": false
+          },
+          {
+            "name": "Check to delete a list",
+            "file": "verify1-4.sh",
+            "hint": "You need to delete a list to continue.",
+            "timeout": 5,
+            "showstderr": false
+          }
         ]
       },
       {
@@ -17,6 +54,22 @@
         "text": "step2.md",
         "skills": [
           "python/list_comprehensions"
+        ],
+        "verify": [
+          {
+            "name": "Check if open the Python shell",
+            "file": "verify_python_shell.sh",
+            "hint": "You need to open the Python shell to continue.",
+            "timeout": 5,
+            "showstderr": false
+          },
+          {
+            "name": "Check list comprehensions",
+            "file": "verify2-1.sh",
+            "hint": "You need to handle list comprehensions to continue.",
+            "timeout": 5,
+            "showstderr": false
+          }
         ]
       },
       {
@@ -24,6 +77,36 @@
         "text": "step3.md",
         "skills": [
           "python/tuples"
+        ],
+        "verify": [
+          {
+            "name": "Check if open the Python shell",
+            "file": "verify_python_shell.sh",
+            "hint": "You need to open the Python shell to continue.",
+            "timeout": 5,
+            "showstderr": false
+          },
+          {
+            "name": "Check if create a tuple",
+            "file": "verify3-1.sh",
+            "hint": "You need to create a tuple to continue.",
+            "timeout": 5,
+            "showstderr": false
+          },
+          {
+            "name": "Check if index a tuple",
+            "file": "verify3-2.sh",
+            "hint": "You need to index a tuple to continue.",
+            "timeout": 5,
+            "showstderr": false
+          },
+          {
+            "name": "Check if modify a tuple",
+            "file": "verify3-3.sh",
+            "hint": "You need to modify a tuple to continue.",
+            "timeout": 5,
+            "showstderr": false
+          }
         ]
       },
       {
@@ -31,6 +114,43 @@
         "text": "step4.md",
         "skills": [
           "python/dictionaries"
+        ],
+        "verify": [
+          {
+            "name": "Check if open the Python shell",
+            "file": "verify_python_shell.sh",
+            "hint": "You need to open the Python shell to continue.",
+            "timeout": 5,
+            "showstderr": false
+          },
+          {
+            "name": "Check if create a dictionary",
+            "file": "verify4-1.sh",
+            "hint": "You need to create a dictionary to continue.",
+            "timeout": 5,
+            "showstderr": false
+          },
+          {
+            "name": "Check if index a dictionary",
+            "file": "verify4-2.sh",
+            "hint": "You need to index a dictionary to continue.",
+            "timeout": 5,
+            "showstderr": false
+          },
+          {
+            "name": "Check if modify a dictionary",
+            "file": "verify4-3.sh",
+            "hint": "You need to modify a dictionary to continue.",
+            "timeout": 5,
+            "showstderr": false
+          },
+          {
+            "name": "Check if delete a dictionary",
+            "file": "verify4-4.sh",
+            "hint": "You need to delete a dictionary to continue.",
+            "timeout": 5,
+            "showstderr": false
+          }
         ]
       },
       {
@@ -38,20 +158,48 @@
         "text": "step5.md",
         "skills": [
           "python/sets"
+        ],
+        "verify": [
+          {
+            "name": "Check if open the Python shell",
+            "file": "verify_python_shell.sh",
+            "hint": "You need to open the Python shell to continue.",
+            "timeout": 5,
+            "showstderr": false
+          },
+          {
+            "name": "Check if create a set",
+            "file": "verify5-1.sh",
+            "hint": "You need to create a set to continue.",
+            "timeout": 5,
+            "showstderr": false
+          },
+          {
+            "name": "Check if add elements to a set",
+            "file": "verify5-2.sh",
+            "hint": "You need to add elements to a set to continue.",
+            "timeout": 5,
+            "showstderr": false
+          },
+          {
+            "name": "Check if remove elements from a set",
+            "file": "verify5-3.sh",
+            "hint": "You need to remove elements from a set to continue.",
+            "timeout": 5,
+            "showstderr": false
+          }
         ]
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "background": "setup.sh"
     },
     "finish": {
       "text": "finish.md"
     }
   },
-  "environment": {
-    "uilayout": "terminal"
-  },
   "backend": {
-    "imageid": "python:3.8"
+    "imageid": "vnc-ubuntu:2004"
   }
 }

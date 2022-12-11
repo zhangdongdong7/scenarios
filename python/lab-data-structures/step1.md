@@ -3,6 +3,14 @@
 In Python, lists are containers that can hold any type of object. Operations that can be performed on lists include indexing, adding, multiplying, and checking membership.
 We'll show basically how to use lists in the following code.
 
+## Open the Python Shell
+
+Open the Python shell by typing the following command in the terminal.
+
+```bash
+python3
+```
+
 ## Create
 
 ```python
@@ -10,7 +18,6 @@ l1 = [1, 2, 3, 'a', 'hello']
 l2 = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday']
 ```
 Lists can appear as comma-separated values within squiggly brackets. Data items in a list do not need to be of the same type.
-
 
 ## Index
 Use the subscript index to access the values in the list, again you can use the square bracketed form to intercept characters as follows.

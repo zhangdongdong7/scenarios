@@ -10,11 +10,21 @@ new_list = [out_expression for item in old_list]
 
 new_list = [out_expression for item in old_list if condition]
 ```
-+ `new_list` is a list of the results of the `out_expression` for each item in `old_list`.
-+ `out_expression` is a List generation of element expressions, which can be functions with return values.
-+ `item` is a variable from the `old_list`.
-+ `old_list` is a list that will be used to generate the new list.
-+ `condition` is a boolean expression, which can be functions with return values.
+- `new_list` is a list of the results of the `out_expression` for each item in `old_list`.
+- `out_expression` is a List generation of element expressions, which can be functions with return values.
+- `item` is a variable from the `old_list`.
+- `old_list` is a list that will be used to generate the new list.
+- `condition` is a boolean expression, which can be functions with return values.
+
+## Open the Python Shell
+
+Open the Python shell by typing the following command in the terminal.
+
+```bash
+python3
+```
+
+## List Comprehension Practise
 
 For example:
 ```python   
