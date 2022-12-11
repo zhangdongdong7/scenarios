@@ -1,0 +1,68 @@
+{
+  "title": "Python Comments",
+  "description": "Adding comments to Python.",
+  "difficulty": "Beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Single Line Comments",
+        "text": "step1.md",
+        "skills": [
+          "python/comments",
+          "python/python_scripts"
+        ],
+        "verify": [
+          {
+            "name": "Test if single.py includes single line comments.",
+            "file": "verify1-1.sh",
+            "hint": "Please add single-line comments.",
+            "timeout": 5,
+            "showstderr": false
+          }
+        ]
+      },
+      {
+        "title": "Multi Line Comments",
+        "text": "step2.md",
+        "skills": [
+          "python/comments",
+          "python/python_scripts"
+        ],
+        "verify": [
+          {
+            "name": "Test if multi1.py includes single-quoted multi-line comments.",
+            "file": "verify2-1.sh",
+            "hint": "Please add multi-line comments in single quotes.",
+            "timeout": 5,
+            "showstderr": false
+          },
+          {
+            "name": "Test if multi2.py includes double-quoted multi-line comments.",
+            "file": "verify2-2.sh",
+            "hint": "Please add multi-line comments in double-quotes.",
+            "timeout": 5,
+            "showstderr": false
+          }
+        ]
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "*.py",
+          "target": "~/"
+        }
+      ]
+    }
+  },
+  "backend": {
+    "imageid": "vnc-ubuntu:2004"
+  }
+}
