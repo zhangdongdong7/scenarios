@@ -20,20 +20,12 @@ python3
 
 ## Create
 
-<<<<<<< HEAD
 ```python 
-=======
-```python
->>>>>>> 24d93e41faf03814250664b30ac31a203df69673
 dict1 = {'name': 'James', "age": 23, "address": "New York"}
 dict2 = {} # crated an empty dictionary
 ```
 
-<<<<<<< HEAD
 ## Index 
-=======
-## Index
->>>>>>> 24d93e41faf03814250664b30ac31a203df69673
 
 We can access a key-value pair by using put the key in `[]` or by function `get`.
 
