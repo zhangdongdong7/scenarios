@@ -1,0 +1,1 @@
+grep .python_history 'my_set'

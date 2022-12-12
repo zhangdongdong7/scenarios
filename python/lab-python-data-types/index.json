@@ -9,31 +9,91 @@
       {
         "title": "Python Datatype - Number and String",
         "text": "step1.md",
-        "skills": ["python/data_types", "python/variables"]
+        "verify": [
+          {
+            "name": "Check if command executed",
+            "file": "verify1.sh",
+            "hint": "Please type in the command to check the output",
+            "timeout": 0,
+            "showstderr": false
+          }
+        ],
+        "skills": [
+          "python/data_types",
+          "python/variables"
+        ]
       },
       {
         "title": "Python Datatype - List",
         "text": "step2.md",
-        "skills": ["python/data_types", "python/variables"]
+        "verify": [
+          {
+            "name": "Check if command executed",
+            "file": "verify2.sh",
+            "hint": "Please type in the command to check the output",
+            "timeout": 0,
+            "showstderr": false
+          }
+        ],
+        "skills": [
+          "python/data_types",
+          "python/variables"
+        ]
       },
       {
         "title": "Python Datatype - Tuple",
         "text": "step3.md",
-        "skills": ["python/data_types", "python/variables"]
+        "verify": [
+          {
+            "name": "Check if command executed",
+            "file": "verify3.sh",
+            "hint": "Please type in the command to check the output",
+            "timeout": 0,
+            "showstderr": false
+          }
+        ],
+        "skills": [
+          "python/data_types",
+          "python/variables"
+        ]
       },
       {
         "title": "Python Datatype - Set and Dict",
         "text": "step4.md",
-        "skills": ["python/data_types", "python/variables"]
+        "verify": [
+          {
+            "name": "Check if command executed",
+            "file": "verify4.sh",
+            "hint": "Please type in the command to check the output",
+            "timeout": 0,
+            "showstderr": false
+          }
+        ],
+        "skills": [
+          "python/data_types",
+          "python/variables"
+        ]
       },
       {
         "title": "Python Datatype - Boolean",
         "text": "step5.md",
-        "skills": ["python/python/if_statements"]
+        "verify": [
+          {
+            "name": "Check if command executed",
+            "file": "verify5.sh",
+            "hint": "Please type in the command to check the output",
+            "timeout": 0,
+            "showstderr": false
+          }
+        ],
+        "skills": [
+          "python/python/if_statements"
+        ]
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "background": "setup.sh"
     },
     "finish": {
       "text": "finish.md"
