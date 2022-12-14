@@ -1,1 +1,1 @@
-grep .python_history 'a = 1' && grep .python_history 'b = 1.5' && grep .python_history 'c = -0.23478'
+grep .python_history 'a' && grep .python_history 'b' && grep .python_history 'c'
