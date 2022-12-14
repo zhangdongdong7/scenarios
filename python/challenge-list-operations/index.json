@@ -1,4 +1,5 @@
 {
+  "type": "challenge",
   "title": "List Operations",
   "description": "Implementing various operations on lists.",
   "difficulty": "Beginner",
