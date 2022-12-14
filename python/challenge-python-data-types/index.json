@@ -1,4 +1,5 @@
 {
+  "type": "challenge",
   "title": "Celsius and Fahrenheit Converter",
   "description": "In this challenge, you are supposed to establish a python program that takes a series of temperature number in both Celsius and Fahrenheit format and convert each of them to another format.",
   "difficulty": "Beginner",
