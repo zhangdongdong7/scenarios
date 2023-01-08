@@ -3,7 +3,7 @@
   "title": "Basic Variable Types",
   "description": "Some basic variables types in python3",
   "difficulty": "Beginner",
-  "time": "25 minutes",
+  "time": 25,
   "details": {
     "steps": [
       {

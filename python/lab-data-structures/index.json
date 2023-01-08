@@ -2,7 +2,7 @@
   "title": "Data Structures",
   "description": "The basis data structures in Python",
   "difficulty": "Beginner",
-  "time": "25 minutes",
+  "time": 25,
   "details": {
     "steps": [
       {

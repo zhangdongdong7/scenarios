@@ -3,7 +3,7 @@
   "title": "Python Virtual Environment",
   "description": "Test how you know the python virtual environment.",
   "difficulty": "Beginner",
-  "time": "5 minutes",
+  "time": 5,
   "details": {
     "steps": [
       {

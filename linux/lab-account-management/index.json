@@ -3,7 +3,7 @@
   "title": "User account management",
   "description": "Introduce how to manage the user account in the Linux platform",
   "difficulty": "Beginner",
-  "time": "5 minutes",
+  "time": 5,
   "details": {
     "steps": [
       {

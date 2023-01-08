@@ -3,7 +3,7 @@
   "title": "Basic Template",
   "description": "The description of basic template",
   "difficulty": "Beginner",
-  "time": "5 minutes",
+  "time": 5,
   "details": {
     "steps": [
       {

@@ -3,7 +3,7 @@
   "title": "List Operations",
   "description": "Implementing various operations on lists.",
   "difficulty": "Beginner",
-  "time": "5 minutes",
+  "time": 5,
   "details": {
     "steps": [
       {

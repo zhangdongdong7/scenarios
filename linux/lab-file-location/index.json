@@ -3,7 +3,7 @@
   "title": "File Location",
   "description": "Find files with Linux command",
   "difficulty": "Beginner",
-  "time": "10 minutes",
+  "time": 10,
   "details": {
     "steps": [
       {

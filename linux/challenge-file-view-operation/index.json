@@ -3,7 +3,7 @@
   "title": "File Operation",
   "description": "Linux file view operation command challenge",
   "difficulty": "Beginner",
-  "time": "4 minutes",
+  "time": 4,
   "details": {
     "steps": [
       {

@@ -2,7 +2,7 @@
   "title": "Python Virtual Environment",
   "description": "It's time to create a python virtual environment!",
   "difficulty": "Beginner",
-  "time": "5 minutes",
+  "time": 5,
   "details": {
     "steps": [
       {
