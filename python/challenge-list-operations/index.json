@@ -18,11 +18,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "python/data_types",
-          "python/list",
-          "python/input"
-        ]
+        "skills": ["python/data_types", "python/list", "python/input"]
       },
       {
         "title": "Step 2",
@@ -36,11 +32,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "python/data_types",
-          "python/list",
-          "python/input"
-        ]
+        "skills": ["python/data_types", "python/list", "python/input"]
       }
     ],
     "intro": {

@@ -46,4 +46,3 @@ find. -type f
 - `-type`: The `-type` parameter is used to search for a file or directory by type.
 - `f`: The `f` character (`f`) is a special character in Unix, it indicates a file.
 - `d`: The `d` character (`d`) is a special character in Unix, it indicates a directory.
-

@@ -9,9 +9,7 @@
       {
         "title": "Lists",
         "text": "step1.md",
-        "skills": [
-          "python/list"
-        ],
+        "skills": ["python/list"],
         "verify": [
           {
             "name": "Check if open the Python shell",
@@ -53,9 +51,7 @@
       {
         "title": "List Comprehensions",
         "text": "step2.md",
-        "skills": [
-          "python/list_comprehensions"
-        ],
+        "skills": ["python/list_comprehensions"],
         "verify": [
           {
             "name": "Check if open the Python shell",
@@ -76,9 +72,7 @@
       {
         "title": "Tuples",
         "text": "step3.md",
-        "skills": [
-          "python/tuples"
-        ],
+        "skills": ["python/tuples"],
         "verify": [
           {
             "name": "Check if open the Python shell",
@@ -113,9 +107,7 @@
       {
         "title": "Dictionaries",
         "text": "step4.md",
-        "skills": [
-          "python/dictionaries"
-        ],
+        "skills": ["python/dictionaries"],
         "verify": [
           {
             "name": "Check if open the Python shell",
@@ -157,9 +149,7 @@
       {
         "title": "Sets",
         "text": "step5.md",
-        "skills": [
-          "python/sets"
-        ],
+        "skills": ["python/sets"],
         "verify": [
           {
             "name": "Check if open the Python shell",

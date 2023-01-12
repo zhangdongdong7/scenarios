@@ -9,23 +9,17 @@
       {
         "title": "Step 1",
         "text": "step1.md",
-        "skills": [
-          "python/virtual_environments"
-        ]
+        "skills": ["python/virtual_environments"]
       },
       {
         "title": "Step 2",
         "text": "step2.md",
-        "skills": [
-          "python/virtual_environments"
-        ]
+        "skills": ["python/virtual_environments"]
       },
       {
         "title": "Step 3",
         "text": "step3.md",
-        "skills": [
-          "python/virtual_environments"
-        ],
+        "skills": ["python/virtual_environments"],
         "verify": [
           {
             "name": "Check if venv3 is created",

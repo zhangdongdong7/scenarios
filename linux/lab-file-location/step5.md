@@ -28,7 +28,6 @@ The `grep -rn hello .` command will search the strings in all files in the speci
 
 The `-rn` parameter will display the file name and line number of the string.
 
-
 ```bash
 grep -rn hello .
 ```

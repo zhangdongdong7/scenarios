@@ -20,12 +20,12 @@ python3
 
 ## Create
 
-```python 
+```python
 dict1 = {'name': 'James', "age": 23, "address": "New York"}
 dict2 = {} # crated an empty dictionary
 ```
 
-## Index 
+## Index
 
 We can access a key-value pair by using put the key in `[]` or by function `get`.
 

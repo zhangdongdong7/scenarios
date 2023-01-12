@@ -11,7 +11,7 @@ Open the Python shell by typing the following command in the terminal.
 python3
 ```
 
-## Create 
+## Create
 
 ```python
 tup1 = ('Google', 'Run', 'Python')
@@ -21,7 +21,7 @@ empty_tup = ()
 
 ## Index
 
-```python   
+```python
 print(tup1[0])  # Output: Google
 print(tup2[1:3])  # Output: (2, 3)
 print(empty_tup[0])  # Output: IndexError: tuple index out of range

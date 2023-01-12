@@ -31,4 +31,3 @@ Finally, use `deactivate` command to exit the virtual environment:
 We can see pygame is not installed in the main environment.
 
 ![2-5](assets/lab-python-virtual-env-2-5.png)
-
