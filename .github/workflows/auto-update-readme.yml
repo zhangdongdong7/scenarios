@@ -1,0 +1,36 @@
+name: auto-update-readme
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "**/index.json"
+  workflow_dispatch:
+
+jobs:
+  generate-json:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+      - name: Generate labs json
+        run: |
+          python .github/workflows/list_labs.py
+      - name: Git Auto Commit
+        uses: stefanzweifel/git-auto-commit-action@v4.3.0
+        with:
+          commit_message: update labs list
+          branch: ${{ github.head_ref }}
+  auto-update-readme:
+    needs: generate-json
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Markdown autodocs
+        uses: dineshsonachalam/markdown-autodocs@v1.0.7
+        with:
+          output_file_paths: "[./README.md]"
