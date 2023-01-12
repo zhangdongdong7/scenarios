@@ -20,7 +20,7 @@ locate test.cpp
 
 ## Locate Files With Regular Formula
 
-The `locate *.cpp` command will search the system for all files whose name contains *.cpp, the result is retrieved from the database.
+The `locate *.cpp` command will search the system for all files whose name contains \*.cpp, the result is retrieved from the database.
 
 ```bash
 locate *.cpp
@@ -39,4 +39,3 @@ locate ~/lab/*.cpp
 ```
 
 ![lab-file-location-3-1](assets/lab-file-location-2-6.png)
-

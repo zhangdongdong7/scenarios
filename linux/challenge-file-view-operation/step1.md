@@ -4,7 +4,6 @@
 
 Now ask you to complete the `~/temp/hello` file retrieval operation.
 
-
 ## Displays The Line Number
 
 Number the number of rows for all outputs, starting with 1

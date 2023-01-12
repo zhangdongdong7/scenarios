@@ -9,10 +9,7 @@
       {
         "title": "Single Line Comments",
         "text": "step1.md",
-        "skills": [
-          "python/comments",
-          "python/python_scripts"
-        ],
+        "skills": ["python/comments", "python/python_scripts"],
         "verify": [
           {
             "name": "Test if single.py includes single line comments.",
@@ -26,10 +23,7 @@
       {
         "title": "Multi Line Comments",
         "text": "step2.md",
-        "skills": [
-          "python/comments",
-          "python/python_scripts"
-        ],
+        "skills": ["python/comments", "python/python_scripts"],
         "verify": [
           {
             "name": "Test if multi1.py includes single-quoted multi-line comments.",

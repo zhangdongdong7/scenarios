@@ -10,9 +10,7 @@
         "title": "Create",
         "text": "step1.md",
         "verify": "verify1.sh",
-        "skills": [
-          "python/virtual_environments"
-        ]
+        "skills": ["python/virtual_environments"]
       }
     ],
     "intro": {

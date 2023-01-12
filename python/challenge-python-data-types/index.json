@@ -18,7 +18,11 @@
             "showstderr": false
           }
         ],
-        "skills": ["python/data_types", "python/variables", "python/if_statements"]
+        "skills": [
+          "python/data_types",
+          "python/variables",
+          "python/if_statements"
+        ]
       }
     ],
     "intro": {

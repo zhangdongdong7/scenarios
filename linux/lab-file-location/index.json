@@ -78,23 +78,17 @@
       {
         "title": "locate file",
         "text": "step2.md",
-        "skills": [
-          "linux/locate"
-        ]
+        "skills": ["linux/locate"]
       },
       {
         "title": "using which command to search for file",
         "text": "step3.md",
-        "skills": [
-          "linux/which"
-        ]
+        "skills": ["linux/which"]
       },
       {
         "title": "using whereis command to search for file",
         "text": "step4.md",
-        "skills": [
-          "linux/whereis"
-        ]
+        "skills": ["linux/whereis"]
       },
       {
         "title": "find string",

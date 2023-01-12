@@ -18,10 +18,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "python/data_types",
-          "python/variables"
-        ]
+        "skills": ["python/data_types", "python/variables"]
       },
       {
         "title": "Python Datatype - List",
@@ -35,10 +32,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "python/data_types",
-          "python/variables"
-        ]
+        "skills": ["python/data_types", "python/variables"]
       },
       {
         "title": "Python Datatype - Tuple",
@@ -52,10 +46,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "python/data_types",
-          "python/variables"
-        ]
+        "skills": ["python/data_types", "python/variables"]
       },
       {
         "title": "Python Datatype - Set and Dict",
@@ -69,10 +60,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "python/data_types",
-          "python/variables"
-        ]
+        "skills": ["python/data_types", "python/variables"]
       },
       {
         "title": "Python Datatype - Boolean",
@@ -86,9 +74,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "python/if_statements"
-        ]
+        "skills": ["python/if_statements"]
       }
     ],
     "intro": {

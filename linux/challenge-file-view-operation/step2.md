@@ -1,4 +1,5 @@
 # Operator Contents
+
 The `head` command can be used to view the specific contents of a file.
 
 ## Get Row Data

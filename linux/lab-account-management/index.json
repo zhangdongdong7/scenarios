@@ -32,11 +32,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "linux/useradd",
-          "linux/grep",
-          "linux/ls"
-        ]
+        "skills": ["linux/useradd", "linux/grep", "linux/ls"]
       },
       {
         "title": "Manage User And Group",
@@ -57,11 +53,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "linux/useradd",
-          "linux/grep",
-          "linux/ls"
-        ]
+        "skills": ["linux/useradd", "linux/grep", "linux/ls"]
       },
       {
         "title": "Manage System User Account",
@@ -82,11 +74,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "linux/useradd",
-          "linux/grep",
-          "linux/ls"
-        ]
+        "skills": ["linux/useradd", "linux/grep", "linux/ls"]
       },
       {
         "title": "Manage User Password",
@@ -100,10 +88,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "linux/passwd",
-          "linux/grep"
-        ]
+        "skills": ["linux/passwd", "linux/grep"]
       },
       {
         "title": "Modify User Account",
@@ -131,10 +116,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "linux/usermod",
-          "linux/grep"
-        ]
+        "skills": ["linux/usermod", "linux/grep"]
       },
       {
         "title": "Delete user account",
@@ -155,11 +137,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "linux/userdel",
-          "linux/grep",
-          "linux/ls"
-        ]
+        "skills": ["linux/userdel", "linux/grep", "linux/ls"]
       }
     ],
     "intro": {

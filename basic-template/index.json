@@ -25,10 +25,7 @@
             "showstderr": true
           }
         ],
-        "skills": [
-          "linux/ls",
-          "linux/cd"
-        ]
+        "skills": ["linux/ls", "linux/cd"]
       },
       {
         "title": "Oranges",
@@ -42,10 +39,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "linux/ls",
-          "linux/cd"
-        ]
+        "skills": ["linux/ls", "linux/cd"]
       }
     ],
     "intro": {

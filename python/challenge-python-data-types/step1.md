@@ -9,14 +9,14 @@ temp_list = ['32F', '50F', '40C', '38F', '36C', '45F', '55C', '65F', '75C', '85F
 It shall give the output in the following format with corresponding temperature separated by spaces. Here is an example. You are supposed to attach one space at the end of each answer and reserved to integer bits.
 
 ```python
-0C 10C 104F ... 
+0C 10C 104F ...
 ```
 
 ## Example
 
 ```bash
 $ python solution.py
-0C 10C 104F ... 
+0C 10C 104F ...
 ```
 
 ## Tips

@@ -19,7 +19,7 @@ b = 1.5
 c = -0.23478
 ```
 
-![image-20221207000155414](.\assets\image-20221207000155414.png)
+![image-20221207000155414](assets/image-20221207000155414.png)
 
 Strings are sequences of characters, such as "hello" and "goodbye". They can be defined by using single quotes or double quotes.
 
@@ -28,4 +28,4 @@ d = 'hello'
 e = "goodbye"
 ```
 
-![image-20221207000320274](.\assets\image-20221207000320274.png)
+![image-20221207000320274](assets/image-20221207000320274.png)
