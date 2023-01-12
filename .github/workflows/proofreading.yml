@@ -24,6 +24,7 @@ jobs:
         with:
           commit_message: Formatting documents
           branch: ${{ github.head_ref }}
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
   Compress:
     needs: Proofreading
     name: calibreapp/image-actions
