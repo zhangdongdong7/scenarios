@@ -1,4 +1,5 @@
 {
+  "type": "lab",
   "title": "Data Structures",
   "description": "The basis data structures in Python",
   "difficulty": "Beginner",
