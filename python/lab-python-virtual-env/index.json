@@ -1,4 +1,5 @@
 {
+  "type": "lab",
   "title": "Python Virtual Environment",
   "description": "It's time to create a python virtual environment!",
   "difficulty": "Beginner",
