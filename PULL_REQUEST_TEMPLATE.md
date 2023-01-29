@@ -6,4 +6,4 @@ Please make sure you've completed the relevant tasks for this PR, out of the fol
 - [ ] The format of the lab/challenge is correct.
 - [ ] I pledge that I did not plagiarize and I did not copy the solution from other sources.
 
-See more details in [Contributing Guidelines](https://labex.gitbook.io/contributing-guidelines/).
+See more details in [Contributing Guidelines](https://labex-docs.vercel.app/).
