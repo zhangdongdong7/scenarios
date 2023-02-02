@@ -22,7 +22,7 @@
     {
         "<sub><sup>Title</sup></sub>": "<sub><sup>File Operation</sup></sub>",
         "<sub><sup>Direction</sup></sub>": "<sub><sup>Linux</sup></sub>",
-        "<sub><sup>Type</sup></sub>": "<sub><sup><code>challenge</code></sup></sub>",
+        "<sub><sup>Type</sup></sub>": "<sub><sup><code>lab</code></sup></sub>",
         "<sub><sup>Time</sup></sub>": "<sub><sup>4</sup></sub>",
         "<sub><sup>Difficulty</sup></sub>": "<sub><sup><code>Beginner</code></sup></sub>",
         "<sub><sup>Steps</sup></sub>": "<sub><sup>2</sup></sub>",
@@ -32,7 +32,7 @@
     {
         "<sub><sup>Title</sup></sub>": "<sub><sup>File Operation</sup></sub>",
         "<sub><sup>Direction</sup></sub>": "<sub><sup>Linux</sup></sub>",
-        "<sub><sup>Type</sup></sub>": "<sub><sup><code>lab</code></sup></sub>",
+        "<sub><sup>Type</sup></sub>": "<sub><sup><code>challenge</code></sup></sub>",
         "<sub><sup>Time</sup></sub>": "<sub><sup>4</sup></sub>",
         "<sub><sup>Difficulty</sup></sub>": "<sub><sup><code>Beginner</code></sup></sub>",
         "<sub><sup>Steps</sup></sub>": "<sub><sup>2</sup></sub>",
@@ -58,6 +58,16 @@
         "<sub><sup>Steps</sup></sub>": "<sub><sup>4</sup></sub>",
         "<sub><sup>Backend</sup></sub>": "<sub><sup><code>vnc-ubuntu:2004</code></sup></sub>",
         "<sub><sup>Skills</sup></sub>": "<sub><sup>4</sup></sub>"
+    },
+    {
+        "<sub><sup>Title</sup></sub>": "<sub><sup>Arithmetic Games</sup></sub>",
+        "<sub><sup>Direction</sup></sub>": "<sub><sup>Python</sup></sub>",
+        "<sub><sup>Type</sup></sub>": "<sub><sup><code>challenge</code></sup></sub>",
+        "<sub><sup>Time</sup></sub>": "<sub><sup>20</sup></sub>",
+        "<sub><sup>Difficulty</sup></sub>": "<sub><sup><code>Beginner</code></sup></sub>",
+        "<sub><sup>Steps</sup></sub>": "<sub><sup>3</sup></sub>",
+        "<sub><sup>Backend</sup></sub>": "<sub><sup><code>webide-ubuntu:2004</code></sup></sub>",
+        "<sub><sup>Skills</sup></sub>": "<sub><sup>1</sup></sub>"
     },
     {
         "<sub><sup>Title</sup></sub>": "<sub><sup>Basic Variable Types</sup></sub>",
@@ -131,12 +141,12 @@
     },
     {
         "<sub><sup>Title</sup></sub>": "<sub><sup><b>Sum</b></sup></sub>",
-        "<sub><sup>Direction</sup></sub>": "<sub><sup><b>13</b></sup></sub>",
+        "<sub><sup>Direction</sup></sub>": "<sub><sup><b>14</b></sup></sub>",
         "<sub><sup>Type</sup></sub>": "",
-        "<sub><sup>Time</sup></sub>": "<sub><sup><b>118</b></sup></sub>",
+        "<sub><sup>Time</sup></sub>": "<sub><sup><b>138</b></sup></sub>",
         "<sub><sup>Difficulty</sup></sub>": "",
-        "<sub><sup>Steps</sup></sub>": "<sub><sup><b>40</b></sup></sub>",
+        "<sub><sup>Steps</sup></sub>": "<sub><sup><b>43</b></sup></sub>",
         "<sub><sup>Backend</sup></sub>": "",
-        "<sub><sup>Skills</sup></sub>": "<sub><sup><b>45</b></sup></sub>"
+        "<sub><sup>Skills</sup></sub>": "<sub><sup><b>46</b></sup></sub>"
     }
 ]
