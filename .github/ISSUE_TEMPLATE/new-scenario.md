@@ -1,7 +1,7 @@
 ---
 name: new-scenario
 about: Create a new scenario
-title: lab/challange-name-use-lowercase
+title: lab/challenge-name-use-lowercase
 labels: New
 assignees: ''
 
@@ -30,7 +30,7 @@ assignees: ''
 
 ## Skills
 
-> Suggested skills to include can be modified as needed. From [Skills Tree](https://labex-dev.feishu.cn/base/bascnNz4Nqjqgqm1Nm5AYke6xxb?table=tblV5pGIsGZMxmE9&view=vewZpkLWRp). 
+> Suggested skills to include can be modified as needed. From [Skills Tree](https://labex-dev.feishu.cn/base/bascnNz4Nqjqgqm1Nm5AYke6xxb?table=tblV5pGIsGZMxmE9&view=vewZpkLWRp).
 > 建议包括的 Skills ID，可以根据需要增删。技能点来自 [技能树](https://labex-dev.feishu.cn/base/bascnNz4Nqjqgqm1Nm5AYke6xxb?table=tblV5pGIsGZMxmE9&view=vewZpkLWRp)
 
 - `python/data_types`
