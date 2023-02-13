@@ -13,6 +13,8 @@ python3
 
 ## Create
 
+Create a tuple with the following elements.
+
 ```python
 tup1 = ('Google', 'Run', 'Python')
 tup2 = (1, 2, 3, 4, 5)
@@ -20,6 +22,8 @@ empty_tup = ()
 ```
 
 ## Index
+
+Indexing is similar to lists.
 
 ```python
 print(tup1[0])  # Output: Google

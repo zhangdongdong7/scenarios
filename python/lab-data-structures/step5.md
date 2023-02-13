@@ -4,14 +4,6 @@ A set is an unordered sequence of unduplicated elements. Sets can be created by 
 
 > **Note: To create an empty collection you must use `set()` and not `{}`, as `{}` is used to create an empty dictionary**
 
-## Open the Python Shell
-
-Open the Python shell by typing the following command in the terminal.
-
-```bash
-python3
-```
-
 ## Create
 
 ```python

@@ -9,11 +9,11 @@
       {
         "title": "Lists",
         "text": "step1.md",
-        "skills": ["python/list"],
+        "skills": ["python/list", "python/len", "python/sorted"],
         "verify": [
           {
             "name": "Check if open the Python shell",
-            "file": "verify_python_shell.sh",
+            "file": "verify1-0.sh",
             "hint": "You need to open the Python shell to continue.",
             "timeout": 5,
             "showstderr": false
@@ -51,15 +51,8 @@
       {
         "title": "List Comprehensions",
         "text": "step2.md",
-        "skills": ["python/list_comprehensions"],
+        "skills": ["python/list_comprehension"],
         "verify": [
-          {
-            "name": "Check if open the Python shell",
-            "file": "verify_python_shell.sh",
-            "hint": "You need to open the Python shell to continue.",
-            "timeout": 5,
-            "showstderr": false
-          },
           {
             "name": "Check list comprehensions",
             "file": "verify2-1.sh",
@@ -72,15 +65,8 @@
       {
         "title": "Tuples",
         "text": "step3.md",
-        "skills": ["python/tuples"],
+        "skills": ["python/tuple"],
         "verify": [
-          {
-            "name": "Check if open the Python shell",
-            "file": "verify_python_shell.sh",
-            "hint": "You need to open the Python shell to continue.",
-            "timeout": 5,
-            "showstderr": false
-          },
           {
             "name": "Check if create a tuple",
             "file": "verify3-1.sh",
@@ -109,13 +95,6 @@
         "text": "step4.md",
         "skills": ["python/dictionaries"],
         "verify": [
-          {
-            "name": "Check if open the Python shell",
-            "file": "verify_python_shell.sh",
-            "hint": "You need to open the Python shell to continue.",
-            "timeout": 5,
-            "showstderr": false
-          },
           {
             "name": "Check if create a dictionary",
             "file": "verify4-1.sh",
@@ -149,15 +128,8 @@
       {
         "title": "Sets",
         "text": "step5.md",
-        "skills": ["python/sets"],
+        "skills": ["python/set"],
         "verify": [
-          {
-            "name": "Check if open the Python shell",
-            "file": "verify_python_shell.sh",
-            "hint": "You need to open the Python shell to continue.",
-            "timeout": 5,
-            "showstderr": false
-          },
           {
             "name": "Check if create a set",
             "file": "verify5-1.sh",

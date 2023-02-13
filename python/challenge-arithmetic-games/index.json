@@ -11,42 +11,69 @@
         "text": "step1.md",
         "verify": [
           {
-            "name": "Test the implement of sum_of_squares",
+            "name": "Testing sum_of_squares.py",
             "file": "verify1.sh",
             "hint": "Please replace this text with the hint of the verify script",
             "timeout": 0,
             "showstderr": true
           }
         ],
-        "skills": ["python/math_operator"]
+        "skills": [
+          "python/function_basic",
+          "python/function_arguments",
+          "python/type_hint",
+          "python/return_values",
+          "python/math_operator",
+          "python/assignment",
+          "python/python_scripts"
+        ]
       },
       {
         "title": "Sum of Cubes",
         "text": "step2.md",
         "verify": [
           {
-            "name": "Test the implement of sum_of_cubes",
+            "name": "Testing sum_of_cubes.py",
             "file": "verify2.sh",
             "hint": "Please replace this text with the hint of the verify script",
             "timeout": 0,
             "showstderr": true
           }
         ],
-        "skills": ["python/math_operator"]
+        "skills": [
+          "python/function_basic",
+          "python/function_arguments",
+          "python/type_hint",
+          "python/return_values",
+          "python/math_operator",
+          "python/assignment",
+          "python/python_scripts"
+        ]
       },
       {
         "title": "Sum of Fibonacci",
         "text": "step3.md",
         "verify": [
           {
-            "name": "Test the implement of sum_of_fibonacci",
+            "name": "Testing sum_of_fibonacci.py",
             "file": "verify3.sh",
             "hint": "Please replace this text with the hint of the verify script",
             "timeout": 0,
             "showstderr": true
           }
         ],
-        "skills": ["python/math_operator"]
+        "skills": [
+          "python/python_scripts",
+          "python/function_basic",
+          "python/function_arguments",
+          "python/type_hint",
+          "python/return_values",
+          "python/if_else",
+          "python/for_loop",
+          "python/list",
+          "python/print",
+          "python/sum"
+        ]
       }
     ],
     "intro": {

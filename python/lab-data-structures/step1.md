@@ -55,3 +55,19 @@ You can delete values from the list in the following example.
 del l1[0]
 l1.remove('a')
 ```
+
+## List Functions
+
+You can use the `len()` function to get the length of a list, and the `sorted()` function to sort the list.
+
+```python
+print("Length of l1 = ", len(l1))
+print("Sorted of l2 = ", sorted(l2))
+```
+
+Output from the above example is:
+
+```text
+Length of l1 =  5
+Sorted of l2 =  ['friday', 'monday', 'thursday', 'tuesday', 'wednesday']
+```
