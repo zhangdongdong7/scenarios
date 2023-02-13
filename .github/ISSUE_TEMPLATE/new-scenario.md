@@ -3,20 +3,18 @@ name: new-scenario
 about: Create a new scenario
 title: lab/challenge-name-use-lowercase
 labels: New
-assignees: ''
-
+assignees: ""
 ---
 
-> **Please read [For Newbie](https://github.com/labex-labs/scenarios/issues/18) first.**
-> **请先阅读 [新手须知](https://github.com/labex-labs/scenarios/issues/18)。**
+> **Please read [For Newbie](https://github.com/labex-labs/scenarios/issues/18) first.** > **请先阅读 [新手须知](https://github.com/labex-labs/scenarios/issues/18)。**
 
 ## Basic
 
 > Basic information about the scenario, which can be changed if required.
 > 实验/挑战的基本信息，如有需要，可以修改。
 
-- **Suggest Title 建议标题**: 
-- **Suggest Steps 建议步骤数**: 
+- **Suggest Title 建议标题**:
+- **Suggest Steps 建议步骤数**:
 - **Suggest Image 建议环境**: `webide-ubuntu:2004`
 
 ## Sources
