@@ -6,7 +6,8 @@ labels: New
 assignees: ""
 ---
 
-> **Please read [For Newbie](https://github.com/labex-labs/scenarios/issues/18) first.** > **请先阅读 [新手须知](https://github.com/labex-labs/scenarios/issues/18)。**
+> **Please read [For Newbie](https://github.com/labex-labs/scenarios/issues/18) first.**
+> **请先阅读 [新手须知](https://github.com/labex-labs/scenarios/issues/18)。**
 
 ## Basic
 
