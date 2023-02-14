@@ -1,8 +1,8 @@
 ---
-name: new-scenario
-about: Create a new scenario
-title: lab/challenge-name-use-lowercase
-labels: New
+name: new-lab
+about: Create a new Lab
+title: lab-name-use-lowercase
+labels: New,Lab
 assignees: ""
 ---
 
@@ -24,7 +24,6 @@ assignees: ""
 > Issues 已经提供了材料；没有提供的部分由作者自行补充完成。
 
 - [ ] Full Text 正文内容
-- [ ] Reference Answers 参考答案
 - [ ] Verify Script 检测脚本
 
 ## Skills
