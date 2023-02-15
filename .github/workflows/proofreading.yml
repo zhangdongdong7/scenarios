@@ -3,6 +3,7 @@ on:
   pull_request:
     branches:
       - master
+permissions: write-all
 jobs:
   Proofreading:
     runs-on: ubuntu-latest
