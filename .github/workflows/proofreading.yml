@@ -10,8 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          ref: ${{github.event.pull_request.head.ref}}
-          repository: ${{github.event.pull_request.head.repo.full_name}}
+          ref: ${{ github.head_ref }}
       - name: Get the changed documents
         uses: trilom/file-changes-action@v1.2.4
         with:
@@ -24,7 +23,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4.3.0
         with:
           commit_message: Formatting documents
-          branch: ${{github.event.pull_request.head.ref}}
+          branch: ${{ github.head_ref }}
   Compress:
     needs: Proofreading
     name: calibreapp/image-actions
@@ -32,9 +31,6 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
-        with:
-          ref: ${{github.event.pull_request.head.ref}}
-          repository: ${{github.event.pull_request.head.repo.full_name}}
       - name: Compress Images
         uses: calibreapp/image-actions@main
         with:
