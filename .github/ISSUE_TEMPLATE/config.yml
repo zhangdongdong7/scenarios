@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 新人必读 For Newbie
+    url: https://github.com/labex-labs/scenarios/issues/18
+    about: Please read this before you ask any questions.
+  - name: LabEx Guidelines
+    url: https://labex-docs.vercel.app/
+    about: You can find the LabEx Guidelines here.
