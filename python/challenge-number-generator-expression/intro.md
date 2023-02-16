@@ -1,3 +1,3 @@
 # Number Generator Expression
 
-In this challenge, you learned how to use functions and generator expression to perform mathematical operations in Python.
+In this challenge, you will solve advanced math problems using Python's number generator expressions.
