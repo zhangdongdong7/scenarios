@@ -1,1 +1,0 @@
-grep .python_history 'if' && grep .python_history 'elif' && grep .python_history 'else'
