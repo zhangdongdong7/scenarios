@@ -1,3 +1,6 @@
+from typing import Generator
+
+
 def factorial(n: int) -> Generator[int, None, None]:
     """
     Returns a generator that yields the factorial of n.

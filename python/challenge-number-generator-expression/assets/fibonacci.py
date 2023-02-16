@@ -1,3 +1,6 @@
+from typing import Generator
+
+
 def fibonacci(n: int) -> Generator[int, None, None]:
     """
     Returns a generator that yields the first n Fibonacci numbers.
@@ -8,7 +11,9 @@ def fibonacci(n: int) -> Generator[int, None, None]:
     Yields:
     The first n Fibonacci numbers.
     """
-    a, b = 0, 1
-    for _ in range(n):
-        yield a
-        a, b = b, a + b
+    # TODO: implement this function
+    # Note: Do not change the existing code
+
+    result = None
+
+    return result

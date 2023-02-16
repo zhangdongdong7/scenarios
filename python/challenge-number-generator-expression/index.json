@@ -1,7 +1,7 @@
 {
     "type": "challenge",
-    "title": "Number_generator_expression",
-    "description": "In this challenge, you will implement five generator_expression to ",
+    "title": "Number Generator Expression",
+    "description": "In this challenge, you will implement five number generators to implement square, even, additive, Fibonacci numbers and factorials",
     "difficulty": "Beginner",
     "time": 25,
     "details": {
@@ -15,7 +15,7 @@
                         "file": "verify1.sh",
                         "hint": "Please replace this text with the hint of the verify script",
                         "timeout": 0,
-                        "showstderr": false
+                        "showstderr": true
                     }
                 ],
                 "skills": [
@@ -31,7 +31,7 @@
                         "file": "verify2.sh",
                         "hint": "Please replace this text with the hint of the verify script",
                         "timeout": 0,
-                        "showstderr": false
+                        "showstderr": true
                     }
                 ],
                 "skills": [
@@ -46,7 +46,7 @@
                         "file": "verify3.sh",
                         "hint": "Please replace this text with the hint of the verify script",
                         "timeout": 0,
-                        "showstderr": false
+                        "showstderr": true
                     }
                 ],
                 "skills": [
@@ -62,7 +62,7 @@
                         "file": "verify4.sh",
                         "hint": "Please replace this text with the hint of the verify script",
                         "timeout": 0,
-                        "showstderr": false
+                        "showstderr": true
                     }
                 ],
                 "skills": [
@@ -78,7 +78,7 @@
                         "file": "verify5.sh",
                         "hint": "Please replace this text with the hint of the verify script",
                         "timeout": 0,
-                        "showstderr": false
+                        "showstderr": true
                     }
                 ],
                 "skills": ["python/generator_expression"]
@@ -127,6 +127,6 @@
         }
     },
     "backend": {
-        "imageid": "vnc-ubuntu:2004"
+        "imageid": "webide-ubuntu:2004"
     }
 }

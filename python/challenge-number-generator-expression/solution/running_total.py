@@ -1,3 +1,7 @@
+from ast import List
+from typing import Generator
+
+
 def running_total(numbers: List[int]) -> Generator[int, None, None]:
     """
     Returns a generator that yields the running total of the numbers in the input list.
