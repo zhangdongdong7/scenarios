@@ -1,7 +1,7 @@
 {
     "type": "challenge",
     "title": "Number Generator Expression",
-    "description": "In this challenge, you will implement five number generators to implement square, even, additive, Fibonacci numbers and factorials",
+    "description": "In this challenge, you will implement five number generators to implement square even running total Fibonacci numbers and factorials.",
     "difficulty": "Beginner",
     "time": 25,
     "details": {

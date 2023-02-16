@@ -1,6 +1,5 @@
 # Square Numbers Generator
 
-
 Write a function `square_numbers` that takes a list of integers as input and returns a generator that yields the square of each number in the input list.
 
 ## TODO
