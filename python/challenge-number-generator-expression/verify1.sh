@@ -1,1 +1,1 @@
-cd /tmp && python3 squares_numbers_test.py
+cd /tmp && python3 square_numbers_test.py
