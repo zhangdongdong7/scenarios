@@ -1,9 +1,8 @@
 name: proofreading
 on:
-  pull_request:
+  push:
     branches:
       - master
-permissions: write-all
 jobs:
   Proofreading:
     runs-on: ubuntu-latest
