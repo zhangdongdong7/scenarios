@@ -13,7 +13,7 @@ def running_total(numbers: List[int]) -> Generator[int, None, None]:
     Yields:
     The running total of the numbers in the input list.
     """
-    
+
     # TODO: implement this function
     # Note: Do not change the existing code
 

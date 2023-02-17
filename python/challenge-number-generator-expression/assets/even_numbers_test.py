@@ -13,6 +13,6 @@ def test_even_numbers(self):
     even_numbers = even_numbers(numbers)
     self.assertEqual(list(even_numbers), [2, 4])
 
-        
+
 if __name__ == "__main__":
     unittest.main()

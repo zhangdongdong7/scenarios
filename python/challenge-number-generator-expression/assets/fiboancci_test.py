@@ -13,6 +13,6 @@ def test_fibonacci(self):
     fibonacci_numbers = fibonacci(n)
     self.assertEqual(list(fibonacci_numbers), [0, 1, 1, 2, 3])
 
-        
+
 if __name__ == "__main__":
     unittest.main()
