@@ -1,0 +1,132 @@
+{
+    "type": "challenge",
+    "title": "Number Generator Expression",
+    "description": "In this challenge, you will implement five number generators to implement square even running total Fibonacci numbers and factorials.",
+    "difficulty": "Beginner",
+    "time": 25,
+    "details": {
+        "steps": [
+            {
+                "title": "Square Numbers Generator",
+                "text": "step1.md",
+                "verify": [
+                    {
+                        "name": "Test the implement of square_number",
+                        "file": "verify1.sh",
+                        "hint": "Please replace this text with the hint of the verify script",
+                        "timeout": 0,
+                        "showstderr": true
+                    }
+                ],
+                "skills": [
+                    "python/generator_expression"
+                ]
+            },
+            {
+                "title": "Even Numbers Generator",
+                "text": "step2.md",
+                "verify": [
+                    {
+                        "name": "Test the implement of even_number",
+                        "file": "verify2.sh",
+                        "hint": "Please replace this text with the hint of the verify script",
+                        "timeout": 0,
+                        "showstderr": true
+                    }
+                ],
+                "skills": [
+                    "python/generator_expression"]
+            },
+            {
+                "title": "Running Total Generator",
+                "text": "step3.md",
+                "verify": [
+                    {
+                        "name": "Test the implement of running_total",
+                        "file": "verify3.sh",
+                        "hint": "Please replace this text with the hint of the verify script",
+                        "timeout": 0,
+                        "showstderr": true
+                    }
+                ],
+                "skills": [
+                    "python/generator_expression"
+                ]
+            },
+            {
+                "title": "Fibonacci Numbers Generator",
+                "text": "step4.md",
+                "verify": [
+                    {
+                        "name": "Test the implement of fiboannci",
+                        "file": "verify4.sh",
+                        "hint": "Please replace this text with the hint of the verify script",
+                        "timeout": 0,
+                        "showstderr": true
+                    }
+                ],
+                "skills": [
+                    "python/generator_expression"
+                ]
+            },
+            {
+                "title": "Factorial Generator",
+                "text": "step5.md",
+                "verify": [
+                    {
+                        "name": "Test the implement of factorial",
+                        "file": "verify5.sh",
+                        "hint": "Please replace this text with the hint of the verify script",
+                        "timeout": 0,
+                        "showstderr": true
+                    }
+                ],
+                "skills": ["python/generator_expression"]
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "background": "setup.sh"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+        "assets": {
+            "host01": [
+                {
+                    "file": "square_numbers.py",
+                    "target": "/home/project",
+                    "chmod": "ugo+rwx"
+                  },
+                  {
+                    "file": "even_numbers.py",
+                    "target": "/home/project",
+                    "chmod": "ugo+rwx"
+                  },
+                  {
+                    "file": "running_total.py",
+                    "target": "/home/project",
+                    "chmod": "ugo+rwx"
+                  },
+                  {
+                    "file": "fiboannci.py",
+                    "target": "/home/project",
+                    "chmod": "ugo+rwx"
+                  },
+                  {
+                    "file": "factorial.py",
+                    "target": "/home/project",
+                    "chmod": "ugo+rwx"
+                  },
+
+                {
+                    "file": "*_test.py",
+                    "target": "/tmp"
+                }
+            ]
+        }
+    },
+    "backend": {
+        "imageid": "webide-ubuntu:2004"
+    }
+}
