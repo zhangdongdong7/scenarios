@@ -44,7 +44,8 @@
           "python/return_values",
           "python/function_basic",
           "python/function_arguments",
-          "python/len"]
+          "python/len"
+        ]
       }
     ],
     "intro": {
@@ -74,6 +75,6 @@
     }
   },
   "backend": {
-    "imageid":"webide-ubuntu:2004"
+    "imageid": "webide-ubuntu:2004"
   }
 }
