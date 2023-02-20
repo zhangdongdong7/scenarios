@@ -41,6 +41,7 @@ C = A @ B
 
 print(C) # Output: [[19 22], [43 50]]
 ```
+
 You can also get the results in another way.
 
 ```python
@@ -72,4 +73,4 @@ print(inv_A) # Output: [[-2.   1. ], [ 1.5 -0.5]]
 
 ## Exercise
 
-Now it's your turn to construct two arrays and use the `np.dot()` function to calculate the dot product. Use `@` or `np.matmul()`to calculate matrix multiplication and use `np.linalg.det()` and `np.linalg.inv()`  functions to calculate matrix determinant and inverse matrix.S
+Now it's your turn to construct two arrays and use the `np.dot()` function to calculate the dot product. Use `@` or `np.matmul()`to calculate matrix multiplication and use `np.linalg.det()` and `np.linalg.inv()` functions to calculate matrix determinant and inverse matrix.S

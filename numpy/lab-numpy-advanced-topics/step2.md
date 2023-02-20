@@ -24,7 +24,6 @@ a = np.random.randint(1, 10, size=(3, 3))
 print(a) # Output: [[8 7 3], [3 3 7], [8 8 7]]
 ```
 
-
 ## Generating Normal Distribution
 
 The `np.random.normal()` function can be used to generate numbers from a normal distribution.
