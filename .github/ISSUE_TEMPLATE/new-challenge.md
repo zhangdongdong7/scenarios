@@ -15,7 +15,7 @@ assignees: ""
 
 - **Suggest Title 建议标题**:
 - **Suggest Steps 建议步骤数**:
-- **Suggest Image 建议环境**: `webide-ubuntu:2004`
+- **Suggest Image 建议环境**: `webide-ubuntu:2204`
 
 ## Sources
 
