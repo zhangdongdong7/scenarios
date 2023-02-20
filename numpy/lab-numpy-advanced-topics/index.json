@@ -16,14 +16,14 @@
                         "hint": "You need to enter dot to continue.",
                         "timeout": 5,
                         "showstderr": false
-                    }
+                    },
                     {
                         "name": "Check whether it has been entered Matmul and @.",
                         "file": "verify1-1.sh",
                         "hint": "You need to enter Matmul and @ to continue.",
                         "timeout": 5,
                         "showstderr": false
-                    }
+                    },
                     {
                         "name": "Check whether it has been entered linalg.det and linalg.inv.",
                         "file": "verify1-2.sh",
@@ -44,14 +44,14 @@
                         "hint": "You need to enter random.rand to continue.",
                         "timeout": 5,
                         "showstderr": false
-                    }
+                    },
                     {
                         "name": "Check whether random.randint is entered.",
                         "file": "verify2-1.sh",
                         "hint": "You need to enter random.randint to continue.",
                         "timeout": 5,
                         "showstderr": false
-                    }
+                    },
                     {
                         "name": "Check whether random.normal is entered.",
                         "file": "verify2-2.sh",
@@ -72,14 +72,14 @@
                         "hint": "You need to create a Masked Array to continue.",
                         "timeout": 5,
                         "showstderr": false
-                    }
+                    },
                     {
                         "name": "Check whether a Mask is applied.",
                         "file": "verify3-1.sh",
                         "hint": "You need to apply for a Mask before continuing.",
                         "timeout": 5,
                         "showstderr": false
-                    }
+                    },
                     {
                         "name": "Check whether invalid values are masked.",
                         "file": "verify3-2.sh",
