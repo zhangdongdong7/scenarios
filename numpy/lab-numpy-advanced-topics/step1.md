@@ -43,6 +43,7 @@ C = A @ B
 
 print(C) # Output: [[19 22], [43 50]]
 ```
+
 You can also get the results in another way.
 
 ```python
