@@ -2,7 +2,7 @@
 
 `chmod` is command that used to change the access rights of a file or directory on Linux OS, and use it to control the access rights of files or directories.
 
-Now you need to use the `chmod` command to set the file permissions. 
+Now you need to use the `chmod` command to set the file permissions.
 
 > Tip: You need to use an administrator account or use an account with sudo privileges
 

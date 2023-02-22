@@ -13,4 +13,3 @@ Now ask you to complete the `target_file` file retrieval operation.
 ## Requirements
 
 - must use the `touch` command.
-
