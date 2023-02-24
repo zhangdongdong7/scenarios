@@ -1,8 +1,8 @@
 Challenge: Copying Files from Local to Remote using scp
 
 ## Introduction
- 
-In  Linux, The scp command is used to remotely copy files under Linux. Files can be copied across servers and the scp transmission is encrypted.
+
+In Linux, The scp command is used to remotely copy files under Linux. Files can be copied across servers and the scp transmission is encrypted.
 
 ## Target
 
@@ -13,7 +13,6 @@ The goal of this challenge is to copy a file from your local machine to a remote
 Create a file on the local host for transfer.
 Connected to remote host Successfully.
 Upload the file to the remote host.
-
 
 ## Requirements
 

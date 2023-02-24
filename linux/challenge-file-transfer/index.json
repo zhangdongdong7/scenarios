@@ -41,13 +41,13 @@
           }
         ]
       },
-	  {
+      {
         "title": "Copying Files from Local to Remote using scp.",
         "text": "step3.md",
         "skills": ["linux/scp"],
         "verify": [
           {
-           "name": "Check whether the file to be copied exists.",
+            "name": "Check whether the file to be copied exists.",
             "file": "verify3-1.sh",
             "hint": "Please touch a file named haha.txtx in /.",
             "timeout": 5,
@@ -71,7 +71,7 @@
       "text": "finish.md"
     }
   },
-	"backend": {
-	  "imageid": "vnc-ubuntu:2004"
+  "backend": {
+    "imageid": "vnc-ubuntu:2004"
   }
 }

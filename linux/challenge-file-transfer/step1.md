@@ -1,8 +1,8 @@
 Challenge: Connecting to a Remote Server using sftp
 
 ## Introduction
- 
-In  Linux, the default port of SFTP is 22.The transmission provides a password and key verification mechanism, which can effectively prevent the threat and public technology in the transmission process.
+
+In Linux, the default port of SFTP is 22.The transmission provides a password and key verification mechanism, which can effectively prevent the threat and public technology in the transmission process.
 
 ## Target
 

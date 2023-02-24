@@ -1,8 +1,8 @@
 Challenge: Connecting to a Remote Server using ftp
 
 ## Introduction
- 
-In  Linux, fTP is a protocol used to transfer files (File Transfer Protocol). It is a document transfer standard formulated for us to transfer files to each other on the Internet, which specifies how to transfer files on the Internet.
+
+In Linux, fTP is a protocol used to transfer files (File Transfer Protocol). It is a document transfer standard formulated for us to transfer files to each other on the Internet, which specifies how to transfer files on the Internet.
 
 ## Target
 
