@@ -32,11 +32,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "numpy/reshape",
-          "numpy/array",
-          "python/print"
-                  ]
+        "skills": ["numpy/reshape", "numpy/array", "python/print"]
       },
       {
         "title": "Concatenating and Splitting Arrays",
@@ -63,7 +59,6 @@
             "timeout": 0,
             "showstderr": false
           }
-
         ],
         "skills": [
           "numpy/concatenate",
@@ -85,11 +80,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "numpy/transpose",
-          "numpy/array",
-          "python/print"
-        ]
+        "skills": ["numpy/transpose", "numpy/array", "python/print"]
       }
     ],
     "intro": {
