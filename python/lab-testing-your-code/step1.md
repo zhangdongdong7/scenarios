@@ -12,6 +12,7 @@ Let's start with a simple function that returns the sum of two numbers. In **my_
 def add_numbers(a, b):
     return a + b
 ```
+
 Now let's write a test for this function in **test_my_code.py**. First, we need to import the **unittest** module and the **add_numbers**function.
 
 ```python
@@ -34,6 +35,7 @@ class TestAddNumbers(unittest.TestCase):
         result = add_numbers(2, 3)
         self.assertEqual(result, 5)
 ```
+
 Now we can run our tests using the following command:
 
 ```
