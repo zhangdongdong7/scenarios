@@ -39,11 +39,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "numpy/array_slicing",
-          "numpy/array", 
-          "python/print"
-      ]
+        "skills": ["numpy/array_slicing", "numpy/array", "python/print"]
       },
       {
         "title": "Indexing with Boolean Arrays",
@@ -66,7 +62,7 @@
         ],
         "skills": [
           "numpy/array_indexing",
-          "numpy/array", 
+          "numpy/array",
           "python/comparison",
           "python/print"
         ]
@@ -90,11 +86,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "numpy/array_indexing",
-          "numpy/array",
-          "python/print"
-        ]
+        "skills": ["numpy/array_indexing", "numpy/array", "python/print"]
       }
     ],
     "intro": {
