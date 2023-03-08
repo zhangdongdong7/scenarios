@@ -27,7 +27,7 @@ None
 
 ## Requirements
 
-* Write a function second_smallest(numbers) that implements the solution in Python.
-* Use the Walrus Operator in your solution.
-* Your solution should be efficient in terms of time and space complexity.
-* Your solution should be clear, readable, and well-documented.
+- Write a function second_smallest(numbers) that implements the solution in Python.
+- Use the Walrus Operator in your solution.
+- Your solution should be efficient in terms of time and space complexity.
+- Your solution should be clear, readable, and well-documented.
