@@ -74,7 +74,11 @@
             "showstderr": true
           }
         ],
-        "skills": ["python/list_comprehension", "python/function_basic", "python/data_types"]
+        "skills": [
+          "python/list_comprehension",
+          "python/function_basic",
+          "python/data_types"
+        ]
       }
     ],
     "intro": {
