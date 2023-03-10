@@ -18,7 +18,7 @@
             "showstderr": true
           }
         ],
-        "skills": [          
+        "skills": [
           "python/dict",
           "python/__getitem__",
           "python/__setitem__",
@@ -44,7 +44,7 @@
           "python/__setitem__",
           "python/__delitem__",
           "python/__len__",
-          "python/__contains__", 
+          "python/__contains__",
           "python/__iter__"
         ]
       }
