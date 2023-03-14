@@ -8,7 +8,7 @@ For example:
 
 Given `s1 = MyString('Hello')` and `s2 = MyString('World')`, and then add up s1 and s2. The output of the `print` function should be 'HelloWorld'.
 
-``` python
+```python
 s1 = MyString('Hello')
 
 s2 = MyString('World')
