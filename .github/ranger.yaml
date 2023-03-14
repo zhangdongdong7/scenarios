@@ -3,4 +3,4 @@ default:
     message: "Hi, $AUTHOR\n请确保遵循了我们 [贡献指南](https://labex.wiki/) 的全部要求。请将 PR 关联 Issue 的创建者添加为 Reviewer，我们会尽快 Review。\nPlease make sure you have followed our [CONTRIBUTING GUIDELINES](https://labex.wiki/). Please add the creator of the Issue as a Reviewer for the PR. We will review it as soon as possible."
 
 labels:
-  "Test Complete": comment
+  "Test Completed": comment
