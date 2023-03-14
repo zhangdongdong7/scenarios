@@ -97,11 +97,7 @@
             "showstderr": true
           }
         ],
-        "skills": [
-          "python/__lt__",
-          "python/sorted",
-          "python/comparison"
-        ]
+        "skills": ["python/__lt__", "python/sorted", "python/comparison"]
       }
     ],
     "intro": {
