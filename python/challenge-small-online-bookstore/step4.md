@@ -30,4 +30,3 @@ print(f'Total revenue generated: ${revenue:.2f}')
 # Close the database connection
 conn.close()
 ```
-

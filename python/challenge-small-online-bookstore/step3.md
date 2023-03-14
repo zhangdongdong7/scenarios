@@ -26,4 +26,3 @@ record_order(c, 1, 3, '2023-02-22')
 # Close the database connection
 conn.close()
 ```
-

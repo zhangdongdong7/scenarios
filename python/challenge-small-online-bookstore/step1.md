@@ -20,4 +20,3 @@ add_book(c, 'The Great Gatsby', 'F. Scott Fitzgerald', 15.99)
 # Close the database connection
 conn.close()
 ```
-

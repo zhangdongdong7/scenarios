@@ -23,4 +23,3 @@ update_price(c, 'The Great Gatsby', 19.99)
 # Close the database connection
 conn.close()
 ```
-
