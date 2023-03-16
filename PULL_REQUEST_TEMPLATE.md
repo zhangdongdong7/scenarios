@@ -5,7 +5,7 @@ Please paste the links to the issues related to this PR below.
 请将本 PR 相关的 issues 的链接贴下方：
 
 - Example: `fix https://github.com/labex-labs/scenarios/issues/18`
-- Your Issue: fix 
+- Your Issue: fix
 
 请保留上方链接前的 `fix ` 关键字，确保 issue 可以在 PR 合并后自动关闭。
 
