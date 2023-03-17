@@ -6,7 +6,7 @@ In this step, let's use the walrus operator within a list comprehension.
 
 Assignment expressions can also be used in list comprehensions.
 
-Example: 
+Example:
 
 ```python
 """

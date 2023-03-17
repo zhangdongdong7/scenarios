@@ -4,7 +4,7 @@ In this step, let's start with a simple example of using the walrus operator.
 
 ## Syntax format
 
-Assignment expressions differ from normal assignment expressions in that they require parentheses next to the assignment statement when assigning a value to a variable. 
+Assignment expressions differ from normal assignment expressions in that they require parentheses next to the assignment statement when assigning a value to a variable.
 
 Example:
 

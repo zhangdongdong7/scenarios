@@ -7,7 +7,7 @@ In this step, we will use the walrus operator to simplify a while loop.
 Assignment expressions can also simplify the steps of a loop.
 
 Example:
-   
+
 ```python
 """
 Enter a data and determine if it is equal to "123".
