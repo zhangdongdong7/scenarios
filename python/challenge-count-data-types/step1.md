@@ -2,14 +2,14 @@
 
 The list may contain the following data types:
 
-* int
-* float
-* str
-* bool
-* list
-* tuple
-* dict
-* set
+- int
+- float
+- str
+- bool
+- list
+- tuple
+- dict
+- set
 
 ## TODO
 
@@ -43,5 +43,5 @@ Output:
 
 ## Requirements
 
-* The input list may contain different types of data in any order.
-* Your solution should be efficient in terms of time and space complexity.
+- The input list may contain different types of data in any order.
+- Your solution should be efficient in terms of time and space complexity.
