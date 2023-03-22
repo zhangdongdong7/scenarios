@@ -4,7 +4,7 @@ The first sub-challenge requires participants to install `conda` program.
 
 We recommend using the following link to ensure that the next sub-challenges are successfully passed.
 
-``` bash
+```bash
 https://repo.anaconda.com/miniconda/Miniconda3-py310_23.1.0-1-Linux-x86_64.sh
 ```
 

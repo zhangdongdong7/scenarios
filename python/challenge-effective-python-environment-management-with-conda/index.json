@@ -30,13 +30,15 @@
             "hint": "The cerberus package does not exist.",
             "timeout": 0,
             "showstderr": false
-          },{
+          },
+          {
             "name": "Test for the existence of the watchdog package in package_management environment.",
             "file": "verify2-2.sh",
             "hint": "The watchdog package does not exist.",
             "timeout": 0,
             "showstderr": false
-          },{
+          },
+          {
             "name": "Test for the existence of the arrow package in package_management environment.",
             "file": "verify2-3.sh",
             "hint": "The arrow package exists.",
@@ -56,37 +58,43 @@
             "hint": "The h5py package exists in the environment_management environment.",
             "timeout": 0,
             "showstderr": false
-          },{
+          },
+          {
             "name": "Test the existence of scipy package in environment_management environment.",
             "file": "verify3-2.sh",
             "hint": "The scipy package exists in the environment_management environment.",
             "timeout": 0,
             "showstderr": false
-          },{
+          },
+          {
             "name": "Test the existence of nose package in environment_management environment.",
             "file": "verify3-3.sh",
             "hint": "The nose package exists in the environment_management environment.",
             "timeout": 0,
             "showstderr": false
-          },{
+          },
+          {
             "name": "Test if environment.yml file exists in environment_management environment.",
             "file": "verify3-4.sh",
             "hint": "The environment.yml file does not exist.",
             "timeout": 0,
             "showstderr": false
-          },{
+          },
+          {
             "name": "Test the existence of h5py package in imported_environment environment.",
             "file": "verify3-5.sh",
             "hint": "The h5py package exists in the imported_environment environment.",
             "timeout": 0,
             "showstderr": false
-          },{
+          },
+          {
             "name": "Test the existence of scipy package in imported_environment environment.",
             "file": "verify3-6.sh",
             "hint": "The scipy package exists in the imported_environment environment.",
             "timeout": 0,
             "showstderr": false
-          },{
+          },
+          {
             "name": "Test the existence of nose package in imported_environment environment.",
             "file": "verify3-7.sh",
             "hint": "The nose package exists in the imported_environment environment.",
