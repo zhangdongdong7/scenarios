@@ -1,4 +1,4 @@
-# * operator
+# \* operator
 
 The `*` operator also performs element-wise multiplication between two arrays, but it behaves slightly differently than `numpy.multiply`. If the two arrays have the same shape, the `*` operator will perform element-wise multiplication, just like `numpy.multiply`. However, if one of the arrays is a scalar value, the `*` operator will perform scalar multiplication on every element of the other array.
 
