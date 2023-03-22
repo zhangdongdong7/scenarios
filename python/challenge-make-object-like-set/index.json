@@ -16,25 +16,29 @@
             "hint": "Failed to initialize magic_set object.",
             "timeout": 0,
             "showstderr": true
-          },{
+          },
+          {
             "name": "Testing add method in the magic_set object.",
             "file": "verify1-2.sh",
             "hint": "The return value of the add method does not match the expected.",
             "timeout": 0,
             "showstderr": true
-          },{
+          },
+          {
             "name": "Testing remove method in the magic_set object.",
             "file": "verify1-3.sh",
             "hint": "The return value of the remove method does not match the expected.",
             "timeout": 0,
             "showstderr": true
-          },{
+          },
+          {
             "name": "Testing clear method in the magic_set object.",
             "file": "verify1-4.sh",
             "hint": "The return value of the clear method does not match the expected.",
             "timeout": 0,
             "showstderr": true
-          },{
+          },
+          {
             "name": "Testing __str__ method in the magic_set object.",
             "file": "verify1-5.sh",
             "hint": "The return value of the __str__ method does not match the expected.",
@@ -42,11 +46,7 @@
             "showstderr": true
           }
         ],
-        "skills": [
-          "python/list",
-          "python/__init__",
-          "python/__str__"
-        ]
+        "skills": ["python/list", "python/__init__", "python/__str__"]
       },
       {
         "title": "Implementing len",
@@ -60,10 +60,7 @@
             "showstderr": true
           }
         ],
-        "skills": [
-          "python/list",
-          "python/__len__"
-        ]
+        "skills": ["python/list", "python/__len__"]
       },
       {
         "title": "Implementing contains",
@@ -77,10 +74,7 @@
             "showstderr": true
           }
         ],
-        "skills": [
-          "python/list",
-          "python/__contains__"
-        ]
+        "skills": ["python/list", "python/__contains__"]
       },
       {
         "title": "Implementing iter and next",
@@ -92,7 +86,8 @@
             "hint": "Error testing __iter__ method",
             "timeout": 0,
             "showstderr": true
-          },{
+          },
+          {
             "name": "Testing __next__ method in the magic_set object.",
             "file": "verify4-2.sh",
             "hint": "Error testing __next__ method",
@@ -100,11 +95,7 @@
             "showstderr": true
           }
         ],
-        "skills": [
-          "python/list",
-          "python/__iter__",
-          "python/next"
-        ]
+        "skills": ["python/list", "python/__iter__", "python/next"]
       },
       {
         "title": "Implementing eq and ne",
@@ -116,7 +107,8 @@
             "hint": "Error testing __eq__ method",
             "timeout": 0,
             "showstderr": true
-          },{
+          },
+          {
             "name": "Testing __ne__ method in the magic_set object.",
             "file": "verify5-2.sh",
             "hint": "Error testing __ne__ method",
@@ -124,11 +116,7 @@
             "showstderr": true
           }
         ],
-        "skills": [
-          "python/list",
-          "python/__eq__",
-          "python/__ne__"
-        ]
+        "skills": ["python/list", "python/__eq__", "python/__ne__"]
       },
       {
         "title": "Implementing and, or, and sub",
@@ -140,13 +128,15 @@
             "hint": "Error testing __and__ method",
             "timeout": 0,
             "showstderr": true
-          },{
+          },
+          {
             "name": "Testing __or__ method in the magic_set object.",
             "file": "verify6-2.sh",
             "hint": "Error testing __or__ method",
             "timeout": 0,
             "showstderr": true
-          },{
+          },
+          {
             "name": "Testing __sub__ method in the magic_set object.",
             "file": "verify6-3.sh",
             "hint": "Error testing __sub__ method",
