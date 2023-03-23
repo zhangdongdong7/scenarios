@@ -18,7 +18,10 @@
             "showstderr": false
           }
         ],
-        "skills": ["skill/id"]
+        "skills": ["skill/id"],
+        "solutions": [
+            "step1-solution.md"
+        ]
       },
       {
         "title": "Please replace this text with the title of the step",
@@ -32,7 +35,10 @@
             "showstderr": false
           }
         ],
-        "skills": ["skill/id"]
+        "skills": ["skill/id"],
+        "solutions": [
+            "step2-solution.md"
+        ]
       },
       {
         "title": "Please replace this text with the title of the step",
@@ -46,7 +52,10 @@
             "showstderr": false
           }
         ],
-        "skills": ["skill/id"]
+        "skills": ["skill/id"],
+        "solutions": [
+            "step3-solution.md"
+        ]
       }
     ],
     "intro": {
