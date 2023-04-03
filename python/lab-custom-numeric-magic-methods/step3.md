@@ -19,7 +19,7 @@ a += b
 print(f'after a+=b: {a.value=}')  # Output:after a+=b: (a+b).value=8
 ```
 
-To run the example, type the following command in the terminal: 
+To run the example, type the following command in the terminal:
 
 ```bash
 python inplace_example1.py
@@ -146,43 +146,43 @@ a = MyNumber(13)
 
 # Use the __iadd__ method
 a += MyNumber(5)
-# Output: 
+# Output:
 # input: self.value=13, other.value=5
 # after +=: self.value=18
 
 # Use the __isub__ method
 a -= MyNumber(5)
-# Output: 
+# Output:
 # input: self.value=18, other.value=5
 # after -=: self.value=13
 
 # Use the __imul__ method
 a *= MyNumber(5)
-# Output: 
+# Output:
 # input: self.value=13, other.value=5
 # after *=: self.value=65
 
 # Use the __itruediv__ method
 a /= MyNumber(5)
-# Output: 
+# Output:
 # input: self.value=65, other.value=5
 # after /=: self.value=13.0
 
 # Use the __ifloordiv__ method
 a //= MyNumber(2)
-# Output: 
+# Output:
 # input: self.value=13.0, other.value=2
 # after //=: self.value=6.0
 
 # Use the __imod__ method
 a %= MyNumber(4)
-# Output: 
+# Output:
 # input: self.value=6.0, other.value=4
 # after %=: self.value=2.0
 
 # Use the __ipow__ method
 a **= MyNumber(3)
-# Output: 
+# Output:
 # input: self.value=2.0, other.value=3
 # after **=: self.value=8.0
 ```
