@@ -18,10 +18,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "python/threading",
-          "python/print"
-        ]
+        "skills": ["python/threading", "python/print"]
       },
       {
         "title": "Synchronization",
@@ -35,11 +32,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-            "python/threading",
-            "python/print",
-            "python/for_loop"
-        ]
+        "skills": ["python/threading", "python/print", "python/for_loop"]
       },
       {
         "title": "Thread with Arguments",
@@ -60,11 +53,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-            "python/threading",
-            "python/print",
-            "python/class"
-        ]
+        "skills": ["python/threading", "python/print", "python/class"]
       },
       {
         "title": "Thread Pool",
@@ -86,10 +75,10 @@
           }
         ],
         "skills": [
-            "python/threading",
-            "python/print",
-            "python/with_statement",
-            "python/for_loop"
+          "python/threading",
+          "python/print",
+          "python/with_statement",
+          "python/for_loop"
         ]
       },
       {
@@ -112,10 +101,10 @@
           }
         ],
         "skills": [
-            "python/threading",
-            "python/print",
-            "python/with_statement",
-            "python/while_loop"
+          "python/threading",
+          "python/print",
+          "python/with_statement",
+          "python/while_loop"
         ]
       },
       {
@@ -130,10 +119,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-            "python/threading",
-            "python/print"
-        ]
+        "skills": ["python/threading", "python/print"]
       },
       {
         "title": "Timer Object",
@@ -147,10 +133,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-            "python/threading",
-            "python/print"
-        ]
+        "skills": ["python/threading", "python/print"]
       },
       {
         "title": "Barrier Object",
@@ -164,11 +147,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-            "python/threading",
-            "python/print",
-            "python/for_loop"
-        ]
+        "skills": ["python/threading", "python/print", "python/for_loop"]
       }
     ],
     "intro": {
@@ -180,11 +159,11 @@
     },
     "assets": {
       "host01": [
-          {
-            "file": "*.py",
-            "target": "/home/labex/project",
-            "chmod": "777"
-          }
+        {
+          "file": "*.py",
+          "target": "/home/labex/project",
+          "chmod": "777"
+        }
       ]
     }
   },
