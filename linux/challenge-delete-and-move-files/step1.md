@@ -10,5 +10,5 @@ Delete the file `mytextfile.txt` from the current directory.
 
 ## Requirements
 
-* You should work on the Linux terminal in the `challenge1` directory.
-* The `mytextfile.txt` file must be removed using the `rm` command.
+- You should work on the Linux terminal in the `challenge1` directory.
+- The `mytextfile.txt` file must be removed using the `rm` command.

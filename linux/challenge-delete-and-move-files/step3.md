@@ -6,14 +6,14 @@ The folder `challenge3` was created on Desktop. It contains a file named `mytext
 
 ## TODO
 
-* Change the mod bits of the directory `challenge3` to `777`.
-* Move the file `mytextfile.txt` to the current directory.
+- Change the mod bits of the directory `challenge3` to `777`.
+- Move the file `mytextfile.txt` to the current directory.
 
 ## Requirements
 
-* You should work on the Linux terminal in the `challenge3` directory.
-* The `mytextfile.txt` file must be moved using the `mv` command.
-* You should rename the moved file.
+- You should work on the Linux terminal in the `challenge3` directory.
+- The `mytextfile.txt` file must be moved using the `mv` command.
+- You should rename the moved file.
 
 ## Hint
 
