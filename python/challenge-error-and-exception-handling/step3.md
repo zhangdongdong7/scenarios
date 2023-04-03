@@ -20,4 +20,5 @@ This sub-challenge aims to teach you how to create comprehensive test cases and 
 - Make sure to cover different scenarios and edge cases to test the robustness of your program.
 
 ## Tips
+
 - You can use the `patch` function under the `unittest.mock` module to prevent the `sleep` function from sleeping.

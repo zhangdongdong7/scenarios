@@ -16,37 +16,43 @@
             "hint": "Three exceptions not realized",
             "timeout": 0,
             "showstderr": true
-          },{
+          },
+          {
             "name": "Test the read_data_from_file function with the variable '/home/labex/project/example.txt'",
             "file": "verify1-2.sh",
             "hint": "Test error",
             "timeout": 0,
             "showstderr": true
-          },{
+          },
+          {
             "name": "Test the read_data_from_file function with the variable 'on_existent_file.txt'",
             "file": "verify1-3.sh",
             "hint": "Test error",
             "timeout": 0,
             "showstderr": true
-          },{
+          },
+          {
             "name": "Test the process_data function with the variable 'example content'",
             "file": "verify1-4.sh",
             "hint": "Test error",
             "timeout": 0,
             "showstderr": true
-          },{
+          },
+          {
             "name": "Test the process_data function with an empty string",
             "file": "verify1-5.sh",
             "hint": "Test error",
             "timeout": 0,
             "showstderr": true
-          },{
+          },
+          {
             "name": "Test the main function when the file pointed to by the variable '/home/labex/project/example.txt' does not exist",
             "file": "verify1-6.sh",
             "hint": "Test error",
             "timeout": 0,
             "showstderr": true
-          },{
+          },
+          {
             "name": "Test the main function when there is a file pointed to by the variable '/home/labex/project/example.txt'",
             "file": "verify1-7.sh",
             "hint": "Test error",
@@ -54,7 +60,11 @@
             "showstderr": true
           }
         ],
-        "skills": ["python/logging", "python/try_except", "python/raise_errors"],
+        "skills": [
+          "python/logging",
+          "python/try_except",
+          "python/raise_errors"
+        ],
         "solutions": ["custom_exceptions_and_logging.py"]
       },
       {
@@ -67,13 +77,15 @@
             "hint": "Test error",
             "timeout": 0,
             "showstderr": true
-          },{
+          },
+          {
             "name": "Test the perform_critical_operation function with an empty string",
             "file": "verify2-2.sh",
             "hint": "Test error",
             "timeout": 0,
             "showstderr": true
-          },{
+          },
+          {
             "name": "Test the main function",
             "file": "verify2-3.sh",
             "hint": "Test error",
@@ -81,7 +93,12 @@
             "showstderr": true
           }
         ],
-        "skills": ["python/decorator", "python/logging", "python/try_except", "python/raise_errors"],
+        "skills": [
+          "python/decorator",
+          "python/logging",
+          "python/try_except",
+          "python/raise_errors"
+        ],
         "solutions": ["graceful_error_recovery.py"]
       },
       {
@@ -96,7 +113,11 @@
             "showstderr": true
           }
         ],
-        "skills": ["python/try_except", "python/raise_errors", "python/unittest"],
+        "skills": [
+          "python/try_except",
+          "python/raise_errors",
+          "python/unittest"
+        ],
         "solutions": ["automated_testing.py"]
       }
     ],
@@ -113,19 +134,23 @@
           "file": "*_test.py",
           "target": "/tmp",
           "chmod": "777"
-        },{
+        },
+        {
           "file": "example.txt",
           "target": "/home/labex/project",
           "chmod": "777"
-        },{
+        },
+        {
           "file": "custom_exceptions_and_logging.py",
           "target": "/home/labex/project",
           "chmod": "777"
-        },{
+        },
+        {
           "file": "graceful_error_recovery.py",
           "target": "/home/labex/project",
           "chmod": "777"
-        },{
+        },
+        {
           "file": "automated_testing.py",
           "target": "/home/labex/project",
           "chmod": "777"
