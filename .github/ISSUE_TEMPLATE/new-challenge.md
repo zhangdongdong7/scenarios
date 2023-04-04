@@ -2,7 +2,7 @@
 name: New Challenge Scenario
 about: Create a new Challenge
 title: challenge-name-use-lowercase
-labels: New,Challenge,Easy,Pending Review
+labels: New,Challenge,Easy,Pending Review,
 assignees: "huhuhang"
 ---
 

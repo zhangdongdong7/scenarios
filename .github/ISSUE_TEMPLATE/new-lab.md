@@ -2,7 +2,7 @@
 name: New Lab Scenario
 about: Create a new Lab
 title: lab-name-use-lowercase
-labels: New,Lab,Easy,Pending Review
+labels: New,Lab,Easy,Pending Review,
 assignees: "huhuhang"
 ---
 
