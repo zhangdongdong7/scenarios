@@ -32,9 +32,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "python/itertools","python/for_loop","python/list"
-        ]
+        "skills": ["python/itertools", "python/for_loop", "python/list"]
       },
       {
         "title": "Combinatoric Itertools Functions",
@@ -69,7 +67,7 @@
             "showstderr": false
           }
         ],
-        "skills": ["python/itertools","python/for_loop","python/list"]
+        "skills": ["python/itertools", "python/for_loop", "python/list"]
       }
     ],
     "intro": {
