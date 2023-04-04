@@ -12,7 +12,6 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
       - name: Get the changed files
-        uses: trilom/file-changes-action@v1.2.4
         id: changed-files-specific
         uses: tj-actions/changed-files@v35
       - name: Formatting files
