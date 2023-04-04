@@ -2,7 +2,7 @@ class MathExpression:
     def __init__(self, value: int):
         self.value = value
 
-    def __pow__(self, other: 'MathExpression') -> 'MathExpression':
+    def __pow__(self, other: "MathExpression") -> "MathExpression":
         """Raises one instance of the class to the power of another.
 
         Args:
@@ -11,9 +11,9 @@ class MathExpression:
         Returns:
             MathExpression: A new MathExpression object containing the computed result
         """
-        return MathExpression(self.value ** other.value)
+        return MathExpression(self.value**other.value)
 
-    def __mod__(self, other: 'MathExpression') -> 'MathExpression':
+    def __mod__(self, other: "MathExpression") -> "MathExpression":
         """Returns the modulo of one instance of the class by another.
 
         Args:
@@ -24,7 +24,7 @@ class MathExpression:
         """
         return MathExpression(self.value % other.value)
 
-    def __floordiv__(self, other: 'MathExpression') -> 'MathExpression':
+    def __floordiv__(self, other: "MathExpression") -> "MathExpression":
         """Returns the floor division of one instance of the class by another.
 
         Args:
@@ -34,7 +34,7 @@ class MathExpression:
             MathExpression: A new MathExpression object containing the computed result
         """
         return MathExpression(self.value // other.value)
-    
+
     def __str__(self) -> str:
         """Returns a string representation of the value of the instance.
 

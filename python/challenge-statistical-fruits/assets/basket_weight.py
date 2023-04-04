@@ -1,4 +1,3 @@
-
 def basket_weight(baskets: dict(str, list)) -> list[dict(str, str | float)]:
     """
     Give a map with values are list, sum each value and sorted, then return the key and sum value
@@ -13,5 +12,3 @@ def basket_weight(baskets: dict(str, list)) -> list[dict(str, str | float)]:
     # Note: Do not change the existing code
     result = None
     return result
-
-

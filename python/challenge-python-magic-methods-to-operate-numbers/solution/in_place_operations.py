@@ -2,7 +2,7 @@ class MathExpression:
     def __init__(self, value: int):
         self.value = value
 
-    def __iadd__(self, other: 'MathExpression') -> 'MathExpression':
+    def __iadd__(self, other: "MathExpression") -> "MathExpression":
         """Adds another instance of the class to the current instance.
 
         Args:
@@ -14,7 +14,7 @@ class MathExpression:
         self.value += other.value
         return self
 
-    def __isub__(self, other: 'MathExpression') -> 'MathExpression':
+    def __isub__(self, other: "MathExpression") -> "MathExpression":
         """Subtracts another instance of the class from the current instance.
 
         Args:
@@ -26,7 +26,7 @@ class MathExpression:
         self.value -= other.value
         return self
 
-    def __imul__(self, other: 'MathExpression') -> 'MathExpression':
+    def __imul__(self, other: "MathExpression") -> "MathExpression":
         """Multiplies another instance of the class with the current instance.
 
         Args:
@@ -38,7 +38,7 @@ class MathExpression:
         self.value *= other.value
         return self
 
-    def __itruediv__(self, other: 'MathExpression') -> 'MathExpression':
+    def __itruediv__(self, other: "MathExpression") -> "MathExpression":
         """Divides the current instance by another instance of the class.
 
         Args:
@@ -49,7 +49,7 @@ class MathExpression:
         """
         self.value /= other.value
         return self
-    
+
     def __str__(self) -> str:
         """Returns a string representation of the value of the instance.
 

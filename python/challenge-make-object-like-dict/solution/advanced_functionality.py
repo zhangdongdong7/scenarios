@@ -1,5 +1,6 @@
 from typing import Any, List, Iterator
 
+
 class DictLikeObject:
     """
     A class that behaves like a dictionary using magic methods.
@@ -21,7 +22,7 @@ class DictLikeObject:
         Raises:
             KeyError: If the key does not exist in the dictionary.
         """
-        
+
         return self._data[key]
 
     def __setitem__(self, key: str, value: Any) -> None:

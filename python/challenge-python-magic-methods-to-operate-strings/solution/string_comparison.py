@@ -2,7 +2,7 @@ class MyString:
     def __init__(self, string: str):
         self.string = string
 
-    def __eq__(self, other: 'MyString') -> bool:
+    def __eq__(self, other: "MyString") -> bool:
         """Compare two MyString objects for equality.
 
         Args:
@@ -13,7 +13,7 @@ class MyString:
         """
         return self.string == other.string
 
-    def __ne__(self, other: 'MyString') -> bool:
+    def __ne__(self, other: "MyString") -> bool:
         """Compare two MyString objects for inequality.
 
         Args:
@@ -24,7 +24,7 @@ class MyString:
         """
         return self.string != other.string
 
-    def __lt__(self, other: 'MyString') -> bool:
+    def __lt__(self, other: "MyString") -> bool:
         """Compare two MyString objects for less than.
 
         Args:
@@ -35,7 +35,7 @@ class MyString:
         """
         return self.string < other.string
 
-    def __le__(self, other: 'MyString') -> bool:
+    def __le__(self, other: "MyString") -> bool:
         """Compare two MyString objects for less than or equal to.
 
         Args:
@@ -46,7 +46,7 @@ class MyString:
         """
         return self.string <= other.string
 
-    def __gt__(self, other: 'MyString') -> bool:
+    def __gt__(self, other: "MyString") -> bool:
         """Compare two MyString objects for greater than.
 
         Args:
@@ -57,7 +57,7 @@ class MyString:
         """
         return self.string > other.string
 
-    def __ge__(self, other: 'MyString') -> bool:
+    def __ge__(self, other: "MyString") -> bool:
         """Compare two MyString objects for greater than or equal to.
 
         Args:

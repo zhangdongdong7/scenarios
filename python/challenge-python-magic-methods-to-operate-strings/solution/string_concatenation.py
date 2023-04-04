@@ -2,7 +2,7 @@ class MyString:
     def __init__(self, string: str):
         self.string = string
 
-    def __add__(self, other: 'MyString') -> 'MyString':
+    def __add__(self, other: "MyString") -> "MyString":
         """Concatenate two MyString objects.
 
         Args:

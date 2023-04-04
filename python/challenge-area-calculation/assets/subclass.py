@@ -1,14 +1,16 @@
 class Circle:
     """
-    Initialize Circle here. 
+    Initialize Circle here.
     """
+
     # TODO: implement this class
     # Note: Do not change the existing code
 
 
 class Square:
     """
-    Initialize Square here. 
+    Initialize Square here.
     """
+
     # TODO: implement this class
     # Note: Do not change the existing code

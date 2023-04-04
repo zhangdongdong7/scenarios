@@ -16,18 +16,15 @@ ftp -v -n 192.168.15.128
 user qyx 054422
 binary
 cd /home/qyx/
-lcd  /
+lcd /
 prompt
 put haha.txt
 get hehe.txt
 bye
-
 ```
 
 ## Task 3 Solution
 
 ```bash
-
 sshpass -p 054422 scp /haha.txt root@192.168.15.128:/root/
-
 ```

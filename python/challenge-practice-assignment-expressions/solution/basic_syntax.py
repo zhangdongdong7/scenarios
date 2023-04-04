@@ -5,6 +5,6 @@ def basic_syntax() -> int:
     Returns:
         int: The value of the answer variable.
     """
-    
+
     (answers := 42)
     return answers

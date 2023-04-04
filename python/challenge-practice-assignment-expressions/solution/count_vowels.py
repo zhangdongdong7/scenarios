@@ -8,4 +8,4 @@ def count_vowels(s: str) -> int:
     Returns:
         int: The number of vowels in the input string.
     """
-    return sum((count := c.lower() in 'aeiou') for c in s)
+    return sum((count := c.lower() in "aeiou") for c in s)

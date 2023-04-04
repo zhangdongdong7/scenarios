@@ -6,9 +6,9 @@ example of input:
 
 ```json
 {
-    "apple": [1, 2.3, 4, 5],
-    "orange": [3],
-    "banana": [4, 5, 6]
+  "apple": [1, 2.3, 4, 5],
+  "orange": [3],
+  "banana": [4, 5, 6]
 }
 ```
 
@@ -16,18 +16,18 @@ return value example:
 
 ```json
 [
-    {
-        "name": "banana",
-        "weight": 15
-    },
-    {
-        "name": "apple",
-        "weight": 12.3
-    },
-    {
-        "name": "orange",
-        "weight": 3
-    }
+  {
+    "name": "banana",
+    "weight": 15
+  },
+  {
+    "name": "apple",
+    "weight": 12.3
+  },
+  {
+    "name": "orange",
+    "weight": 3
+  }
 ]
 ```
 

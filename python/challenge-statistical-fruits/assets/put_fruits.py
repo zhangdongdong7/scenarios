@@ -15,4 +15,3 @@ def put_fruits() -> tuple(float, list[float]):
     # Note: Do not change the existing code
 
     return total_weight, fruits
-

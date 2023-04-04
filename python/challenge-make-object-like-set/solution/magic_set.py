@@ -1,5 +1,6 @@
 from typing import Iterator
 
+
 class magic_set:
     """
     A class that behaves like a set using magic methods.
@@ -22,7 +23,7 @@ class magic_set:
         """Initializes an empty set."""
         self._index = 0
         self._data = []
-    
+
     def add(self, item: object) -> None:
         """Adds an element to the set."""
         if item not in self._data:
@@ -36,11 +37,11 @@ class magic_set:
     def clear(self) -> None:
         """Removes all elements from the set."""
         self._data.clear()
-        
+
     def __str__(self) -> str:
         """Returns a string representation of the set."""
         return f"{set(self._data)}"
-    
+
     def __len__(self) -> int:
         """Returns the number of elements in the set."""
         return len(self._data)

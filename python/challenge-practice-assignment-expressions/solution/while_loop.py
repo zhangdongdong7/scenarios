@@ -5,9 +5,9 @@ def while_loop() -> int:
     Returns:
         int: The sum of the entered numbers.
     """
-    
+
     total = 0
     while (number := int(input("Enter a number (0 to stop): "))) != 0:
         total += number
-        
+
     return total
