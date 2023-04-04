@@ -60,10 +60,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "docker/stop",
-          "docker/rm"
-        ],
+        "skills": ["docker/stop", "docker/rm"],
         "solutions": ["step2-solution.md"]
       },
       {

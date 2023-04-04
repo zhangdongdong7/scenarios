@@ -1,5 +1,3 @@
 #!/bin/bash
 
-docker ps | grep web1 
-
-
+docker ps | grep web1
