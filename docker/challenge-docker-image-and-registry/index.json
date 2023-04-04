@@ -18,12 +18,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "docker/pull",
-          "docker/tag",
-          "docker/login",
-          "docker/push"
-        ],
+        "skills": ["docker/pull", "docker/tag", "docker/login", "docker/push"],
         "solutions": ["step1-solution.md"]
       },
       {
