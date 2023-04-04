@@ -15,7 +15,6 @@ jobs:
         id: changed-files-specific
         uses: tj-actions/changed-files@v35
       - name: Formatting files
-        if: steps.changed-files-specific.outputs.any_changed == 'true'
         run: |
           npm i -g prettier prettier-plugin-sh
           pip install black
