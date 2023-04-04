@@ -18,9 +18,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "linux/sudo"
-        ]
+        "skills": ["linux/sudo"]
       },
       {
         "title": "Install MySQL",
@@ -34,9 +32,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "linux/sudo"
-        ]
+        "skills": ["linux/sudo"]
       },
       {
         "title": "Install PHP",
@@ -50,9 +46,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "linux/sudo"
-        ]
+        "skills": ["linux/sudo"]
       },
       {
         "title": "Configure Nginx",
@@ -66,10 +60,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "linux/sudo",
-          "linux/vim"
-        ]
+        "skills": ["linux/sudo", "linux/vim"]
       },
       {
         "title": "Configure MySQL",
@@ -83,9 +74,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "linux/sudo"
-        ]
+        "skills": ["linux/sudo"]
       },
       {
         "title": "Configure PHP",
@@ -99,10 +88,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "linux/vim",
-          "linux/sudo"
-        ]
+        "skills": ["linux/vim", "linux/sudo"]
       },
       {
         "title": "Verify",
@@ -116,9 +102,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "linux/curl"
-        ]
+        "skills": ["linux/curl"]
       }
     ],
     "intro": {
