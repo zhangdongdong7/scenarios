@@ -54,13 +54,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "docker/run",
-          "docker/exec",
-          "docker/ps",
-          "docker/cp"
-        ]
-        ,
+        "skills": ["docker/run", "docker/exec", "docker/ps", "docker/cp"],
         "solutions": ["step2-solution.md"]
       },
       {
