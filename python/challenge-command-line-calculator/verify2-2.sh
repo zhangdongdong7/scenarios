@@ -7,28 +7,21 @@ metavar=$(grep -c "metavar" /home/labex/project/calculator.py)
 help=$(grep -c "help" /home/labex/project/calculator.py)
 
 # Check if the nargs is less than 4
-if [ $nargs -lt 4 ]
-then
-    exit 1
+if [ $nargs -lt 4 ]; then
+  exit 1
 fi
 
 # Check if the type is less than 4
-if [ $type -lt 4 ]
-then
-    exit 1
+if [ $type -lt 4 ]; then
+  exit 1
 fi
 
 # Check if the metavar is less than 4
-if [ $metavar -lt 4 ]
-then
-    exit 1
+if [ $metavar -lt 4 ]; then
+  exit 1
 fi
 
 # Check if the help is less than 4
-if [ $help -lt 4 ]
-then
-    exit 1
+if [ $help -lt 4 ]; then
+  exit 1
 fi
-
-
-
