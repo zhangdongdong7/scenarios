@@ -1,4 +1,3 @@
-
 ## Create user account
 
 - Input `sudo useradd joker` command to create a user.

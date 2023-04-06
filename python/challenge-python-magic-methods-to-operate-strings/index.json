@@ -19,9 +19,7 @@
           }
         ],
         "skills": ["python/__add__"],
-        "solutions": [
-          "string_concatenation.py"
-        ]
+        "solutions": ["string_concatenation.py"]
       },
       {
         "title": "String Comparison",
@@ -43,9 +41,7 @@
           "python/__gt__",
           "python/__ge__"
         ],
-        "solutions": [
-          "string_comparison.py"
-        ]
+        "solutions": ["string_comparison.py"]
       },
       {
         "title": "String Reversal",
@@ -60,9 +56,7 @@
           }
         ],
         "skills": ["python/__reversed__"],
-        "solutions": [
-          "string_reversal.py"
-        ]
+        "solutions": ["string_reversal.py"]
       },
       {
         "title": "String Representation",
@@ -77,9 +71,7 @@
           }
         ],
         "skills": ["python/__repr__"],
-        "solutions": [
-          "string_representation.py"
-        ]
+        "solutions": ["string_representation.py"]
       }
     ],
     "intro": {

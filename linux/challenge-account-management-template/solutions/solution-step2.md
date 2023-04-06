@@ -1,4 +1,3 @@
-
 ## Manage user password
 
 - Input `sudo passwd joker` command to change the password of a user.

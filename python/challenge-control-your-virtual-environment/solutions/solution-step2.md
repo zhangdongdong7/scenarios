@@ -1,4 +1,3 @@
-
 # Step 2 Solution
 
 Activate venv and install flask:

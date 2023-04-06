@@ -1,5 +1,3 @@
-
-
 # Step 3 Solution
 
 create output folder:

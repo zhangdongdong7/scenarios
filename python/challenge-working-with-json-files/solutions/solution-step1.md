@@ -1,4 +1,3 @@
-
 ## Step 1 Solution
 
 ```python
@@ -12,4 +11,3 @@ for filename in os.listdir('/home/labex/project/json_files'):
     count += len(data)
 print(count)
 ```
-

@@ -27,9 +27,7 @@
           "python/assignment",
           "python/python_scripts"
         ],
-        "solutions": [
-          "sum_of_squares.py"
-        ]
+        "solutions": ["sum_of_squares.py"]
       },
       {
         "title": "Sum of Cubes",
@@ -52,9 +50,7 @@
           "python/assignment",
           "python/python_scripts"
         ],
-        "solutions": [
-          "sum_of_cubes.py"
-        ]
+        "solutions": ["sum_of_cubes.py"]
       },
       {
         "title": "Sum of Fibonacci",
@@ -80,9 +76,7 @@
           "python/print",
           "python/sum"
         ],
-        "solutions": [
-          "sum_of_fibonacci.py"
-        ]
+        "solutions": ["sum_of_fibonacci.py"]
       }
     ],
     "intro": {

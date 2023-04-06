@@ -19,9 +19,7 @@
           }
         ],
         "skills": ["python/generator_expression"],
-        "solutions": [
-          "square_numbers.py"
-        ]
+        "solutions": ["square_numbers.py"]
       },
       {
         "title": "Even Numbers Generator",
@@ -36,9 +34,7 @@
           }
         ],
         "skills": ["python/generator_expression"],
-        "solutions": [
-          "even_numbers.py"
-        ]
+        "solutions": ["even_numbers.py"]
       },
       {
         "title": "Running Total Generator",
@@ -53,9 +49,7 @@
           }
         ],
         "skills": ["python/generator_expression"],
-        "solutions": [
-          "running_total.py"
-        ]
+        "solutions": ["running_total.py"]
       },
       {
         "title": "Fibonacci Numbers Generator",
@@ -70,9 +64,7 @@
           }
         ],
         "skills": ["python/generator_expression"],
-        "solutions": [
-          "fibonacci.py"
-        ]
+        "solutions": ["fibonacci.py"]
       },
       {
         "title": "Factorial Generator",
@@ -87,9 +79,7 @@
           }
         ],
         "skills": ["python/generator_expression"],
-        "solutions": [
-          "factorial.py"
-        ]
+        "solutions": ["factorial.py"]
       }
     ],
     "intro": {

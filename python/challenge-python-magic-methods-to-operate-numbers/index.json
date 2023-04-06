@@ -48,9 +48,7 @@
           "python/__str__",
           "python/math_operator"
         ],
-        "solutions": [
-          "basic_math_operations.py"
-        ]
+        "solutions": ["basic_math_operations.py"]
       },
       {
         "title": "Advanced Math Operations",
@@ -85,9 +83,7 @@
           "python/str",
           "python/math_operator"
         ],
-        "solutions": [
-          "advanced_math_operations.py"
-        ]
+        "solutions": ["advanced_math_operations.py"]
       },
       {
         "title": "Comparisons",
@@ -146,9 +142,7 @@
           "python/boolean",
           "python/math_operator"
         ],
-        "solutions": [
-          "comparisons.py"
-        ]
+        "solutions": ["comparisons.py"]
       },
       {
         "title": "Unary Operators",
@@ -183,9 +177,7 @@
           "python/str",
           "python/math_operator"
         ],
-        "solutions": [
-          "unary_operators.py"
-        ]
+        "solutions": ["unary_operators.py"]
       },
       {
         "title": "In-Place Operations",
@@ -228,9 +220,7 @@
           "python/str",
           "python/math_operator"
         ],
-        "solutions": [
-          "in_place_operations.py"
-        ]
+        "solutions": ["in_place_operations.py"]
       }
     ],
     "intro": {

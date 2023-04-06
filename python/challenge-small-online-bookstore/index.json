@@ -19,9 +19,7 @@
           }
         ],
         "skills": ["python/sqlite3"],
-        "solutions": [
-          "add_book.py"
-        ]
+        "solutions": ["add_book.py"]
       },
       {
         "title": "Update Price",
@@ -36,9 +34,7 @@
           }
         ],
         "skills": ["python/sqlite3"],
-        "solutions": [
-          "update_price.py"
-        ]
+        "solutions": ["update_price.py"]
       },
       {
         "title": "Record Order",
@@ -53,9 +49,7 @@
           }
         ],
         "skills": ["python/sqlite3"],
-        "solutions": [
-          "record_order.py"
-        ]
+        "solutions": ["record_order.py"]
       },
       {
         "title": "Get Revenue",
@@ -70,9 +64,7 @@
           }
         ],
         "skills": ["python/sqlite3"],
-        "solutions": [
-          "get_revenue.py"
-        ]
+        "solutions": ["get_revenue.py"]
       }
     ],
     "intro": {

@@ -24,9 +24,7 @@
           "python/function_basic",
           "python/function_arguments"
         ],
-        "solutions": [
-          "string_manipulation.py"
-        ]
+        "solutions": ["string_manipulation.py"]
       },
       {
         "title": "List Operations",
@@ -46,9 +44,7 @@
           "python/function_basic",
           "python/function_arguments"
         ],
-        "solutions": [
-          "list_operations.py"
-        ]
+        "solutions": ["list_operations.py"]
       },
       {
         "title": "Dictionary Operations",
@@ -69,9 +65,7 @@
           "python/function_basic",
           "python/function_arguments"
         ],
-        "solutions": [
-          "dictionary_operations.py"
-        ]
+        "solutions": ["dictionary_operations.py"]
       },
       {
         "title": "Tuple Operations",
@@ -92,9 +86,7 @@
           "python/function_basic",
           "python/function_arguments"
         ],
-        "solutions": [
-          "tuple_operations.py"
-        ]
+        "solutions": ["tuple_operations.py"]
       }
     ],
     "intro": {

@@ -1,4 +1,3 @@
-
 ## Modify user account
 
 - Input `sudo usermod -d /home/shiyanlou joker` command to change a user home directory.

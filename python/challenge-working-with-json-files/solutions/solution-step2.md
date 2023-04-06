@@ -1,4 +1,3 @@
-
 ## Step 2 Solution
 
 create a python script and execute the code:

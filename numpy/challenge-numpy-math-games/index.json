@@ -25,9 +25,7 @@
           "python/function_basic",
           "python/function_arguments"
         ],
-        "solutions": [
-          "multiply_arrays.py"
-        ]
+        "solutions": ["multiply_arrays.py"]
       },
       {
         "title": "Matrix Multiplication",
@@ -48,9 +46,7 @@
           "python/function_basic",
           "python/function_arguments"
         ],
-        "solutions": [
-          "matrix_multiply.py"
-        ]
+        "solutions": ["matrix_multiply.py"]
       },
       {
         "title": "Transpose",
@@ -71,9 +67,7 @@
           "python/function_basic",
           "python/function_arguments"
         ],
-        "solutions": [
-          "transpose_array.py"
-        ]
+        "solutions": ["transpose_array.py"]
       },
       {
         "title": "Reshape",
@@ -94,9 +88,7 @@
           "python/function_basic",
           "python/function_arguments"
         ],
-        "solutions": [
-          "reshape_array.py"
-        ]
+        "solutions": ["reshape_array.py"]
       },
       {
         "title": "Euclidean Distance",
@@ -118,9 +110,7 @@
           "python/function_basic",
           "python/function_arguments"
         ],
-        "solutions": [
-          "euclidean_distance.py"
-        ]
+        "solutions": ["euclidean_distance.py"]
       }
     ],
     "intro": {

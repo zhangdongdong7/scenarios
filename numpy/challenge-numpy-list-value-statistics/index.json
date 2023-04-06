@@ -26,9 +26,7 @@
           "python/function_basic",
           "python/function_arguments"
         ],
-        "solutions": [
-          "mean_median.py"
-        ]
+        "solutions": ["mean_median.py"]
       },
       {
         "title": "Standard Deviation",
@@ -48,9 +46,7 @@
           "python/function_basic",
           "python/function_arguments"
         ],
-        "solutions": [
-          "standard_deviation.py"
-        ]
+        "solutions": ["standard_deviation.py"]
       },
       {
         "title": "Correlation Coefficient",
@@ -70,9 +66,7 @@
           "python/function_basic",
           "python/function_arguments"
         ],
-        "solutions": [
-          "correlation_coefficient.py"
-        ]
+        "solutions": ["correlation_coefficient.py"]
       }
     ],
     "intro": {

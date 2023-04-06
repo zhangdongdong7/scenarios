@@ -1,5 +1,3 @@
-
-
 # Step 2 Solution
 
 ```python

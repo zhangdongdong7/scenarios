@@ -1,4 +1,3 @@
-
 ## Step 3 Solution
 
 ```python

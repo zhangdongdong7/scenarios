@@ -47,7 +47,7 @@
           "python/function_arguments",
           "python/len"
         ],
-        "solutions": [ "reverseiterator.py" ]
+        "solutions": ["reverseiterator.py"]
       }
     ],
     "intro": {

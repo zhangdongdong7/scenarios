@@ -1,4 +1,3 @@
-
 # Step 4 Solution
 
 Exit python console:

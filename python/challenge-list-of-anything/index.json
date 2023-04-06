@@ -25,9 +25,7 @@
           "python/function_basic",
           "python/function_arguments"
         ],
-        "solutions": [
-          "even_numbers.py"
-        ]
+        "solutions": ["even_numbers.py"]
       },
       {
         "title": "Word Lengths",
@@ -49,9 +47,7 @@
           "python/function_arguments",
           "python/len"
         ],
-        "solutions": [
-          "word_lengths.py"
-        ]
+        "solutions": ["word_lengths.py"]
       },
       {
         "title": "Names Starting with A",
@@ -72,9 +68,7 @@
           "python/function_basic",
           "python/function_arguments"
         ],
-        "solutions": [
-          "names_starting_with_a.py"
-        ]
+        "solutions": ["names_starting_with_a.py"]
       },
       {
         "title": "Square of Numbers",
@@ -95,9 +89,7 @@
           "python/function_basic",
           "python/function_arguments"
         ],
-        "solutions": [
-          "square_of_numbers.py"
-        ]
+        "solutions": ["square_of_numbers.py"]
       },
       {
         "title": "Product of Numbers",
@@ -119,9 +111,7 @@
           "python/function_arguments",
           "python/zip"
         ],
-        "solutions": [
-          "product_of_numbers.py"
-        ]
+        "solutions": ["product_of_numbers.py"]
       }
     ],
     "intro": {
