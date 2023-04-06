@@ -23,6 +23,9 @@
           "python/return_values",
           "python/function_basic",
           "python/function_arguments"
+        ],
+        "solutions": [
+          "string_manipulation.py"
         ]
       },
       {
@@ -42,6 +45,9 @@
           "python/return_values",
           "python/function_basic",
           "python/function_arguments"
+        ],
+        "solutions": [
+          "list_operations.py"
         ]
       },
       {
@@ -62,6 +68,9 @@
           "python/return_values",
           "python/function_basic",
           "python/function_arguments"
+        ],
+        "solutions": [
+          "dictionary_operations.py"
         ]
       },
       {
@@ -82,6 +91,9 @@
           "python/return_values",
           "python/function_basic",
           "python/function_arguments"
+        ],
+        "solutions": [
+          "tuple_operations.py"
         ]
       }
     ],

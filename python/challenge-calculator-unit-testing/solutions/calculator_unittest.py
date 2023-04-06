@@ -1,7 +1,5 @@
-# Solution
-
-```python
 import unittest
+
 
 class Calculator:
     """Performs basic arithmetic operations."""
@@ -55,6 +53,6 @@ class TestCalculator(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.calc.divide(4, 0)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()
-```

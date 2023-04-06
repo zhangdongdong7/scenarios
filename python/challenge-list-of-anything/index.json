@@ -24,6 +24,9 @@
           "python/return_values",
           "python/function_basic",
           "python/function_arguments"
+        ],
+        "solutions": [
+          "even_numbers.py"
         ]
       },
       {
@@ -45,6 +48,9 @@
           "python/function_basic",
           "python/function_arguments",
           "python/len"
+        ],
+        "solutions": [
+          "word_lengths.py"
         ]
       },
       {
@@ -65,6 +71,9 @@
           "python/return_values",
           "python/function_basic",
           "python/function_arguments"
+        ],
+        "solutions": [
+          "names_starting_with_a.py"
         ]
       },
       {
@@ -85,6 +94,9 @@
           "python/return_values",
           "python/function_basic",
           "python/function_arguments"
+        ],
+        "solutions": [
+          "square_of_numbers.py"
         ]
       },
       {
@@ -106,6 +118,9 @@
           "python/function_basic",
           "python/function_arguments",
           "python/zip"
+        ],
+        "solutions": [
+          "product_of_numbers.py"
         ]
       }
     ],

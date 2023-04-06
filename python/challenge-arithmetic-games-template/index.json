@@ -26,6 +26,9 @@
           "python/math_operator",
           "python/assignment",
           "python/python_scripts"
+        ],
+        "solutions": [
+          "sum_of_squares.py"
         ]
       },
       {
@@ -48,6 +51,9 @@
           "python/math_operator",
           "python/assignment",
           "python/python_scripts"
+        ],
+        "solutions": [
+          "sum_of_cubes.py"
         ]
       },
       {
@@ -73,6 +79,9 @@
           "python/list",
           "python/print",
           "python/sum"
+        ],
+        "solutions": [
+          "sum_of_fibonacci.py"
         ]
       }
     ],
