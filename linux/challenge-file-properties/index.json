@@ -26,7 +26,7 @@
           }
         ],
         "skills": ["linux/touch", "linux/ls"],
-        "solutions":["solution-step1.md"]
+        "solutions": ["solution-step1.md"]
       },
       {
         "title": "Create a File With 'vim'",
@@ -48,7 +48,7 @@
           }
         ],
         "skills": ["linux/vim", "linux/ls"],
-        "solutions":["solution-step2.md"]
+        "solutions": ["solution-step2.md"]
       },
       {
         "title": "Modify File Permission",
@@ -70,7 +70,7 @@
           }
         ],
         "skills": ["linux/chmod", "linux/ls"],
-        "solutions":["solution-step3.md"]
+        "solutions": ["solution-step3.md"]
       },
       {
         "title": "Modify File Owner",
@@ -92,7 +92,7 @@
           }
         ],
         "skills": ["linux/chown", "linux/ls"],
-        "solutions":["solution-step4.md"]
+        "solutions": ["solution-step4.md"]
       }
     ],
     "intro": {
