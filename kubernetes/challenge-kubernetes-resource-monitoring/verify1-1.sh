@@ -1,3 +1,3 @@
 #!/bin/bash
 
-minikube kubectl --  get namespace | grep monitoring
+minikube kubectl -- get namespace | grep monitoring

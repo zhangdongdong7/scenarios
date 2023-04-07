@@ -1,3 +1,3 @@
 #!/bin/bash
 
-minikube kubectl --  get pod -n monitoring |  grep prometheus-deployment | grep Running
+minikube kubectl -- get pod -n monitoring | grep prometheus-deployment | grep Running

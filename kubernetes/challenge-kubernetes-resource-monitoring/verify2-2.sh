@@ -1,3 +1,3 @@
 #!/bin/bash
 
-minikube kubectl --  get configmap -n monitoring | grep prometheus-server-conf
+minikube kubectl -- get configmap -n monitoring | grep prometheus-server-conf
