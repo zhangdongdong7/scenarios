@@ -8,7 +8,6 @@
 
 In this step, you will use the `awk` command to extract specific fields from a file.
 
-
 ## Result Example
 
 Suppose you have a file called `data.txt` that contains the following lines of text:
