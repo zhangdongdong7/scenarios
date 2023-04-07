@@ -8,7 +8,6 @@ Try to change the file permissions named `main.cpp` in the `~` directory with `c
 
 ![challenge-file-properties-3-4](./assets/challenge-file-properties-3-4.png)
 
-
 ## Requirements
 
 - Create a file named `setup.sh` in the `~` directory with `touch` command.
