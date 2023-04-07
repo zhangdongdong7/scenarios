@@ -1,3 +1,3 @@
 #!/bin/bash
 
-minikube kubectl --  get deployment  helloworld -o yaml | grep "World"
+minikube kubectl -- get deployment helloworld -o yaml | grep "World"
