@@ -11,4 +11,4 @@ This challenge is about modifying the file owner.
 ## Requirements
 
 - Create a file named `setup.sh` that belongs to user `labex` in the `~` directory.
-- Change the file owner to `shiyanlou`.
+- Change the file owner to `root`.

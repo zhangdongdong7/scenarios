@@ -25,7 +25,8 @@
             "showstderr": false
           }
         ],
-        "skills": ["linux/touch", "linux/ls"]
+        "skills": ["linux/touch", "linux/ls"],
+        "solutions":["solution-step1.md"]
       },
       {
         "title": "Create a File With 'vim'",
@@ -46,7 +47,8 @@
             "showstderr": false
           }
         ],
-        "skills": ["linux/vim", "linux/ls"]
+        "skills": ["linux/vim", "linux/ls"],
+        "solutions":["solution-step2.md"]
       },
       {
         "title": "Modify File Permission",
@@ -67,7 +69,8 @@
             "showstderr": false
           }
         ],
-        "skills": ["linux/chmod", "linux/ls"]
+        "skills": ["linux/chmod", "linux/ls"],
+        "solutions":["solution-step3.md"]
       },
       {
         "title": "Modify File Owner",
@@ -88,7 +91,8 @@
             "showstderr": false
           }
         ],
-        "skills": ["linux/chown", "linux/ls"]
+        "skills": ["linux/chown", "linux/ls"],
+        "solutions":["solution-step4.md"]
       }
     ],
     "intro": {
@@ -97,9 +101,6 @@
     "finish": {
       "text": "finish.md"
     }
-  },
-  "environment": {
-    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "vnc-ubuntu:2204"
