@@ -16,8 +16,8 @@ Suppose you have a file called `my_file.txt` in your repository, the output of t
 
 ```bash
 Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-        modified:   my_file.txt
+(use "git restore --staged <file>..." to unstage)
+modified: my_file.txt
 ```
 
 ## Requirements

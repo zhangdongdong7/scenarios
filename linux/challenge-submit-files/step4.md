@@ -19,8 +19,8 @@ index 1234567..89abcdef 100644
 --- a/my_file.txt
 +++ b/my_file.txt
 @@ -1,2 +1,3 @@
- This is the first line.
- This is the second line.
+This is the first line.
+This is the second line.
 +This is the third line.
 ```
 

@@ -15,13 +15,11 @@
                         "file": "verify1.sh",
                         "hint": "Please stage these changes",
                         "timeout": 0,
-                        "showstderr": false
+                        "showstderr": false,
                     }
                 ],
-                "skills": [
-                    "git/add"
-                ],
-				"solutions": ["step1-solution.md"]
+                "skills": ["git/add"],
+                "solutions": ["step1-solution.md"],
             },
             {
                 "title": "Committing changes to the repository",
@@ -32,13 +30,11 @@
                         "file": "verify2.sh",
                         "hint": "Please commit the changes that you staged",
                         "timeout": 0,
-                        "showstderr": false
+                        "showstderr": false,
                     }
                 ],
-                "skills": [
-                    "git/commit"
-                ],
-				"solutions": ["step2-solution.md"]
+                "skills": ["git/commit"],
+                "solutions": ["step2-solution.md"],
             },
             {
                 "title": "Checking the status of your repository",
@@ -49,13 +45,11 @@
                         "file": "verify3.sh",
                         "hint": "Please view the status of your repository before and after making changes",
                         "timeout": 0,
-                        "showstderr": false
+                        "showstderr": false,
                     }
                 ],
-                "skills": [
-                    "git/status"
-                ],
-				"solutions": ["step3-solution.md"]
+                "skills": ["git/status"],
+                "solutions": ["step3-solution.md"],
             },
             {
                 "title": "Viewing differences between two states",
@@ -66,32 +60,16 @@
                         "file": "verify4.sh",
                         "hint": "Please view the differences between two states",
                         "timeout": 0,
-                        "showstderr": false
+                        "showstderr": false,
                     }
                 ],
-                "skills": [
-                    "git/diff"
-                ],
-				"solutions": ["step4-solution.md"]
-            }
+                "skills": ["git/diff"],
+                "solutions": ["step4-solution.md"],
+            },
         ],
-        "intro": {
-            "text": "intro.md",
-            "background": "setup.sh"
-        },
-        "finish": {
-            "text": "finish.md"
-        },
-        "assets": {
-            "host01": [
-                {
-                    "file": "",
-                    "target": "/tmp"
-                }
-            ]
-        }
+        "intro": {"text": "intro.md", "background": "setup.sh"},
+        "finish": {"text": "finish.md"},
+        "assets": {"host01": [{"file": "", "target": "/tmp"}]},
     },
-    "backend": {
-        "imageid": "vnc-ubuntu:2204"
-    }
+    "backend": {"imageid": "vnc-ubuntu:2204"},
 }
