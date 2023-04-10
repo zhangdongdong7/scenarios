@@ -14,7 +14,7 @@ print(id(x))  # Output: memory address of x
 print(id(y))  # Output: memory address of y, which should be the same as x
 ```
 
-# The `is` Operator 
+# The `is` Operator
 
 In Python, the `is` operator compares the memory addresses of two objects. If the memory addresses are the same, the `is` operator returns `True`; otherwise, it returns `False`. This is different from the `==` operator, which compares the values of the objects.
 
@@ -30,7 +30,3 @@ print(x is z)  # Output: False (x and z have different memory addresses)
 ## Hands-On Examples
 
 Next, let's apply what we've learned with some practical examples.
-
-
-
-            

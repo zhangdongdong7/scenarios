@@ -1,93 +1,78 @@
 {
-  "type": "lab",
-  "title": "Variables and Memory Addresses",
-  "description": "In this tutorial, we'll dive deeper into Python variables and memory addresses.",
-  "difficulty": "Beginner",
-  "time": 20,
-  "details": {
-    "steps": [
-      {
-        "title": "Theoretical Learning",
-        "text": "step1.md",
-        "verify": [
-          {
-            "name": "Theoretical Learning",
-            "file": "verify1.sh",
-            "hint": "Please follow the steps to complete the operation.",
-            "timeout": 0,
-            "showstderr": false
-          }
+    "type": "lab",
+    "title": "Variables and Memory Addresses",
+    "description": "In this tutorial, we'll dive deeper into Python variables and memory addresses.",
+    "difficulty": "Beginner",
+    "time": 20,
+    "details": {
+        "steps": [
+            {
+                "title": "Theoretical Learning",
+                "text": "step1.md",
+                "verify": [
+                    {
+                        "name": "Theoretical Learning",
+                        "file": "verify1.sh",
+                        "hint": "Please follow the steps to complete the operation.",
+                        "timeout": 0,
+                        "showstderr": false,
+                    }
+                ],
+                "skills": ["python/id", "python/is"],
+            },
+            {
+                "title": "Compare Memory Addresses.",
+                "text": "step2.md",
+                "verify": [
+                    {
+                        "name": "Check if this step is completed",
+                        "file": "verify2-1.sh",
+                        "hint": "Please open the Python interpreter.",
+                        "timeout": 0,
+                        "showstderr": false,
+                    },
+                    {
+                        "name": "Compare Memory Addresses",
+                        "file": "verify2-2.sh",
+                        "hint": "Please follow the steps to complete the operation.",
+                        "timeout": 5,
+                        "showstderr": false,
+                    },
+                ],
+                "skills": ["python/python_interpreter", "python/list"],
+            },
+            {
+                "title": "Modifying a Mutable Data Type",
+                "text": "step3.md",
+                "verify": [
+                    {
+                        "name": "Variable Data Types",
+                        "file": "verify3.sh",
+                        "hint": "Please follow the steps to complete the operation.",
+                        "timeout": 0,
+                        "showstderr": false,
+                    }
+                ],
+                "skills": ["python/list"],
+            },
+            {
+                "title": " Modifying an Immutable Data Type",
+                "text": "step4.md",
+                "verify": [
+                    {
+                        "name": "Immutable Data Types",
+                        "file": "verify4.sh",
+                        "hint": "Please follow the steps to complete the operation.",
+                        "timeout": 0,
+                        "showstderr": false,
+                    }
+                ],
+                "skills": ["python/id", "python/str"],
+            },
         ],
-        "skills": ["python/id", "python/is"]
-      },
-
-      {
-        "title": "Compare Memory Addresses.",
-        "text": "step2.md",
-        "verify": [
-          {
-            "name": "Check if this step is completed",
-            "file": "verify2-1.sh",
-            "hint": "Please open the Python interpreter.",
-            "timeout": 0,
-            "showstderr": false
-          },
-          {
-            "name": "Compare Memory Addresses",
-            "file": "verify2-2.sh",
-            "hint": "Please follow the steps to complete the operation.",
-            "timeout": 5,
-            "showstderr": false
-          }
-        ],
-        "skills": ["python/python_interpreter", "python/list"]
-      },
-      {
-        "title": "Modifying a Mutable Data Type",
-        "text": "step3.md",
-        "verify": [
-          {
-            "name": "Variable Data Types",
-            "file": "verify3.sh",
-            "hint": "Please follow the steps to complete the operation.",
-            "timeout": 0,
-            "showstderr": false
-          }
-        ],
-        "skills": ["python/list"]
-      },
-      {
-        "title": " Modifying an Immutable Data Type",
-        "text": "step4.md",
-        "verify": [
-          {
-            "name": "Immutable Data Types",
-            "file": "verify4.sh",
-            "hint": "Please follow the steps to complete the operation.",
-            "timeout": 0,
-            "showstderr": false
-          }
-        ],
-        "skills": ["python/id", "python/str"]
-      }
-    ],
-    "intro": {
-      "text": "intro.md",
-      "background": "setup.sh"
+        "intro": {"text": "intro.md", "background": "setup.sh"},
+        "finish": {"text": "finish.md"},
+        "assets": {"host01": [{"file": "", "target": "/tmp"}]},
     },
-    "finish": {
-      "text": "finish.md"
-    },
-    "assets": {
-      "host01": [
-        {
-          "file": "",
-          "target": "/tmp"
-        }
-      ]
-    }
-  },
-  "backend": {
-    "imageid": "vnc-ubuntu:2204"
-  }
+    "backend": {"imageid": "vnc-ubuntu:2204"},
 }

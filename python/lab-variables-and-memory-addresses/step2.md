@@ -1,4 +1,4 @@
-# Compare Memory Addresses 
+# Compare Memory Addresses
 
 In this step, we will practice hands-on practice together. First, open the python interpreter and learn the memory addresses of mutable and immutable data types in python.
 
