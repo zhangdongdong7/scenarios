@@ -17,9 +17,9 @@ Here's an example of what you should be able to accomplish by the end of this ch
    ```bash
    On branch master
    Changes not staged for commit:
-     (use "git add <file>..." to update what will be committed)
-     (use "git restore <file>..." to discard changes in working directory)
-           modified:   myfile.txt
+   (use "git add <file>..." to update what will be committed)
+   (use "git restore <file>..." to discard changes in working directory)
+   modified: myfile.txt
    ```
 
 2. Use the restore command to undo the changes and restore the file `myfile.txt` to its previous state.

@@ -1,4 +1,4 @@
-### Undo  and  Reset
+### Undo and Reset
 
 1. Use the git log command to view the commit history:
 

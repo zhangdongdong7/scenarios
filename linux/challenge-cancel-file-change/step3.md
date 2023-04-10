@@ -1,4 +1,4 @@
-# Undo  and  Reset
+# Undo and Reset
 
 ## Introduction
 
@@ -16,7 +16,7 @@ Here's an example of what you should be able to accomplish by the end of this ch
 
    ```bash
    Unstaged changes after reset:
-   D	newfile.txt
+   D newfile.txt
    ```
 
 ## Requirements
