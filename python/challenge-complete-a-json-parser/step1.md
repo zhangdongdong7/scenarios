@@ -1,7 +1,8 @@
 # Parse JSON
+
 In this challenge, you need to complete a function that can convert a `json` string into a Python object.
 
-## Requirements 
+## Requirements
 
 Please complete the `parse_json` function in the file `/home/labex/project/parse_json.py`.
 
@@ -23,7 +24,7 @@ You can assume that the input string is a valid JSON object.
 ### Input:
 
 ```python
-json_str = 
+json_str =
 '{
     "name": "John",
     "age": 30,

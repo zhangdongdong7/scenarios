@@ -1,5 +1,6 @@
 from typing import Any, Dict, List, Union
 
+
 def parse_json(json_str: str) -> Any:
     """
     Parse a JSON string and return the corresponding Python object.

@@ -1,5 +1,6 @@
 from typing import Any, List, Dict, Union
 
+
 def serialize_json(obj: Any) -> str:
     """
     Convert a Python object to a JSON string.

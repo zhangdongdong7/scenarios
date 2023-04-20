@@ -39,7 +39,7 @@ obj = {
 ```python
 '{
     "name": "John",
-    "age": 30, 
+    "age": 30,
     "city": "New York",
     "isEmployed": true,
     "car": null,
