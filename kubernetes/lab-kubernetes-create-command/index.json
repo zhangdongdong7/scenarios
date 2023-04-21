@@ -25,10 +25,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/create",
-          "kubernetes/get"
-        ]
+        "skills": ["kubernetes/create", "kubernetes/get"]
       },
       {
         "title": "Create a Deployment",
