@@ -46,7 +46,11 @@
             "showstderr": true
           }
         ],
-        "skills": ["opencv/imshow", "opencv/wait_key", "opencv/destroy_all_windows"]
+        "skills": [
+          "opencv/imshow",
+          "opencv/wait_key",
+          "opencv/destroy_all_windows"
+        ]
       },
       {
         "title": "Writing an image to a file",

@@ -27,4 +27,4 @@ cv2.destroyAllWindows()
 1. You can change the `window_name` for your code and see the result.
 2. You can change the parameter of `waitKey` for your code and see the result.
 3. For your convenience, we removed the correctness detection of image loading in this step.
-4. Note that you are using a *Python interpreter*, so the program does not end immediately after `imshow`, but if you are executing a *Python file*, you must use `waitKey` to ensure that the window does not close after `imshow`.
+4. Note that you are using a _Python interpreter_, so the program does not end immediately after `imshow`, but if you are executing a _Python file_, you must use `waitKey` to ensure that the window does not close after `imshow`.
