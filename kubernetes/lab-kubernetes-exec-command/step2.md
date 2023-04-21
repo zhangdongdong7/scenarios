@@ -5,7 +5,7 @@ In this step, you will learn how to execute a command in a specific container ru
 1. Create a pod with two containers: Nginx and BusyBox:
 
    ```bash
-   cat <<EOF | kubectl apply -f -
+   cat << EOF | kubectl apply -f -
    apiVersion: v1
    kind: Pod
    metadata:

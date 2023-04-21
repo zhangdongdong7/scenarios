@@ -5,7 +5,7 @@ In this step, you will learn how to execute a command with environment variables
 1. Create a deployment with one replica and an Nginx container with an environment variable:
 
    ```bash
-   kubectl run  nginx-env --image=nginx  --env="MY_VAR=my-value"
+   kubectl run nginx-env --image=nginx --env="MY_VAR=my-value"
    ```
 
 2. Wait for the pod to become ready:

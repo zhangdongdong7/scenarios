@@ -17,7 +17,7 @@ In this step, you will learn how to execute a command in a container running in 
 3. Use the `kubectl exec` command to execute a command inside the Nginx container:
 
    ```bash
-   kubectl exec <pod_name> -- nginx -v
+   kubectl exec nginx -v < pod_name > --
    ```
 
    Replace `<pod_name>` with the name of the pod created in step 1, and you can get the `<pod_name>` with the `kubectl get pod -l app=nginx` command.
