@@ -5,10 +5,12 @@ Write a Python function named `set_intersection(set1: set, set2: set) -> set` th
 ## Constraints
 
 Input
+
 - `set1` (0 <= len(set1) <= 10^6) : A set containing unique elements.
 - `set2` (0 <= len(set2) <= 10^6) : A set containing unique elements.
 
 Output
+
 - Returns a new set containing the elements that are present in both set1 and set2.
 
 ### Example
