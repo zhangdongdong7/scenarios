@@ -18,9 +18,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/get"
-        ]
+        "skills": ["kubernetes/get"]
       },
       {
         "title": "Kubernetes Node Components",
@@ -55,9 +53,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/apply"
-        ]
+        "skills": ["kubernetes/apply"]
       },
       {
         "title": "Kubernetes Service Components",
