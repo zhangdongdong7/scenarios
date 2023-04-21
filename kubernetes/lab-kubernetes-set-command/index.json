@@ -32,11 +32,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/set",
-          "kubernetes/create",
-          "kubernetes/get"
-        ]
+        "skills": ["kubernetes/set", "kubernetes/create", "kubernetes/get"]
       },
       {
         "title": "Modify Resources of a Deployment",
