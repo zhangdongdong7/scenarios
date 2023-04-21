@@ -11,8 +11,7 @@ def calculate_grade(student_info):
 
     # Calculate the student's final grade by weighting the highest assignment and test scores
     # and the attendance percentage and rounding the result to the nearest whole number.
-    final_grade = round((max_assignment * 0.5) +
-                        (max_test * 0.4) + (attendance * 0.1))
+    final_grade = round((max_assignment * 0.5) + (max_test * 0.4) + (attendance * 0.1))
 
     # Return the final grade.
     return final_grade
