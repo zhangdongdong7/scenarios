@@ -20,14 +20,14 @@ spec:
         app: my-app
     spec:
       containers:
-      - name: my-app
-        image: nginx:latest
-        env:
-        - name: DATABASE_PASSWORD
-          valueFrom:
-            secretKeyRef:
-              name: my-secret
-              key: password
+        - name: my-app
+          image: nginx:latest
+          env:
+            - name: DATABASE_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: my-secret
+                  key: password
 ```
 
 In this file, we specify the name of the Deployment (`my-app`), the image to use (`my-image`), and the environment variable to set (`DATABASE_PASSWORD`). We also use a `secretKeyRef` to retrieve the `password` key from the `my-secret` Secret.

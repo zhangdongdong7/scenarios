@@ -11,15 +11,15 @@ metadata:
   name: secret-pod
 spec:
   containers:
-  - name: secret-container
-    image: nginx
-    volumeMounts:
-    - name: secret-volume
-      mountPath: /etc/secret-volume
+    - name: secret-container
+      image: nginx
+      volumeMounts:
+        - name: secret-volume
+          mountPath: /etc/secret-volume
   volumes:
-  - name: secret-volume
-    secret:
-      secretName: my-secret
+    - name: secret-volume
+      secret:
+        secretName: my-secret
 ```
 
 Apply the pod configuration:
