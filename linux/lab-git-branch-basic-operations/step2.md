@@ -11,4 +11,3 @@ To delete a branch, use the `branch` command with the `-d` option followed by th
 ```bash
 git branch -d branch-to-delete
 ```
-
