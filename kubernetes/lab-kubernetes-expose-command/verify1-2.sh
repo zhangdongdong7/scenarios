@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cat ~/.zsh_history | grep kubectl |grep expose|grep deployment
+cat ~/.zsh_history | grep kubectl | grep expose | grep deployment
