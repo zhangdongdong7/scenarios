@@ -3,6 +3,7 @@
 ## Problem Description
 
 You need to create a Python program that sells tickets to customers based on their age and the time of day. The theater has the following pricing rules:
+
 - Morning show (before 12pm): \$10 for everyone
 - Afternoon show (12pm to 5pm): \$15 for adults (age >= 18) and \$10 for children (age < 18)
 - Evening show (after 5pm): \$20 for adults (age >= 18) and \$15 for children (age < 18)
