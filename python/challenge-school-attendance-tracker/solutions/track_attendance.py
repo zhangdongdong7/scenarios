@@ -24,12 +24,11 @@ def track_attendance(attendance: Dict[str, List[Tuple[str, str]]]) -> Dict[str, 
             total_days += 1
 
             # check the attendance status and increment the attendance days counter
-            if record[1] == 'P' or record[1] == 'L':
+            if record[1] == "P" or record[1] == "L":
                 attendance_days += 1
 
         # calculate the attendance percentage for the student and add it to the dictionary
-        attendance_percentage[student] = round(
-            attendance_days / total_days * 100, 2)
+        attendance_percentage[student] = round(attendance_days / total_days * 100, 2)
 
     # return the dictionary with attendance percentages
     return attendance_percentage
