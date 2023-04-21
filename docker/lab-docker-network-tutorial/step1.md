@@ -14,4 +14,3 @@ docker network ls
 
 This will list all the available networks on your machine. You should see `my-network` listed.
 ![lab-docker-network-tutorial-1](assets/lab-docker-network-tutorial-1.png)
-
