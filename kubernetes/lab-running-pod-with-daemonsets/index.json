@@ -25,9 +25,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/apply"
-        ]
+        "skills": ["kubernetes/apply"]
       },
       {
         "title": "Create a Daemonset",
@@ -48,9 +46,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/get"
-        ]
+        "skills": ["kubernetes/get"]
       },
       {
         "title": "Verify the Daemonset",
