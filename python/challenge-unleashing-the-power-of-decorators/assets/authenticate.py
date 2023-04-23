@@ -23,13 +23,15 @@ def authenticate(func):
     def my_function():
         # code to be authenticated
     """
-    def wrapper(*args, **kwargs):
 
+    def wrapper(*args, **kwargs):
         return
-        
+
     return wrapper
 
+
 if __name__ == "__main__":
+
     @authenticate
     def my_function():
         print("Access granted")
