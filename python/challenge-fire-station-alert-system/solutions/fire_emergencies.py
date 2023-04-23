@@ -1,5 +1,4 @@
 class Emergency:
-
     def __init__(self, priority, location):
         self.priority = priority  # Initialize the priority of the emergency
         self.location = location  # Initialize the location of the emergency
@@ -10,7 +9,6 @@ class Emergency:
 
 
 class FireStation:
-
     def __init__(self):
         self.emergencies = []  # Initialize an empty list of emergencies
 
