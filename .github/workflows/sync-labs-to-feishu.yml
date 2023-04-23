@@ -1,8 +1,11 @@
-name: sync-issues-to-feishu
+name: sync-labs-to-feishu
 
 on:
-  issues:
-    types: opened
+  push:
+    branches:
+      - 'master'
+    paths:
+      - '**index.json'
   workflow_dispatch:
 
 jobs:
@@ -22,4 +25,5 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           pip install requests
-          python .github/scripts/sync-issues-to-feishu.py --appid "$APP_ID" --appsecret "$APP_SECRET" --ghtoken "$GH_TOKEN" --repo $GITHUB_REPOSITORY
+          pip install jsonschema
+          python .github/scripts/sync-labs-to-feishu.py --appid "$APP_ID" --appsecret "$APP_SECRET" --repo $GITHUB_REPOSITORY --schema .github/scripts/lab_schema.json
