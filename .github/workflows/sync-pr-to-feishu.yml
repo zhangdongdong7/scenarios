@@ -24,4 +24,4 @@ jobs:
           pip install requests
           python .github/scripts/sync-pr-to-feishu.py --appid "$APP_ID" --appsecret "$APP_SECRET" --ghtoken "$GH_TOKEN" --repo $GITHUB_REPOSITORY
           pip install jsonschema
-          python .github/scripts/sync-labs-to-feishu.py --appid "$APP_ID" --appsecret "$APP_SECRET" --repo $GITHUB_REPOSITORY --schema .github/scripts/schema.json
+          python .github/scripts/sync-labs-to-feishu.py --appid "$APP_ID" --appsecret "$APP_SECRET" --repo $GITHUB_REPOSITORY --schema .github/scripts/lab_schema.json
