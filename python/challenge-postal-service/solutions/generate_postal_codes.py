@@ -3,6 +3,7 @@ import random
 
 # define a function to generate a list of unique postal codes
 
+
 def generate_postal_codes(n):
     postal_codes = []  # initialize an empty list to store generated postal codes
 
