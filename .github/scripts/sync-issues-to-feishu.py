@@ -179,15 +179,15 @@ class Sync:
         ]
         print(f"Found {len(feishu_not_closed_issue_nums)} OPEN ISSUE in Feishu.")
         # 忽略已经关闭的 ISSUE
-        issue_list = [
+        issues_list = [
             issue
-            for issue in issue_list
+            for issue in issues_list
             if issue["state"] == "open"
             or str(issue["number"]) in feishu_not_closed_issue_nums
         ]
         # 忽略 locked 的 issue
-        issue_list = [issue for issue in issue_list if issue["locked"] == False]
-        print(f"Processing {len(issue_list)} OPEN issue...")
+        issues_list = [issue for issue in issues_list if issue["locked"] == False]
+        print(f"Processing {len(issues_list)} OPEN issue...")
         for issue in issues_list:
             try:
                 issue_title = issue["title"]
