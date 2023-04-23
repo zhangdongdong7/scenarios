@@ -141,7 +141,7 @@ class Sync:
         self.app_token = "bascnNz4Nqjqgqm1Nm5AYke6xxb"
         self.table_id = "tblLnz5UqvvHb5Z0"
         self.skills_table_id = "tblV5pGIsGZMxmE9"
-    
+
     def unix_ms_timestamp(self, time_str: str) -> int:
         if time_str != None:
             date_obj = datetime.strptime(time_str, "%Y-%m-%dT%H:%M:%SZ") + timedelta(
@@ -171,93 +171,108 @@ class Sync:
         # Get all issues from github
         issues_list = self.github.get_issues_list(repo_name)
         print(f"Found {len(issues_list)} issues in GitHub.")
+        # Feishu 未关闭的 Issue
+        feishu_not_closed_issue_nums = [
+            str(r["fields"]["ISSUE_NUM"])
+            for r in records
+            if r["fields"]["ISSUE_STATE"] == "OPEN"
+        ]
+        print(f"Found {len(feishu_not_closed_issue_nums)} OPEN ISSUE in Feishu.")
+        # 忽略已经关闭的 ISSUE
+        issue_list = [
+            issue
+            for issue in issue_list
+            if issue["state"] == "open"
+            or str(issue["number"]) in feishu_not_closed_issue_nums
+        ]
+        # 忽略 locked 的 issue
+        issue_list = [issue for issue in issue_list if issue["locked"] == False]
+        print(f"Processing {len(issue_list)} OPEN issue...")
         for issue in issues_list:
-            if not issue["locked"]:
-                try:
-                    issue_title = issue["title"]
-                    issue_number = issue["number"]
-                    issue_state = issue["state"]
-                    issue_user = issue["user"]["login"]
-                    issues_html_url = issue["html_url"]
-                    created_at = self.unix_ms_timestamp(issue["created_at"])
-                    updated_at = self.unix_ms_timestamp(issue["updated_at"])
-                    closed_at = self.unix_ms_timestamp(issue["closed_at"])
-                    # assignees
-                    assignees = issue["assignees"]
-                    if len(assignees) == 0:
-                        assignees = []
-                    else:
-                        assignees = [a["login"] for a in assignees]
-                    # labels
-                    issues_labels = issue["labels"]
-                    if len(issues_labels) == 0:
-                        issues_labels = []
-                    else:
-                        issues_labels = [l["name"] for l in issues_labels]
-                    # skills
-                    issues_body = issue["body"]
-                    skills = re.findall(r"`\w+/\w+`", issues_body)
-                    if len(skills) == 0:
-                        skills = []
-                    else:
-                        skills = [s.replace("`", "").replace(" ", "") for s in skills]
-                    # steps
-                    steps = re.findall(r"建议步骤数\*\*:(.*[0-9])", issues_body)
-                    if len(steps) == 0:
+            try:
+                issue_title = issue["title"]
+                issue_number = issue["number"]
+                issue_state = issue["state"]
+                issue_user = issue["user"]["login"]
+                issues_html_url = issue["html_url"]
+                created_at = self.unix_ms_timestamp(issue["created_at"])
+                updated_at = self.unix_ms_timestamp(issue["updated_at"])
+                closed_at = self.unix_ms_timestamp(issue["closed_at"])
+                # assignees
+                assignees = issue["assignees"]
+                if len(assignees) == 0:
+                    assignees = []
+                else:
+                    assignees = [a["login"] for a in assignees]
+                # labels
+                issues_labels = issue["labels"]
+                if len(issues_labels) == 0:
+                    issues_labels = []
+                else:
+                    issues_labels = [l["name"] for l in issues_labels]
+                # skills
+                issues_body = issue["body"]
+                skills = re.findall(r"`\w+/\w+`", issues_body)
+                if len(skills) == 0:
+                    skills = []
+                else:
+                    skills = [s.replace("`", "").replace(" ", "") for s in skills]
+                # steps
+                steps = re.findall(r"建议步骤数\*\*:(.*[0-9])", issues_body)
+                if len(steps) == 0:
+                    steps_num = 0
+                else:
+                    try:
+                        steps_num = int(steps[0].strip())
+                    except:
                         steps_num = 0
-                    else:
-                        try:
-                            steps_num = int(steps[0].strip())
-                        except:
-                            steps_num = 0
-                    # search skills in feishu
-                    skills_record_ids = []
-                    for skill in skills:
-                        if skill in skills_dicts.keys():
-                            skills_record_ids.append(skills_dicts[skill])
-                    # payloads
-                    payloads = {
-                        "fields": {
-                            "ISSUE_TITLE": issue_title,
-                            "ISSUE_NUM": issue_number,
-                            "ISSUE_STATE": issue_state.upper(),
-                            "ISSUE_USER": issue_user,
-                            "ISSUE_STEPS": steps_num,
-                            "CREATED_AT": created_at,
-                            "UPDATED_AT": updated_at,
-                            "CLOSED_AT": closed_at,
-                            "HTML_URL": {
-                                "link": issues_html_url,
-                                "text": "OPEN IN GITHUB",
-                            },
-                            "ASSIGNEES": assignees,
-                            "ISSUE_LABELS": issues_labels,
-                            "SCENARIO_SKILLS": skills_record_ids,
-                            "SKILLS": skills,
-                            "ISSUE_BODY": issues_body,
-                        }
+                # search skills in feishu
+                skills_record_ids = []
+                for skill in skills:
+                    if skill in skills_dicts.keys():
+                        skills_record_ids.append(skills_dicts[skill])
+                # payloads
+                payloads = {
+                    "fields": {
+                        "ISSUE_TITLE": issue_title,
+                        "ISSUE_NUM": issue_number,
+                        "ISSUE_STATE": issue_state.upper(),
+                        "ISSUE_USER": issue_user,
+                        "ISSUE_STEPS": steps_num,
+                        "CREATED_AT": created_at,
+                        "UPDATED_AT": updated_at,
+                        "CLOSED_AT": closed_at,
+                        "HTML_URL": {
+                            "link": issues_html_url,
+                            "text": "OPEN IN GITHUB",
+                        },
+                        "ASSIGNEES": assignees,
+                        "ISSUE_LABELS": issues_labels,
+                        "SCENARIO_SKILLS": skills_record_ids,
+                        "SKILLS": skills,
+                        "ISSUE_BODY": issues_body,
                     }
-                    # Update record
-                    if str(issue_number) in records_dicts.keys():
-                        r = self.feishu.update_bitable_record(
-                            self.app_token,
-                            self.table_id,
-                            records_dicts[str(issue_number)],
-                            payloads,
-                        )
-                        print(f"→ Updating {issue_title} {r['msg'].upper()}")
-                    else:
-                        # Add record
-                        r = self.feishu.add_bitable_record(
-                            self.app_token, self.table_id, payloads
-                        )
-                        print(f"↑ Adding {issue_title} {r['msg'].upper()}")
+                }
+                # Update record
+                if str(issue_number) in records_dicts.keys():
+                    r = self.feishu.update_bitable_record(
+                        self.app_token,
+                        self.table_id,
+                        records_dicts[str(issue_number)],
+                        payloads,
+                    )
+                    print(f"→ Updating {issue_title} {r['msg'].upper()}")
+                else:
+                    # Add record
+                    r = self.feishu.add_bitable_record(
+                        self.app_token, self.table_id, payloads
+                    )
+                    print(f"↑ Adding {issue_title} {r['msg'].upper()}")
 
-                except Exception as e:
-                    print(f"Exception: {e}")
-                    continue
-            else:
-                print(f"Locked: {issue['title']}")
+            except Exception as e:
+                print(f"Exception: {e}")
+                continue
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Sync Repo Issues to Feishu")
