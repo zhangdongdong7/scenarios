@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def calculate_covariance_matrix(weights: np.ndarray, heights: np.ndarray) -> np.ndarray:
     """
     Calculate the covariance matrix of the data using NumPy's dot function.
@@ -19,6 +20,6 @@ def calculate_covariance_matrix(weights: np.ndarray, heights: np.ndarray) -> np.
 
     # Calculate the covariance matrix
     n = X.shape[0]
-    covariance_matrix = (1/n) * (X.T @ X)
+    covariance_matrix = (1 / n) * (X.T @ X)
 
     return covariance_matrix

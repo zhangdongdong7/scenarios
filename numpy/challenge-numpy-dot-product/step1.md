@@ -1,4 +1,5 @@
 # NumPy Dot Product
+
 ## Problem Statement
 
 You are given a dataset containing the weights of 10,000 people and their corresponding heights. You need to find the covariance matrix of the data using NumPy's dot function.
@@ -46,4 +47,3 @@ Covariance matrix:
 
 """
 ```
-
