@@ -1,5 +1,4 @@
 def hiking_tracker(hikers):
-
     # Initialize an empty dictionary to store hiker's location
     hiker_locations = {}
 
