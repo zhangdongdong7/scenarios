@@ -2,15 +2,13 @@
 
 In this challenge, you need to complete an `evaluate_expression` function that evaluates a string arithmetic expression, and follow the requirements below.
 
-## Requirements 
+## Requirements
 
 Please complete the `evaluate_expression` function in the file `/home/labex/project/basic_functionality.py`.
 
 Your task is to create a Python function that can evaluate a string expression consisting of arithmetic operators (`+`, `-`, `*`, `/`) and parentheses. The function should follow the standard order of operations (PEMDAS) and return the result of the expression.
 
 The function should have the following signature:
-
-
 
 ## Constraints:
 

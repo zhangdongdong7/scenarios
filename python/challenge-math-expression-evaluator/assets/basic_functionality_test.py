@@ -1,4 +1,5 @@
 import sys
+
 sys.path.append("/home/labex/project")
 from basic_functionality import evaluate_expression
 
@@ -17,6 +18,7 @@ def test_evaluate_expression():
     assert evaluate_expression("(1 + 2 + 3 + 4 + 5) % 5") == 0
     assert evaluate_expression("((1 + 2) * (3 + 4)) / (1 + 2)") == 7.0
     print("All test cases passed")
+
 
 if __name__ == "__main__":
     test_evaluate_expression()

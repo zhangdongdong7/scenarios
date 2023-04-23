@@ -1,5 +1,6 @@
 import math
 
+
 def advanced_evaluate_expression(expression: str) -> float:
     """
     Evaluates a mathematical expression given as a string and returns the result.

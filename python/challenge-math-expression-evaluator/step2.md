@@ -2,7 +2,7 @@
 
 In this challenge, you need to complete a more advanced function called `advanced_evaluate_expression`, which adds some new requirements compared to the `evaluate_expressionh` function.
 
-## Requirements 
+## Requirements
 
 Please complete the `advanced_evaluate_expression` function in the file `/home/labex/project/advanced_functionality.py`.
 
