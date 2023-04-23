@@ -1,7 +1,10 @@
 from typing import Tuple
 import numpy as np
 
-def calculate_purchase_totals(transactions: np.ndarray) -> Tuple[np.ndarray, np.ndarray]:
+
+def calculate_purchase_totals(
+    transactions: np.ndarray,
+) -> Tuple[np.ndarray, np.ndarray]:
     """
     Calculate the total number of purchases for each customer and product.
 

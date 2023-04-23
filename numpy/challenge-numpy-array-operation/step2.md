@@ -5,7 +5,6 @@ Write a function called `calculate_total_purchases` that takes in a NumPy array 
 - `'total_purchases_by_customer'`: A NumPy array of shape `(num_customers,)` containing the total number of purchases for each customer.
 - `'total_purchases_by_product'`: A NumPy array of shape `(num_products,)` containing the total number of purchases for each product.
 
-
 ## Example
 
 ```python

@@ -4,10 +4,9 @@ Write a function called `calculate_average_purchases` that takes in a NumPy arra
 
 - `'average_purchases_per_(customer/product)'`: A float representing the average number of purchases per (customer/product).
 
-
 ## Example
 
-``` python
+```python
 import numpy as np
 
 # Generate some sample transaction data

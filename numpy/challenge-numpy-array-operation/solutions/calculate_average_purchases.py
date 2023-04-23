@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def calculate_average_purchases(total_purchases: np.ndarray) -> float:
     """
     Calculate the average number of purchases per customer or per product.

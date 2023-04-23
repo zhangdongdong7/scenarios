@@ -9,7 +9,6 @@ Write a function called `customer_stats` that takes in a NumPy array `transactio
 - `'average_purchases_per_customer'`: A float representing the average number of purchases per customer.
 - `'average_purchases_per_product'`: A float representing the average number of purchases per product.
 
-
 ## Example
 
 ```python

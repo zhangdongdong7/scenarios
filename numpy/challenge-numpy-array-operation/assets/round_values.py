@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def round_values(value, decimal):
     """
     Round the results to 2 decimal places
@@ -17,4 +18,3 @@ def round_values(value, decimal):
         A rounded float.
     """
     # implementation goes here
-
