@@ -9,6 +9,7 @@ Open the Python shell by typing the following command in the terminal.
 ```bash
 python3
 ```
+
 Import the web browser module and use the `open_new_tab()` function to open the URL.
 
 ```python
