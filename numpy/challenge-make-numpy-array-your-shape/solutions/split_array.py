@@ -1,7 +1,12 @@
 import numpy as np
 from typing import List, Union, Optional
 
-def split_array(arr: np.ndarray, indices_or_sections: Union[int, List[int]], axis: Optional[int] = None) -> List[np.ndarray]:
+
+def split_array(
+    arr: np.ndarray,
+    indices_or_sections: Union[int, List[int]],
+    axis: Optional[int] = None,
+) -> List[np.ndarray]:
     """
     Split an array into multiple sub-arrays along a specified axis.
 

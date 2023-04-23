@@ -1,6 +1,7 @@
 import numpy as np
 from typing import List, Union, Optional
 
+
 def concatenate_arrays(arr1: np.ndarray, arr2: np.ndarray, axis: int) -> np.ndarray:
     """
     Concatenate two arrays along a specified axis.

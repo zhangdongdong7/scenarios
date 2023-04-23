@@ -1,6 +1,7 @@
 import numpy as np
 from typing import List, Union, Optional
 
+
 def reshape_array(arr: np.ndarray, new_shape: tuple) -> np.ndarray:
     """
     Reshape an array to a new shape.

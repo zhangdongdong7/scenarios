@@ -1,6 +1,7 @@
 import numpy as np
 from typing import List, Union, Optional
 
+
 def stack_arrays(arr1: np.ndarray, arr2: np.ndarray, axis: int) -> np.ndarray:
     """
     Stack two arrays along a specified axis.
@@ -17,4 +18,3 @@ def stack_arrays(arr1: np.ndarray, arr2: np.ndarray, axis: int) -> np.ndarray:
     # Note: Do not change the existing code
     result = None
     return result
-
