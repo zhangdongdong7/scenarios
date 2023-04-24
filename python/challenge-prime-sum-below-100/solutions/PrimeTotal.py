@@ -4,12 +4,13 @@ def prime(n):
     if n < 2:
         return False
     # Check if n is divisible by any integer from 2 to the square root of n
-    for i in range(2, int(n**0.5)+1):
+    for i in range(2, int(n**0.5) + 1):
         if n % i == 0:
             # If n is divisible by i, it is not a prime number
             return False
     # If n is not divisible by any integer from 2 to the square root of n, it is a prime number
     return True
+
 
 # Initialize a variable to store the sum of all prime numbers below 100
 prime_sum = 0
