@@ -3,7 +3,6 @@ import os
 import json
 import requests
 import argparse
-from statistics import mode
 from jsonschema import validate
 
 
