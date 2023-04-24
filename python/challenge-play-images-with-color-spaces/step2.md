@@ -1,4 +1,5 @@
 # Color-based Object Detection
+
 In this sub-challenge, you will use the color space transformations to detect a specific color in an image and create a mask that highlights the detected color.
 
 ## Requirements:

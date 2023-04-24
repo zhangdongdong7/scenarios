@@ -2,10 +2,12 @@ import numpy as np
 import cv2
 
 
-def detect_color(image: np.ndarray, lower_bound: np.ndarray, upper_bound: np.ndarray) -> np.ndarray:
+def detect_color(
+    image: np.ndarray, lower_bound: np.ndarray, upper_bound: np.ndarray
+) -> np.ndarray:
     """
     Detect a specific color in the input image and create a mask highlighting the detected color.
-    
+
     :param image: The input image.
     :param lower_bound: Lower bound of the target color in the HSV color space.
     :param upper_bound: Upper bound of the target color in the HSV color space.

@@ -1,9 +1,10 @@
 # Color Space Transformations
+
 In this sub-challenge, you will implement a function that can convert an input image into different color spaces (**RGB**, **HSV**, and **LAB**).
 
 ## Requirements:
 
-Please complete the `convert_color_space` function in the file `/home/labex/project/convert_color_space.py`. 
+Please complete the `convert_color_space` function in the file `/home/labex/project/convert_color_space.py`.
 And we provide an image file `images/img1.jpg` for you to test.
 
 The function should have the following signature:
