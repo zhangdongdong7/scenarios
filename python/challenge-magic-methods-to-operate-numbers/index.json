@@ -40,12 +40,7 @@
           }
         ],
         "skills": [
-          "python/__init__",
-          "python/__add__",
-          "python/__sub__",
-          "python/__mul__",
-          "python/__truediv__",
-          "python/__str__",
+          "python/magic_method",
           "python/math_operator"
         ],
         "solutions": ["basic_math_operations.py"]
@@ -77,9 +72,7 @@
           }
         ],
         "skills": [
-          "python/__pow__",
-          "python/__mod__",
-          "python/__floordiv__",
+          "python/magic_method",
           "python/str",
           "python/math_operator"
         ],
@@ -133,12 +126,7 @@
           }
         ],
         "skills": [
-          "python/__eq__",
-          "python/__ne__",
-          "python/__lt__",
-          "python/__le__",
-          "python/__gt__",
-          "python/__ge__",
+          "python/magic_method",
           "python/boolean",
           "python/math_operator"
         ],
@@ -171,9 +159,7 @@
           }
         ],
         "skills": [
-          "python/__neg__",
-          "python/__pos__",
-          "python/__abs__",
+          "python/magic_method",
           "python/str",
           "python/math_operator"
         ],
@@ -213,10 +199,7 @@
           }
         ],
         "skills": [
-          "python/__iadd__",
-          "python/__isub__",
-          "python/__imul__",
-          "python/__itruediv__",
+          "python/magic_method",
           "python/str",
           "python/math_operator"
         ],

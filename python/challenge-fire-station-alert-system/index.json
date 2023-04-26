@@ -19,7 +19,7 @@
           }
         ],
         "skills": [
-          "python/__del__",
+          "python/magic_method",
           "python/class",
           "python/function_basic",
           "python/sorted"

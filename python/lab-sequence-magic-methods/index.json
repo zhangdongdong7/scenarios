@@ -20,9 +20,7 @@
         ],
         "skills": [
           "python/list",
-          "python/__len__",
-          "python/__contains__",
-          "python/__init__",
+          "python/magic_method",
           "python/class"
         ]
       },
@@ -40,9 +38,7 @@
         ],
         "skills": [
           "python/list",
-          "python/__getitem__",
-          "python/__setitem__",
-          "python/__delitem__"
+          "python/magic_method"
         ]
       },
       {
@@ -59,8 +55,7 @@
         ],
         "skills": [
           "python/list",
-          "python/__iter__",
-          "python/__reversed__",
+          "python/magic_method",
           "python/for_loop",
           "python/yield_values"
         ]

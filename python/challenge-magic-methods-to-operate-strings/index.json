@@ -18,7 +18,7 @@
             "showstderr": true
           }
         ],
-        "skills": ["python/__add__"],
+        "skills": ["python/magic_method"],
         "solutions": ["string_concatenation.py"]
       },
       {
@@ -34,12 +34,7 @@
           }
         ],
         "skills": [
-          "python/__eq__",
-          "python/__ne__",
-          "python/__lt__",
-          "python/__le__",
-          "python/__gt__",
-          "python/__ge__"
+          "python/magic_method"
         ],
         "solutions": ["string_comparison.py"]
       },
@@ -55,7 +50,7 @@
             "showstderr": true
           }
         ],
-        "skills": ["python/__reversed__"],
+        "skills": ["python/magic_method"],
         "solutions": ["string_reversal.py"]
       },
       {
@@ -70,7 +65,7 @@
             "showstderr": true
           }
         ],
-        "skills": ["python/__repr__"],
+        "skills": ["python/magic_method"],
         "solutions": ["string_representation.py"]
       }
     ],
