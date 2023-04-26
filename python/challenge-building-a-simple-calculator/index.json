@@ -18,10 +18,7 @@
             "showstderr": true
           }
         ],
-        "skills": [
-          "python/input",
-          "python/function_basic"
-        ],
+        "skills": ["python/input", "python/function_basic"],
         "solutions": ["get_user_input.py"]
       },
       {
@@ -36,11 +33,7 @@
             "showstderr": true
           }
         ],
-        "skills": [
-          "python/if_else",
-          "python/print",
-          "python/function_basic"
-        ],
+        "skills": ["python/if_else", "python/print", "python/function_basic"],
         "solutions": ["validate_user_input.py"]
       },
       {

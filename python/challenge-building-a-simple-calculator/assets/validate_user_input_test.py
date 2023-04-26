@@ -23,6 +23,5 @@ class TestStep2(unittest.TestCase):
         self.assertEqual(result2, "Please enter a valid operation")
 
 
-
 if __name__ == "__main__":
     unittest.main()
