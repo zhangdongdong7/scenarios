@@ -38,11 +38,7 @@
             "showstderr": true
           }
         ],
-        "skills": [
-          "python/magic_method",
-          "python/if_else",
-          "python/list"
-        ],
+        "skills": ["python/magic_method", "python/if_else", "python/list"],
         "solutions": ["magic_list2.py"]
       },
       {

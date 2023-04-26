@@ -18,11 +18,7 @@
             "showstderr": true
           }
         ],
-        "skills": [
-          "python/list",
-          "python/magic_method",
-          "python/class"
-        ]
+        "skills": ["python/list", "python/magic_method", "python/class"]
       },
       {
         "title": "Item Access",
@@ -36,10 +32,7 @@
             "showstderr": true
           }
         ],
-        "skills": [
-          "python/list",
-          "python/magic_method"
-        ]
+        "skills": ["python/list", "python/magic_method"]
       },
       {
         "title": "Iteration",

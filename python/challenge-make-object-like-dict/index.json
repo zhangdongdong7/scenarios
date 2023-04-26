@@ -18,10 +18,7 @@
             "showstderr": true
           }
         ],
-        "skills": [
-          "python/dict",
-          "python/magic_method"
-        ],
+        "skills": ["python/dict", "python/magic_method"],
         "solutions": ["basic_functionality.py"]
       },
       {
@@ -36,10 +33,7 @@
             "showstderr": true
           }
         ],
-        "skills": [
-          "python/dict",
-          "python/magic_method"
-        ],
+        "skills": ["python/dict", "python/magic_method"],
         "solutions": ["advanced_functionality.py"]
       }
     ],

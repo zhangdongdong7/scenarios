@@ -39,10 +39,7 @@
             "showstderr": true
           }
         ],
-        "skills": [
-          "python/magic_method",
-          "python/math_operator"
-        ],
+        "skills": ["python/magic_method", "python/math_operator"],
         "solutions": ["basic_math_operations.py"]
       },
       {
@@ -71,11 +68,7 @@
             "showstderr": true
           }
         ],
-        "skills": [
-          "python/magic_method",
-          "python/str",
-          "python/math_operator"
-        ],
+        "skills": ["python/magic_method", "python/str", "python/math_operator"],
         "solutions": ["advanced_math_operations.py"]
       },
       {
@@ -158,11 +151,7 @@
             "showstderr": true
           }
         ],
-        "skills": [
-          "python/magic_method",
-          "python/str",
-          "python/math_operator"
-        ],
+        "skills": ["python/magic_method", "python/str", "python/math_operator"],
         "solutions": ["unary_operators.py"]
       },
       {
@@ -198,11 +187,7 @@
             "showstderr": true
           }
         ],
-        "skills": [
-          "python/magic_method",
-          "python/str",
-          "python/math_operator"
-        ],
+        "skills": ["python/magic_method", "python/str", "python/math_operator"],
         "solutions": ["in_place_operations.py"]
       }
     ],

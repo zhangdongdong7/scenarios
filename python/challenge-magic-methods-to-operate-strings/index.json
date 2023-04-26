@@ -33,9 +33,7 @@
             "showstderr": true
           }
         ],
-        "skills": [
-          "python/magic_method"
-        ],
+        "skills": ["python/magic_method"],
         "solutions": ["string_comparison.py"]
       },
       {

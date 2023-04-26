@@ -149,10 +149,7 @@
             "showstderr": true
           }
         ],
-        "skills": [
-          "python/list",
-          "python/magic_method"
-        ],
+        "skills": ["python/list", "python/magic_method"],
         "solutions": ["magic_set.py"]
       }
     ],
