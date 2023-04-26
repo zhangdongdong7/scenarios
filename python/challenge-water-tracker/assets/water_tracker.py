@@ -10,4 +10,6 @@ def record_water_intake(water_tracker, new_intake):
     int: Total amount of water consumed so far in the day.
 
     """
-   # TODO: Write your code here
+
+
+# TODO: Write your code here
