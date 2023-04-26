@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def convert_to_dtype(lst: list[int], dtype: str) -> np.ndarray:
     """
     Converts a list of integers to numpy array and changes its datatype.
