@@ -25,6 +25,7 @@ spec:
           ports:
             - containerPort: 80
 ```
+
 In this file, you are creating another Deployment called `other` in the default namespace that runs a container with the `nginx` image.
 
 Apply the Deployment to your cluster with the following command:
