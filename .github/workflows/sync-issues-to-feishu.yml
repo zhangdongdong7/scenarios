@@ -1,6 +1,8 @@
 name: sync-issues-to-feishu
 
 on:
+  schedule:
+    - cron: "0 1/6 * * *"
   issues:
     types: opened
   workflow_dispatch:
