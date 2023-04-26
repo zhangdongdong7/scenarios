@@ -9,9 +9,9 @@ metadata:
   namespace: myapp
   name: myapp-reader
 rules:
-- apiGroups: [""]
-  resources: ["pods", "services"]
-  verbs: ["get", "watch", "list"]
+  - apiGroups: [""]
+    resources: ["pods", "services"]
+    verbs: ["get", "watch", "list"]
 ```
 
 This Role allows users to read (get, watch, and list) pods and services in the `myapp` namespace.

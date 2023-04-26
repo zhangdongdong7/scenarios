@@ -8,9 +8,9 @@ apiVersion: rbac.authorization.k8s.io/v1
 metadata:
   name: myapp-admin-binding
 subjects:
-- kind: User
-  name: cluster-admin
-  apiGroup: rbac.authorization.k8s.io
+  - kind: User
+    name: cluster-admin
+    apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: ClusterRole
   name: myapp-admin

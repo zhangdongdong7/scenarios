@@ -10,10 +10,10 @@ metadata:
   namespace: myapp
 spec:
   containers:
-  - name: myapp-container
-    image: nginx
-    ports:
-    - containerPort: 80
+    - name: myapp-container
+      image: nginx
+      ports:
+        - containerPort: 80
 ```
 
 Create the pod using the following command:

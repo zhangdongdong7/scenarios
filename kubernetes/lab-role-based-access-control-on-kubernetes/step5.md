@@ -8,9 +8,9 @@ apiVersion: rbac.authorization.k8s.io/v1
 metadata:
   name: myapp-admin
 rules:
-- apiGroups: [""]
-  resources: ["pods", "services"]
-  verbs: ["get", "list", "watch", "create", "update", "delete"]
+  - apiGroups: [""]
+    resources: ["pods", "services"]
+    verbs: ["get", "list", "watch", "create", "update", "delete"]
 ```
 
 This ClusterRole allows users to perform all operations (get, list, watch, create, update, and delete) on pods and services in all namespaces.

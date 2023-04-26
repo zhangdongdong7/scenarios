@@ -9,9 +9,9 @@ metadata:
   name: myapp-reader-binding
   namespace: myapp
 subjects:
-- kind: User
-  name: developer
-  apiGroup: rbac.authorization.k8s.io
+  - kind: User
+    name: developer
+    apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: Role
   name: myapp-reader
