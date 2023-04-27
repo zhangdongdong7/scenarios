@@ -25,10 +25,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/get", 
-          "kubernetes/describe"
-        ]
+        "skills": ["kubernetes/get", "kubernetes/describe"]
       },
       {
         "title": "Labels and Annotations",
@@ -56,11 +53,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/get", 
-          "kubernetes/label",
-          "kubernetes/annotate"
-        ]
+        "skills": ["kubernetes/get", "kubernetes/label", "kubernetes/annotate"]
       },
       {
         "title": "Taints and Tolerations",
@@ -82,7 +75,7 @@
           }
         ],
         "skills": [
-          "kubernetes/describe", 
+          "kubernetes/describe",
           "kubernetes/taint",
           "kubernetes/apply"
         ]
@@ -99,9 +92,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/describe"
-        ]
+        "skills": ["kubernetes/describe"]
       },
       {
         "title": "View Node Events",
@@ -115,9 +106,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/get"
-        ]
+        "skills": ["kubernetes/get"]
       },
       {
         "title": "Cordon and Uncordon a Node",
@@ -138,10 +127,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/cordon",
-          "kubernetes/uncordon"
-        ]
+        "skills": ["kubernetes/cordon", "kubernetes/uncordon"]
       }
     ],
     "intro": {

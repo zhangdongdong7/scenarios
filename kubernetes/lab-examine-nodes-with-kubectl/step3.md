@@ -18,21 +18,21 @@ Taints and tolerations can be used to control which pods can be scheduled on whi
 
 3. Create a toleration to a pod, run the following command:
 
-    ```bash
-    cat << EOF | kubectl apply -f -
-    apiVersion: v1
-    kind: Pod
-    metadata:
-      name: my-pod
-    spec:
-      containers:
-        - name: my-container
-          image: nginx
-      tolerations:
-        - key: app
-          operator: Exists
-          effect: NoSchedule
-    EOF
-    ```
+   ```bash
+   cat << EOF | kubectl apply -f -
+   apiVersion: v1
+   kind: Pod
+   metadata:
+     name: my-pod
+   spec:
+     containers:
+       - name: my-container
+         image: nginx
+     tolerations:
+       - key: app
+         operator: Exists
+         effect: NoSchedule
+   EOF
+   ```
 
    This pod uses `app` as the name of the taint and `NoSchedule` as the effect the taint should have.
