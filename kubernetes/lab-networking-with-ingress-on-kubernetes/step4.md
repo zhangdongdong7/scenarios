@@ -1,6 +1,6 @@
 # Test the Ingress Resource
 
-Finally, we can test the Ingress resource to make sure everything is working correctly. 
+Finally, we can test the Ingress resource to make sure everything is working correctly.
 
 First, determine the IP address of the node:
 
@@ -29,7 +29,7 @@ This command will dcurisplay a list of services in the `ingress-nginx` namespace
 Finally, use `curl` to make an HTTP request to the Ingress endpoint:
 
 ```bash
-curl http://example.com:<NodePort>/
+curl http://example.com: < NodePort > /
 ```
 
 Replace `<NodePort>` with the `NodePort` of the `nginx-ingress-controller` service.

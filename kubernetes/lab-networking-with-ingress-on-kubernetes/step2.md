@@ -1,6 +1,6 @@
 # Create a Sample Application
 
-Next, we will create a sample application that we will expose using Ingress. 
+Next, we will create a sample application that we will expose using Ingress.
 
 Create a Deployment for a sample application:
 
