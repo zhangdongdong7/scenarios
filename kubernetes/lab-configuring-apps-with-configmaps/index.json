@@ -25,9 +25,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/apply"
-        ]
+        "skills": ["kubernetes/apply"]
       },
       {
         "title": "Use the Configmap in Your Application",
@@ -48,9 +46,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/apply"
-        ]
+        "skills": ["kubernetes/apply"]
       },
       {
         "title": "Verify the Configuration",
@@ -71,10 +67,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/exec",
-          "kubernetes/get"
-        ]
+        "skills": ["kubernetes/exec", "kubernetes/get"]
       },
       {
         "title": "Update the Configmap",
@@ -95,9 +88,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/apply"
-        ]
+        "skills": ["kubernetes/apply"]
       },
       {
         "title": "Verify the Update",
@@ -111,9 +102,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/rollout"
-        ]
+        "skills": ["kubernetes/rollout"]
       }
     ],
     "intro": {

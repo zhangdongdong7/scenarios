@@ -13,7 +13,7 @@ You should see a single pod running your application. Note the name of the pod.
 Next, run the following command to open a shell session in the container running your application:
 
 ```bash
-kubectl exec -it <pod-name> -- sh
+kubectl exec -it sh < pod-name > --
 ```
 
 Replace `<pod-name>` with the name of the pod that you noted earlier.
