@@ -11,9 +11,9 @@ Dilation and erosion are basic morphological transformations used to expand or s
 
 ## TODO:
 
-Please complete the `apply_dilation_and_erosion` function in the file `/home/labex/project/apply_dilation_and_erosion.py`. 
+Please complete the `apply_dilation_and_erosion` function in the file `/home/labex/project/apply_dilation_and_erosion.py`.
 
-1. The `apply_dilation_and_erosion`  takes the following parameters:
+1. The `apply_dilation_and_erosion` takes the following parameters:
    - `image`: The binary image generated in "generate_binary_image.py".
    - `kernel_shape`: The shape of the structuring element ("rectangular", "elliptical", or "cross").
    - `kernel_size`: The size of the structuring element.
@@ -22,9 +22,10 @@ Please complete the `apply_dilation_and_erosion` function in the file `/home/lab
 2. Please use `cv2.getStructuringElement` to generate structing elements, and `cv2.dilate()` and `cv2.erode()` to implement dilation and erosion.
 3. Return the processed image.
 
-
 ## example
+
 Take `apply_dilation_and_erosion(image, "cross", 5, 3, 3)` as an example to process the target binary image.
+
 - The shape of the structuring element is "cross".
 - The size of the structuring element is 5.
 - The number of dilation iterations to apply is 3.
@@ -38,8 +39,8 @@ result = apply_dilation_and_erosion(image, "cross", 5, 3, 3)
 The image processing result is as follows:
 
 ![example_image2](assets/example_image2.jpg)
-                       
-You can compare the difference between it and before it was processed. 
+
+You can compare the difference between it and before it was processed.
 
 The original image before processing looks like this:
 

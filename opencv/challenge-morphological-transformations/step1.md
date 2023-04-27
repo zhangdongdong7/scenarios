@@ -9,7 +9,7 @@ In this sub-challenge, you will create a function that generates a binary image 
 
 ## TODO:
 
-Please complete the `generate_binary_image` function in the file `/home/labex/project/generate_binary_image.py`. 
+Please complete the `generate_binary_image` function in the file `/home/labex/project/generate_binary_image.py`.
 
 1. The `generate_binary_image` function takes the following parameters:
    - `width`: The width of the generated image.
@@ -21,6 +21,7 @@ Please complete the `generate_binary_image` function in the file `/home/labex/pr
 5. Return the generated binary image.
 
 ## example
+
 Take `generate_binary_image(400, 400, 100)` as an example to generate a binary image.
 
-   ![example_image](assets/example_image.jpg)
+![example_image](assets/example_image.jpg)

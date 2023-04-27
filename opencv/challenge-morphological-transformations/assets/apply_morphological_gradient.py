@@ -1,7 +1,10 @@
 import cv2
 import numpy as np
 
-def apply_morphological_gradient(image: np.ndarray, kernel_shape: str, kernel_size: int) -> np.ndarray:
+
+def apply_morphological_gradient(
+    image: np.ndarray, kernel_shape: str, kernel_size: int
+) -> np.ndarray:
     """
     Applies a morphological gradient operation to the input binary image.
 

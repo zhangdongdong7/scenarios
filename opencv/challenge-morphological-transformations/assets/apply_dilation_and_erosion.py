@@ -1,7 +1,14 @@
 import cv2
 import numpy as np
 
-def apply_dilation_and_erosion(image: np.ndarray, kernel_shape: str, kernel_size: int, dilation_iterations: int, erosion_iterations: int) -> np.ndarray:
+
+def apply_dilation_and_erosion(
+    image: np.ndarray,
+    kernel_shape: str,
+    kernel_size: int,
+    dilation_iterations: int,
+    erosion_iterations: int,
+) -> np.ndarray:
     """
     Applies dilation and erosion operations to the input binary image.
 

@@ -100,46 +100,46 @@
           "target": "/home/labex/project",
           "chmod": "ugo+rwx"
         },
-      {
+        {
           "file": "apply_dilation_and_erosion.py",
           "target": "/home/labex/project",
           "chmod": "ugo+rwx"
-      },
-      {
-        "file": "apply_opening_and_closing.py",
-        "target": "/home/labex/project",
-        "chmod": "ugo+rwx"
-      },
-      {
+        },
+        {
+          "file": "apply_opening_and_closing.py",
+          "target": "/home/labex/project",
+          "chmod": "ugo+rwx"
+        },
+        {
           "file": "apply_morphological_gradient.py",
           "target": "/home/labex/project",
           "chmod": "ugo+rwx"
-      },
-      {
+        },
+        {
           "file": "generate_binary_image_test.py",
           "target": "/tmp",
           "chmod": "777"
-      },
-      {
+        },
+        {
           "file": "apply_dilation_and_erosion_test.py",
           "target": "/tmp",
           "chmod": "777"
-      },
-      {
-        "file": "apply_opening_and_closing_test.py",
-        "target": "/tmp",
-        "chmod": "777"
-      },
-      {
-        "file": "apply_morphological_gradient_test.py",
-        "target": "/tmp",
-        "chmod": "777"
-      },
-      {
-        "file": "img_test.jpg",
-        "target": "/tmp",
-        "chmod": "777"
-      }
+        },
+        {
+          "file": "apply_opening_and_closing_test.py",
+          "target": "/tmp",
+          "chmod": "777"
+        },
+        {
+          "file": "apply_morphological_gradient_test.py",
+          "target": "/tmp",
+          "chmod": "777"
+        },
+        {
+          "file": "img_test.jpg",
+          "target": "/tmp",
+          "chmod": "777"
+        }
       ]
     }
   },

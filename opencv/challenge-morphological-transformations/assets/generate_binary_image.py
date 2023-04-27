@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import random
 
+
 def generate_binary_image(width: int, height: int, num_shapes: int) -> np.ndarray:
     """
     Generates a binary image with a black background and randomly placed shapes.

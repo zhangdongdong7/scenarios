@@ -9,7 +9,6 @@ from apply_morphological_gradient import apply_morphological_gradient
 
 
 class TestMorphologicalTransformations(unittest.TestCase):
-
     def test_apply_morphological_gradient(self):
         source_lines, _ = inspect.getsourcelines(apply_morphological_gradient)
         target = False
@@ -30,6 +29,7 @@ class TestMorphologicalTransformations(unittest.TestCase):
         self.assertEqual(processed_image.shape, image.shape)
         self.assertTrue(np.any(processed_image))
         self.assertTrue((image != processed_image).sum() != 0)
+
 
 if __name__ == "__main__":
     unittest.main()

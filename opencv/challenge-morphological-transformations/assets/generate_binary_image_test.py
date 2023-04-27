@@ -3,12 +3,13 @@ import cv2
 import numpy as np
 import inspect
 import sys
+
 sys.path.append("/home/labex/project")
 
 from generate_binary_image import generate_binary_image
 
-class TestMorphologicalTransformations(unittest.TestCase):
 
+class TestMorphologicalTransformations(unittest.TestCase):
     def test_generate_binary_image(self):
         width, height, num_shapes = 200, 200, 10
         binary_image = generate_binary_image(width, height, num_shapes)
@@ -25,7 +26,8 @@ class TestMorphologicalTransformations(unittest.TestCase):
                 pass
         self.assertTrue(target)
         self.assertIsInstance(binary_image, np.ndarray)
-        self.assertEqual(set(binary_image.reshape(-1).tolist()),set([0,255]))
+        self.assertEqual(set(binary_image.reshape(-1).tolist()), set([0, 255]))
+
 
 if __name__ == "__main__":
     unittest.main()

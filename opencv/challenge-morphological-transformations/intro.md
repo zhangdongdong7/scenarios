@@ -1,4 +1,4 @@
- # Morphological Transformations
+# Morphological Transformations
 
 Morphological transformations are image processing operations that process an image based on its shape. They are commonly used for tasks such as removing noise, smoothing, and enhancing edges in images. In this challenge, you will be working with the `opencv-python` library to perform various morphological transformations on images.
 

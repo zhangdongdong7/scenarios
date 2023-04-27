@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import random
 
+
 def generate_binary_image(width: int, height: int, num_shapes: int) -> np.ndarray:
     """
     Generates a binary image with a black background and randomly placed shapes.
@@ -26,7 +27,10 @@ def generate_binary_image(width: int, height: int, num_shapes: int) -> np.ndarra
             cv2.circle(image, center, radius, color, -1)
         elif shape_type == "rectangle":
             pt1 = (np.random.randint(0, width - 1), np.random.randint(0, height - 1))
-            pt2 = (np.random.randint(pt1[0], width - 1), np.random.randint(pt1[1], height - 1))
+            pt2 = (
+                np.random.randint(pt1[0], width - 1),
+                np.random.randint(pt1[1], height - 1),
+            )
             cv2.rectangle(image, pt1, pt2, color, -1)
         elif shape_type == "line":
             pt1 = (np.random.randint(0, width - 1), np.random.randint(0, height - 1))

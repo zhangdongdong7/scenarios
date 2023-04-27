@@ -8,7 +8,7 @@ A morphological gradient is an operation that calculates the difference between 
 
 ## TODO:
 
-Please complete the `apply_morphological_gradient` function in the file `/home/labex/project/apply_morphological_gradient.py`. 
+Please complete the `apply_morphological_gradient` function in the file `/home/labex/project/apply_morphological_gradient.py`.
 
 1. The `apply_morphological_gradient` function takes the following parameters:
    - `image`: The binary image generated in Sub-Challenge 1.
@@ -19,7 +19,9 @@ Please complete the `apply_morphological_gradient` function in the file `/home/l
 4. Return the processed image.
 
 ## example
+
 Take `apply_morphological_gradient(image, "cross", 5)` as an example to process the target binary image.
+
 - The shape of the structuring element is "cross".
 - The size of the structuring element is 5.
 
@@ -31,8 +33,8 @@ result = apply_morphological_gradient(image, "cross", 5)
 The image processing result is as follows:
 
 ![example_image2](assets/example_image3.jpg)
-                       
-You can compare the difference between it and before it was processed. 
+
+You can compare the difference between it and before it was processed.
 
 The original image before processing looks like this:
 
