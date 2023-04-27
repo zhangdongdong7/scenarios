@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cat ~/.zsh_history | grep kubectl |grep rollout|grep undo
+cat ~/.zsh_history | grep kubectl | grep rollout | grep undo
 
 IMAGE=nginx:latest
 

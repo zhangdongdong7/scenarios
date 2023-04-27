@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cat ~/.zsh_history | grep kubectl |grep scale
+cat ~/.zsh_history | grep kubectl | grep scale
 
 REPLICAS_DESIRED=5
 

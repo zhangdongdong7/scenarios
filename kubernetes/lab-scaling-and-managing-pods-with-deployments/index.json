@@ -32,10 +32,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/apply",
-          "kubernetes/get"
-        ]
+        "skills": ["kubernetes/apply", "kubernetes/get"]
       },
       {
         "title": "Scale the Deployment",
@@ -49,9 +46,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/scale"
-        ]
+        "skills": ["kubernetes/scale"]
       },
       {
         "title": "Update the Deployment",
@@ -72,10 +67,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/edit",
-          "kubernetes/rollout"
-        ]
+        "skills": ["kubernetes/edit", "kubernetes/rollout"]
       },
       {
         "title": "Roll Back the Deployment",
@@ -89,9 +81,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/rollout"
-        ]
+        "skills": ["kubernetes/rollout"]
       },
       {
         "title": "Clean Up",
@@ -105,9 +95,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/delete"
-        ]
+        "skills": ["kubernetes/delete"]
       }
     ],
     "intro": {

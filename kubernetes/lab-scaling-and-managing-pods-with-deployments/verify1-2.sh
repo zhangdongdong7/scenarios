@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cat ~/.zsh_history | grep kubectl |grep apply
+cat ~/.zsh_history | grep kubectl | grep apply
 
 REPLICAS_DESIRED=3
 # 获取实际副本数
@@ -12,4 +12,4 @@ if [ "$REPLICAS_DESIRED" -eq "$REPLICAS_CURRENT" ]; then
 else
   exit 1
 fi
-minikube kubectl -- describe deployments my-deployment 
+minikube kubectl -- describe deployments my-deployment
