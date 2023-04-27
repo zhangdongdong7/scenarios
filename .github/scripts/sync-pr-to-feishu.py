@@ -408,6 +408,9 @@ class Sync:
                                 pr_milestone_number = milestones.get(
                                     date_milestone_str, None
                                 )
+                            else:
+                                # 如果 PR 原本存在 milestone
+                                print(f"→ Milestone is {pr_milestone}")
                             # 测试完成，如果 issue user 不等于 pr_user
                             if issue_user != pr_user:
                                 # 且 issue user 不在 assignees 里，准备添加
@@ -436,6 +439,17 @@ class Sync:
                                     )
                                 else:
                                     print(f"→ {issue_user} is already a reviewer.")
+                                    # 如果 pr_milestone 为 None，即 milestone 不存在需要添加
+                                    if pr_milestone == None:
+                                        payloads = {"milestone": pr_milestone_number}
+                                        self.github.patch_pr(
+                                            repo_name,
+                                            pr_number,
+                                            payloads,
+                                        )
+                                        print(
+                                            f"→ Setting milestone to {date_milestone_str}, {pr_milestone_number}"
+                                        )
                             # 测试完成，如果 issue user 等于 pr_user
                             else:
                                 # 且 huhuhang 不在 assignees 里，准备添加
@@ -464,6 +478,17 @@ class Sync:
                                     )
                                 else:
                                     print(f"→ huhuhang is already a reviewer.")
+                                    # 如果 pr_milestone 为 None，即 milestone 不存在需要添加
+                                    if pr_milestone == None:
+                                        payloads = {"milestone": pr_milestone_number}
+                                        self.github.patch_pr(
+                                            repo_name,
+                                            pr_number,
+                                            payloads,
+                                        )
+                                        print(
+                                            f"→ Setting milestone to {date_milestone_str}, {pr_milestone_number}"
+                                        )
                         else:
                             # 未测完
                             print(f"→ PR#{pr_number} is not Test Completed")
