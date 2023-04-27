@@ -176,9 +176,9 @@ class Sync:
                 lab_skills.extend(skills)
                 skills_raw[f"step{i+1}"] = skills
         # Get record is from skills tree table
+        in_skills_tree = []
+        not_in_skills_tree = []
         if len(lab_skills) > 0:
-            in_skills_tree = []
-            not_in_skills_tree = []
             for skill in lab_skills:
                 skill_id = skills_dict.get(skill)
                 if skill_id != None:
@@ -280,8 +280,7 @@ class Sync:
                         )
                         print(f"↑ Adding {data_path} {r['msg'].upper()}")
                 except Exception as e:
-                    print(f"× Error {data_path} {e}")
-                    print(data)
+                    print(f"× Error {filepath} {e}")
         # Delete records not in this repo
         repo_path_dicts = [
             path for path in path_dicts if path_dicts[path]["repo_name"] == self.repo
