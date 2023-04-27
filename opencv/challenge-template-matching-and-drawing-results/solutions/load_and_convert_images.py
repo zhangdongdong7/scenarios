@@ -2,7 +2,9 @@ import cv2
 from typing import Tuple
 
 
-def load_and_convert_images(source_path: str, template_path: str) -> Tuple[cv2.Mat, cv2.Mat]:
+def load_and_convert_images(
+    source_path: str, template_path: str
+) -> Tuple[cv2.Mat, cv2.Mat]:
     """
     Load the source image and template image, then convert them to grayscale.
 

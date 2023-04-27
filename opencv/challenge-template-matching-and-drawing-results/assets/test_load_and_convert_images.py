@@ -2,17 +2,20 @@ import unittest
 import cv2
 from typing import Tuple, Dict
 import sys
+
 sys.path.append("/home/labex/project")
 
 from load_and_convert_images import load_and_convert_images
 
-class TestTemplateMatching(unittest.TestCase):
 
+class TestTemplateMatching(unittest.TestCase):
     def test_load_and_convert_images(self):
         source_path = "/tmp/test_source2.jpg"
         template_path = "/tmp/test_template2.jpg"
 
-        gray_source1, gray_template1 = load_and_convert_images(source_path, template_path)
+        gray_source1, gray_template1 = load_and_convert_images(
+            source_path, template_path
+        )
 
         source_image = cv2.imread(source_path)
         template_image = cv2.imread(template_path)

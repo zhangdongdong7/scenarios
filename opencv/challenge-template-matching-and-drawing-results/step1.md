@@ -4,7 +4,7 @@ In the first sub-challenge, participants must load both the source image and the
 
 ## TODO:
 
-Please complete the `load_and_convert_images` function in the file `/home/labex/project/load_and_convert_images.py`. 
+Please complete the `load_and_convert_images` function in the file `/home/labex/project/load_and_convert_images.py`.
 You can use the images "test_source.jpg" and "test_template.jpg" for testing.
 
 1. Load the source image and the template image using OpenCV's `imread()` function.

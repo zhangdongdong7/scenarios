@@ -2,7 +2,12 @@ import cv2
 import numpy as np
 from typing import Dict, Tuple
 
-def draw_rectangles_around_matches(source_image: cv2.Mat, template_image: cv2.Mat, best_matches: Dict[str, Tuple[float, Tuple[int, int]]]) -> Tuple[np.ndarray]:
+
+def draw_rectangles_around_matches(
+    source_image: cv2.Mat,
+    template_image: cv2.Mat,
+    best_matches: Dict[str, Tuple[float, Tuple[int, int]]],
+) -> Tuple[np.ndarray]:
     """
     Draw rectangles around the best matches for each template matching method.
 
@@ -15,13 +20,22 @@ def draw_rectangles_around_matches(source_image: cv2.Mat, template_image: cv2.Ma
         Dict[str, cv2.Mat]: Dictionary containing the image after drawing rectangle.
     """
     template_width, template_height = template_image.shape[:2]
-    colors = {'cv2.TM_SQDIFF_NORMED': (0, 255, 0), 'cv2.TM_CCOEFF_NORMED': (255, 0, 0), 'cv2.TM_CCORR_NORMED': (0, 0, 255)}
-    
+    colors = {
+        "cv2.TM_SQDIFF_NORMED": (0, 255, 0),
+        "cv2.TM_CCOEFF_NORMED": (255, 0, 0),
+        "cv2.TM_CCORR_NORMED": (0, 0, 255),
+    }
+
     # TODO: implement this function here.
     # Note: Do not change the existing code.
-    
-    result = {'cv2.TM_SQDIFF_NORMED':source_with_rectangles1, 'cv2.TM_CCOEFF_NORMED': source_with_rectangles2, 'cv2.TM_CCORR_NORMED': source_with_rectangles3}
+
+    result = {
+        "cv2.TM_SQDIFF_NORMED": source_with_rectangles1,
+        "cv2.TM_CCOEFF_NORMED": source_with_rectangles2,
+        "cv2.TM_CCORR_NORMED": source_with_rectangles3,
+    }
     return result
+
 
 # # You can use the following code to test your function.
 # from perform_template_matching import perform_template_matching

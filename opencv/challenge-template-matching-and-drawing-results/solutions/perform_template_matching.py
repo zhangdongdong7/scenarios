@@ -2,7 +2,9 @@ import cv2
 from typing import Dict, Tuple
 
 
-def perform_template_matching(gray_source: cv2.Mat, gray_template: cv2.Mat) -> Dict[str, Tuple[float, Tuple[int, int]]]:
+def perform_template_matching(
+    gray_source: cv2.Mat, gray_template: cv2.Mat
+) -> Dict[str, Tuple[float, Tuple[int, int]]]:
     """
     Perform template matching using multiple methods and find the best match locations.
 
@@ -15,11 +17,11 @@ def perform_template_matching(gray_source: cv2.Mat, gray_template: cv2.Mat) -> D
     """
 
     methods = {
-        "cv2.TM_SQDIFF_NORMED":cv2.TM_SQDIFF_NORMED,
-        "cv2.TM_CCOEFF_NORMED":cv2.TM_CCOEFF_NORMED,
-        "cv2.TM_CCORR_NORMED":cv2.TM_CCORR_NORMED
-        }
-    
+        "cv2.TM_SQDIFF_NORMED": cv2.TM_SQDIFF_NORMED,
+        "cv2.TM_CCOEFF_NORMED": cv2.TM_CCOEFF_NORMED,
+        "cv2.TM_CCORR_NORMED": cv2.TM_CCORR_NORMED,
+    }
+
     best_matches = {}
 
     for method in methods.keys():

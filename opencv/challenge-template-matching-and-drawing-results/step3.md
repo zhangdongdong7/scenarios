@@ -11,6 +11,7 @@ After obtaining the best match locations, the next step is to visualize the resu
 5. Returns a dictionary whose keys are strings of the three methods and whose values are arrays of the three images whose rectangles have been drawn.
 
 ## Example output:
+
 ```python
 {
 'cv2.TM_SQDIFF_NORMED': np.ndarray,

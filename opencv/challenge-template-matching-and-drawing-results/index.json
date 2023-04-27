@@ -18,11 +18,7 @@
             "showstderr": true
           }
         ],
-        "skills": [
-          "opencv/cvt_color",
-          "opencv/imread",
-          "opencv/imwrite"
-        ],
+        "skills": ["opencv/cvt_color", "opencv/imread", "opencv/imwrite"],
         "solutions": ["load_and_convert_images.py"]
       },
       {
@@ -57,11 +53,7 @@
             "showstderr": true
           }
         ],
-        "skills": [
-          "opencv/rectangle",
-          "opencv/imread",
-          "opencv/imwrite"
-        ],
+        "skills": ["opencv/rectangle", "opencv/imread", "opencv/imwrite"],
         "solutions": ["draw_rectangles_around_matches.py"]
       }
     ],
@@ -73,69 +65,69 @@
       "text": "finish.md"
     },
     "assets": {
-        "host01": [
-            {
-                "file": "load_and_convert_images.py",
-                "target": "/home/labex/project",
-                "chmod": "ugo+rwx"
-              },
-            {
-                "file": "perform_template_matching.py",
-                "target": "/home/labex/project",
-                "chmod": "ugo+rwx"
-            },
-            {
-              "file": "draw_rectangles_around_matches.py",
-              "target": "/home/labex/project",
-              "chmod": "ugo+rwx"
-            },
-            {
-                "file": "test_source.jpg",
-                "target": "/home/labex/project",
-                "chmod": "ugo+rwx"
-            },
-            {
-                "file": "test_template.jpg",
-                "target": "/home/labex/project",
-                "chmod": "777"
-            },
-            {
-                "file": "test_load_and_convert_images.py",
-                "target": "/tmp",
-                "chmod": "777"
-            },
-            {
-                "file": "test_perform_template_matching.py",
-                "target": "/tmp",
-                "chmod": "777"
-            },
-            {
-              "file": "test_draw_rectangles_around_matches.py",
-              "target": "/tmp",
-              "chmod": "777"
-            },
-            {
-              "file": "test_source2.jpg",
-              "target": "/tmp",
-              "chmod": "777"
-            },
-            {
-              "file": "test_template2.jpg",
-              "target": "/tmp",
-              "chmod": "777"
-            },
-            {
-              "file": "gray_test_source2.jpg",
-              "target": "/tmp",
-              "chmod": "777"
-            },
-            {
-              "file": "gray_test_template2.jpg",
-              "target": "/tmp",
-              "chmod": "777"
-            }
-          ]
+      "host01": [
+        {
+          "file": "load_and_convert_images.py",
+          "target": "/home/labex/project",
+          "chmod": "ugo+rwx"
+        },
+        {
+          "file": "perform_template_matching.py",
+          "target": "/home/labex/project",
+          "chmod": "ugo+rwx"
+        },
+        {
+          "file": "draw_rectangles_around_matches.py",
+          "target": "/home/labex/project",
+          "chmod": "ugo+rwx"
+        },
+        {
+          "file": "test_source.jpg",
+          "target": "/home/labex/project",
+          "chmod": "ugo+rwx"
+        },
+        {
+          "file": "test_template.jpg",
+          "target": "/home/labex/project",
+          "chmod": "777"
+        },
+        {
+          "file": "test_load_and_convert_images.py",
+          "target": "/tmp",
+          "chmod": "777"
+        },
+        {
+          "file": "test_perform_template_matching.py",
+          "target": "/tmp",
+          "chmod": "777"
+        },
+        {
+          "file": "test_draw_rectangles_around_matches.py",
+          "target": "/tmp",
+          "chmod": "777"
+        },
+        {
+          "file": "test_source2.jpg",
+          "target": "/tmp",
+          "chmod": "777"
+        },
+        {
+          "file": "test_template2.jpg",
+          "target": "/tmp",
+          "chmod": "777"
+        },
+        {
+          "file": "gray_test_source2.jpg",
+          "target": "/tmp",
+          "chmod": "777"
+        },
+        {
+          "file": "gray_test_template2.jpg",
+          "target": "/tmp",
+          "chmod": "777"
         }
+      ]
+    }
   },
   "backend": {
     "imageid": "webide-ubuntu:2204"
