@@ -408,9 +408,6 @@ class Sync:
                                 pr_milestone_number = milestones.get(
                                     date_milestone_str, None
                                 )
-                            else:
-                                # 如果 PR 原本存在 milestone
-                                print(f"→ Milestone is {pr_milestone}")
                             # 测试完成，如果 issue user 不等于 pr_user
                             if issue_user != pr_user:
                                 # 且 issue user 不在 assignees 里，准备添加
