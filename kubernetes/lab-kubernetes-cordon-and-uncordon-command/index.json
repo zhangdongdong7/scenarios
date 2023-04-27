@@ -32,10 +32,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/cordon",
-          "kubernetes/get"
-        ]
+        "skills": ["kubernetes/cordon", "kubernetes/get"]
       },
       {
         "title": "Uncordoning a Node",
@@ -49,9 +46,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/uncordon"
-        ]
+        "skills": ["kubernetes/uncordon"]
       },
       {
         "title": "Cordoning and Uncordoning Nodes with Pods",
@@ -86,9 +81,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/cordon"
-        ]
+        "skills": ["kubernetes/cordon"]
       },
       {
         "title": "Using Labels to Cordon and Uncordon Nodes",
@@ -123,9 +116,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/cordon"
-        ]
+        "skills": ["kubernetes/cordon"]
       }
     ],
     "intro": {
