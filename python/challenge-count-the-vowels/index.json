@@ -24,9 +24,7 @@
           "python/for_loop",
           "python/str"
         ],
-        "solutions": [
-          "step1-solution.md"
-        ]
+        "solutions": ["step1-solution.md"]
       }
     ],
     "intro": {
