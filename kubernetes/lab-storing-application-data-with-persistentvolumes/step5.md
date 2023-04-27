@@ -14,6 +14,7 @@ spec:
     requests:
       storage: 1Gi
 ```
+
 Add an `allowVolumeExpansion: true` field to storageclass in the last line.
 
 ```shell

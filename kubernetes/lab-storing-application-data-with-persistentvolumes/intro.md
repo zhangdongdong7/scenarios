@@ -1,6 +1,6 @@
 # Storing Application Data with Persistentvolumes
 
-In this lab, you will learn how to store application data with PersistentVolumes in Kubernetes. 
+In this lab, you will learn how to store application data with PersistentVolumes in Kubernetes.
 
 ## Introduction
 
