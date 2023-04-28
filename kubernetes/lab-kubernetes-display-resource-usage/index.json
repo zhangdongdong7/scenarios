@@ -25,9 +25,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/top"
-        ]
+        "skills": ["kubernetes/top"]
       },
       {
         "title": "Display Cpu and Memory Usage",
@@ -48,9 +46,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/top"
-        ]
+        "skills": ["kubernetes/top"]
       },
       {
         "title": "Display Container Cpu and Memory Usage",
@@ -85,9 +81,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/apply"
-        ]
+        "skills": ["kubernetes/apply"]
       }
     ],
     "intro": {
