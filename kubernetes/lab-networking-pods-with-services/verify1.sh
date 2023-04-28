@@ -1,2 +1,2 @@
 #!/bin/bash
-minikube kubectl -- get pod | grep "my-pod"
+minikube kubectl -- get pod | grep "my-pod-1"
