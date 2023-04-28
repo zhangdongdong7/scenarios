@@ -106,21 +106,21 @@
               {
                 "name": "Check if a pv called `my-pv` was created.",
                 "file": "verify5-1.sh",
-                "hint": "Please follow the steps to complete the operation.",
+                "hint": "Please use the yaml in the steps to apply.",
                 "timeout": 0,
                 "showstderr": false
               },
               {
                 "name": "Check if a pvc called `my-pvc` was created.",
                 "file": "verify5-2.sh",
-                "hint": "Please follow the steps to complete the operation",
+                "hint": "Please use the yaml in the steps to apply",
                 "timeout": 0,
                 "showstderr": false
               },
               {
                 "name": "Check if there is a mount directory `/mnt/data` in `my-pod-5`",
                 "file": "verify5-3.sh",
-                "hint": "Please follow the steps to complete the operatio.",
+                "hint": "Please use the yaml in the steps to apply.",
                 "timeout": 0,
                 "showstderr": false
               }
