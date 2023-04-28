@@ -5,6 +5,5 @@ if [ $? -eq 0]
 then
    echo "成功"
 else
-   
-   exit 0
+   exit 1
 fi
