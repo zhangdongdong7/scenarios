@@ -25,11 +25,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/apply",
-          "kubernetes/get",
-          "kubernetes/describe"
-        ]
+        "skills": ["kubernetes/apply", "kubernetes/get", "kubernetes/describe"]
       },
       {
         "title": "Add a Liveness Probe",
@@ -50,11 +46,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/apply",
-          "kubernetes/get",
-          "kubernetes/describe"
-        ]
+        "skills": ["kubernetes/apply", "kubernetes/get", "kubernetes/describe"]
       },
       {
         "title": "Test the Liveness Probe",
@@ -75,11 +67,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/apply",
-          "kubernetes/get",
-          "kubernetes/describe"
-        ]
+        "skills": ["kubernetes/apply", "kubernetes/get", "kubernetes/describe"]
       },
       {
         "title": "Add a Readiness Probe",
@@ -100,9 +88,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/apply"
-        ]
+        "skills": ["kubernetes/apply"]
       },
       {
         "title": "Test the Readiness Probe",
@@ -116,11 +102,7 @@
             "showstderr": false
           }
         ],
-        "skills": [
-          "kubernetes/apply",
-          "kubernetes/get",
-          "kubernetes/describe"
-        ]
+        "skills": ["kubernetes/apply", "kubernetes/get", "kubernetes/describe"]
       }
     ],
     "intro": {
