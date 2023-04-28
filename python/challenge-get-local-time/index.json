@@ -32,14 +32,14 @@
     "assets": {
       "host01": [
         {
-            "file": "get_local_time.py",
-            "target": "/home/labex/project",
-            "chmod": "ugo+rwx"
-          },
-          {
-            "file": "*_test.py",
-            "target": "/tmp"
-          }
+          "file": "get_local_time.py",
+          "target": "/home/labex/project",
+          "chmod": "ugo+rwx"
+        },
+        {
+          "file": "*_test.py",
+          "target": "/tmp"
+        }
       ]
     }
   },
