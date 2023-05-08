@@ -1,12 +1,6 @@
 # Test the Updated Service
 
-The fifth step is to test the updated Service by accessing it from another Pod. Delete the test Pod by running the following command:
-
-```bash
-kubectl delete pod my-pod-1
-```
-
-Next, create a new test Pod with the following command:
+The fifth step is to test the updated Service by accessing it from another Pod. Create a new test Pod with the following command:
 
 ```bash
 kubectl run my-pod-2 --image=nginx --restart=Never
