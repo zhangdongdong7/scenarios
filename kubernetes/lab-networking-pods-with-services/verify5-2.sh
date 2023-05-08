@@ -1,2 +1,2 @@
 #!/bin/bash
-minikube kubectl -- get pod -l app=busybox
+cat ~/.zsh_history | grep kubectl | grep label | grep "app=busybox"
